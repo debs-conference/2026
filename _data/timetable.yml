@@ -1,0 +1,345 @@
+start_date: "27.06.2022"
+duration: 3
+start_time: "08:30"
+end_time: "18:00"
+slot_duration: "00:15"
+show_url: true
+default_text:
+  - type: "reg"
+    text: "Registration"
+  - type: "break"
+    text: "Discussion break"
+  - type: "lunch"
+    text: "Lunch break"
+  - type: "empty"
+    text: ""
+dates:
+  # 1st day
+  - start_slot: 0
+    duration_slot: 2
+    day: 0
+    type: "reg"
+
+  - start_slot: 2
+    duration_slot: 2
+    day: 0
+    type: "ceremony"
+    text: "Opening Ceremony + Awards"
+
+  - start_slot: 4
+    duration_slot: 4
+    day: 0
+    type: "keynote"
+    name: "Keynote"
+    text: "Rethinking how distributed applications are built"
+    speaker: 
+      name: "Till Rohrmann"
+    keynote_index: "3"
+
+  - start_slot: 8
+    duration_slot: 2
+    day: 0
+    type: "break"
+
+  - start_slot: 10
+    duration_slot: 4
+    day: 0
+    type: "panel"
+    name: "Panel"
+    text: "Advances in Industry 4.0 and the Industrial Internet of Things"
+    speaker: 
+      name: "Dimitrios Georgakopoulos"
+    panel_index: 0
+
+  - start_slot: 14
+    duration_slot: 4
+    day: 0
+    type: "lunch"
+
+  - start_slot: 18
+    duration_slot: 4
+    day: 0
+    type: "research"
+    name: "Research Session 1"
+  
+  - start_slot: 22
+    duration_slot: 2
+    day: 0
+    type: "break"
+
+  - start_slot: 24
+    duration_slot: 3
+    day: 0
+    type: "tutorial"
+    name: "Tutorial"
+    text: "Formal Models of Complex Event Recognition"
+    speaker: 
+      name: "Alexander Artikis"
+    tutorial_index: 1
+
+  - start_slot: 27
+    duration_slot: 1
+    day: 0
+    type: "break"
+  
+  - start_slot: 28
+    duration_slot: 5
+    day: 0
+    type: "demo"
+    name: "Demo and Ph.D. forum"
+  
+  - start_slot: 33
+    duration_slot: 1
+    day: 0
+    type: "break"
+
+  - start_slot: 34
+    duration_slot: 5
+    day: 0
+    type: "empty"
+
+  # 2nd day
+  - start_slot: 0
+    duration_slot: 2
+    day: 1
+    type: "reg"
+
+  - start_slot: 2
+    duration_slot: 3
+    day: 1
+    type: "research"
+    name: "Research Session 2"
+
+  - start_slot: 5
+    duration_slot: 1
+    day: 1
+    type: "break"
+
+  - start_slot: 6
+    duration_slot: 3
+    day: 1
+    type: "research"
+    name: "Research Session 3"
+
+  - start_slot: 9
+    duration_slot: 1
+    day: 1
+    type: "break"
+
+  - start_slot: 10
+    duration_slot: 4
+    day: 1
+    type: "panel"
+    name: "Panel"
+    text: "Climate Change and Computing Facts, Perspectives and an Open Discussion"
+    speaker: 
+      name: "Antoine Amarilli, Christophe Claramunt, and Demetris Zeinalipour"
+    panel_index: 1
+
+  - start_slot: 14
+    duration_slot: 4
+    day: 1
+    type: "lunch"
+
+  - start_slot: 18
+    duration_slot: 4
+    day: 1
+    type: "keynote"
+    name: "Keynote"
+    text: "Teasing journalistic findings out of heterogeneous sources: a data/AI journey"
+    speaker: 
+      name: "Ioana Manolescu"
+    keynote_index: 0
+
+  - start_slot: 22
+    duration_slot: 2
+    day: 1
+    type: "break"
+
+  - start_slot: 24
+    duration_slot: 4
+    day: 1
+    type: "keynote"
+    name: "D&I Talk"
+    text: "It's funny because it's true - confronting scientific catechisms"
+    speaker: 
+      name: "Falaah Arif Khan"
+    keynote_index: "4"
+  
+  - start_slot: 28
+    duration_slot: 2
+    day: 1
+    type: "break"
+
+  - start_slot: 30
+    duration_slot: 3
+    day: 1
+    type: "tutorial"
+    name: "Tutorial"
+    text: "Hopsworks Feature Store"
+    speaker: 
+      name: "Jim Dowling"
+    tutorial_index: 2
+
+  - start_slot: 33
+    duration_slot: 1
+    day: 1
+    type: "break"
+  
+  - start_slot: 34
+    duration_slot: 2
+    day: 1
+    type: "empty"
+
+  - start_slot: 36
+    duration_slot: 3
+    day: 1
+    type: "dinner"
+    text: "Reception and Posters (17:30 - 19:00)"
+
+  # 3rd day
+  - start_slot: 0
+    duration_slot: 2
+    day: 2
+    type: "reg"
+
+  - start_slot: 2
+    duration_slot: 5
+    day: 2
+    type: "tutorial"
+    name: "Tutorial"
+    text: "A Unifying Model for Distributed Data-Intensive Systems Part 1"
+    speaker: 
+      name: "Alessandro Margara"
+    tutorial_index: 0
+
+  - start_slot: 7
+    duration_slot: 2
+    day: 2
+    type: "break"
+
+  - start_slot: 9
+    duration_slot: 5
+    day: 2
+    type: "tutorial"
+    name: "Tutorial"
+    text: "A Unifying Model for Distributed Data-Intensive Systems Part 2"
+    speaker: 
+      name: "Alessandro Margara"
+
+  - start_slot: 14
+    duration_slot: 4
+    day: 2
+    type: "lunch"
+
+  - start_slot: 18
+    duration_slot: 7
+    day: 2
+    type: "grand"
+    name: "Grand Challenge"
+
+  - start_slot: 25
+    duration_slot: 3
+    day: 2
+    type: "break"
+
+  - start_slot: 28
+    duration_slot: 4
+    day: 2
+    type: "keynote"
+    name: "Keynote"
+    text: "I'm SO Glad I'm Uncoordinated!"
+    speaker: 
+      name: "Pat Helland"
+    keynote_index: "1"
+
+  - start_slot: 32
+    duration_slot: 2
+    day: 2
+    type: "break"
+  
+  - start_slot: 34
+    duration_slot: 4
+    day: 2
+    type: "empty"
+
+  - start_slot: 38
+    duration_slot: 1
+    day: 2
+    type: "dinner"
+    text: "Excursion and Banquet (18:00 - 22:00)"
+
+  # 4th day
+  - start_slot: 0
+    duration_slot: 2
+    day: 3
+    type: "reg"
+
+  - start_slot: 2
+    duration_slot: 3
+    day: 3
+    type: "tutorial"
+    name: "Tutorial"
+    text: "Apache Wayang (Incubating): Performing AIoT Seamlessly"
+    speaker: 
+      name: "Jorge Arnulfo Quiane Ruiz"
+    tutorial_index: 3
+
+  - start_slot: 5
+    duration_slot: 2
+    day: 3
+    type: "break"
+
+  - start_slot: 7
+    duration_slot: 3
+    day: 3
+    type: "ceremony"
+    name: "Test of time Ceremony"
+
+  - start_slot: 10
+    duration_slot: 4
+    day: 3
+    type: "talk"
+    name: "Invited Industry Talk"
+
+  - start_slot: 14
+    duration_slot: 4
+    day: 3
+    type: "lunch"
+
+  - start_slot: 18
+    duration_slot: 4
+    day: 3
+    type: "industry"
+    name: "Industry Session 1"
+
+  - start_slot: 22
+    duration_slot: 1
+    day: 3
+    type: "break"
+
+  - start_slot: 23
+    duration_slot: 4
+    day: 3
+    type: "keynote"
+    name: "Keynote"
+    text: "Materialize: A platform for building scalable event based systems."
+    speaker: 
+      name: "Frank McSherry"
+    keynote_index: "2"
+
+  - start_slot: 27
+    duration_slot: 2
+    day: 3
+    type: "break"
+  
+  - start_slot: 29
+    duration_slot: 4
+    day: 3
+    type: "business"
+    text: "Business meeting and closing remarks"
+  
+  - start_slot: 33
+    duration_slot: 6
+    day: 3
+    type: "empty"

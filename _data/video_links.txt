@@ -1,0 +1,114 @@
+Paper id: 5
+Track: Grand Challenge
+Link: https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FYWp_dfTMsJM&amp;data=05%7C01%7Crnl%40di.ku.dk%7Cb9440efc9f3648f44ced08da4f7235d5%7Ca3927f91cda14696af898c9f1ceffa91%7C0%7C0%7C637909649326388204%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=9Y%2FEghH3JRWwWRC8HioQeGln9aa%2FdDVXVxCVfeK4saA%3D&amp;reserved=0
+Speaker: Alessandro Margara
+Short bio: Alessandro Margara is Associate Professor at Politecnico di Milano. He obtained his PhD from Politecnico di Milano and worked as a post-doctoral researcher at the Vrije Universiteit (VU) Amsterdam and Università della Svizzera italiana (USI). Alessandro’s research interests are in the area of software engineering and distributed systems. His research focuses on defining abstractions and building systems to simplify the design, development, and operation of complex distributed applications.
+
+Paper ID and Track: #14, Research track
+Video Link: https://www.youtube.com/watch?v=RR8_M6oY214&ab_channel=VasileiosStavropoulos
+Presenter Full Name: Vasileios Stavropoulos
+Presenter Bio: Vasileios Stavropoulos holds a diploma in Electrical and Computer Engineering from the National Technical University of Athens. His diploma thesis evaluated the application of machine learning algorithms for the discovery of tumor treatments. He joined the Complex Event Recognition group at the Institute of Informatics and Telecommunications of NCSR ‘Demokritos’ as a research associate in 2021. His research interests include Machine Learning, Optimization, and Event Recognition.
+
+Paper ID and Track: #54, Grand Challenge
+Video Link: https://youtu.be/TOLnBDlMtSQ
+Presenter Full Name: Sebastian Frischbier
+Presenter Bio: Sebastian received his PhD (Doktor-Ingenieur) from TU Darmstadt (Germany) for his work on runtime support for quality of information requirements in event-based systems (advisors: Alejandro Buchmann, Peter Pietzuch). In his current role as Head of Cloud & IT Compliance at Infront Financial Technology GmbH, Sebastian is fostering transparency, simplification, and automation regarding systems, processes, and roles across the Infront group. He is also still actively engaging in joint research activities and looking for interesting collaboration topics between industry and academia.
+
+Paper ID and Track: #33, Research Track
+Youtube Link: https://www.youtube.com/watch?v=It_xc5-fSrI
+Presenter Full Name: Tilman Zuckmantel
+Presenter Bio: Tilman Zuckmantel is a PhD Student at Copenhagen University. His research combines formal methods and distributed systems. Originally he comes from Düsseldorf, Germany and has graduated at the Technical University Dortmund in Computer Science.
+
+Title: “DEBS 2022 Video Link: PAPERID#23_Boughzala”
+Paper ID and Track: #23, Research Track (Short paper)
+Video Link: https://youtu.be/OTcjtgP6AJA
+Presenter Full Name: Bochra Boughzala
+Presenter Bio:
+Bochra Boughzala is a second year Ph.D. student in computer science at the University of Groningen, the Netherlands. She received her Master degree from Université du Québec à Montréal in Canada, in 2013. She worked at Ericsson Research Montreal as a Researcher in the area of Packet Technologies, IP and Transport and Cloud Technologies. She also worked at Kaloom, a Montreal-based startup as a Software Designer for building data center networking solutions. Her research interests include computer networks and distributed systems.
+
+Paper ID and Track: #22, Research track
+Video Link: https://www.youtube.com/watch?v=AeqUk78-o-w
+Presenter Full Name: Roman Heinrich
+Presenter Bio: Roman Heinrich is a PhD student at DHBW Mannheim and at the Data Management Lab at TU Darmstadt. His research is supervised by Prof. Harald Kornmayer and Prof. Carsten Binnig and is focused on the optimization of distributed stream processing systems by the application of machine learning.
+
+Title: SMAS: A Smart Alert System for Localization and First Response to Fires on Ro-Ro Vessels
+Paper ID and Track: #56, Demo Track
+Video Link: https://www.youtube.com/watch?v=MtnUhrRDpnQ
+Presenter Full Name: Paschalis Mpeis
+Presenter Bio: Mpeis works as a Research Associate at the University of Cyprus, and holds a PhD in Informatics from the University of Edinburgh. His research involves input-driven compiler optimization for interactive applications on mobile phones, and Infrastructure-Less localization in indoor spaces.
+
+Paper ID and Track: #42 , Industry Track
+Video Link: https://youtu.be/EzgAsGaf4GY
+Presenter Full Name: Joffrey de Oliveira
+Presenter Bio: I graduated with a Master in Computer Science at Gustave Eiffel University in 2020, I am currently a PhD student at the Laboratoire d'informatique Gaspard-Monge (LIGM) working on a thesis on the subject of Distributed and streaming-enabled data management of RDF graphs for Edge computing, in partnership with Engie.
+
+Title: Efficient Processing of High-Volume Tick Data with Apache Flink for the DEBS 2022 Grand Challenge 
+Paper ID and Track: #11, Grand Challenge
+Video Link: https://www.youtube.com/watch?v=xDI8UYIbmFM
+Presenter Full Name: Antonis Papaioannou
+Presenter Bio: Antonis Papaioannou is a postdoctoral researcher at the Institute of Computer Science (ICS), Foundation for Research and Technology - Hellas (FORTH). He received his PhD from the Computer Science Department of University of Crete in November 2021. His research interests revolve around distributed systems, adaptation mechanisms in replicated data stores and stream processing systems. https://antonis-papaioannou.github.io
+
+Paper ID and Track: #17, Grand Challenge
+Video Link: https://youtu.be/6S73Gux1Yu0
+Presenter Full Name: Cecilia Calavaro
+Presenter Bio: Cecilia is a Computer Science Master's student at the University of Rome Tor Vergata. She is currently working on her final project, which involves real-time processing of financial data.
+
+Paper ID and track:  36, Research track
+YouTube video link: https://youtu.be/aH4b_nWMcZg
+Presenter Full Name: Liuyang Ren
+Presenter Bio: Liuyang Ren is a PhD candidate at the University of Waterloo. Her research interests lie in blockchain and distributed systems. 
+
+Paper ID and Track: #10, Research track
+Video Link: https://www.youtube.com/watch?v=fZRS_jBsiJ8&ab_channel=EspenVolnes
+Presenter Full Name: Espen Volnes
+Presenter Bio: Espen Volnes received the B.E. and M.E. degrees in computer science from the Department of Informatics, University of Oslo, in 2016 and 2018, respectively. He is currently pursuing a Ph.D. with the Department of Informatics, University of Oslo. His research interests include, performance evaluation, modeling, and simulation of operating systems, wireless sensor networks, and stream processing systems.
+
+Title: “AMESoS: A Scalable and Elastic Framework for Latency SensitiveStreaming Pipelines”
+Paper ID and Track: #19, Industry track
+Video Link: https://www.youtube.com/watch?v=s9W69P7ih08
+Presenter Full Name: Michail Tsenos
+Presenter Bio:
+Michail Tsenos is a Ph.D. student and member of the Real-Time Distributed Systems Group of Athens University of Economics and Business.
+His research is focused on Serverless Computing and real-time stream processing systems.
+
+Paper ID and Track: #24, Research track
+Video Link: https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2F9AiDdmJ9lPg&amp;data=05%7C01%7Crnl%40di.ku.dk%7C9da99e3ae7ad42a98ab408da536d5562%7Ca3927f91cda14696af898c9f1ceffa91%7C0%7C0%7C637914026466405111%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=im%2FhJEPpmgPmHnOOdTJ8A2yDOCm9NcvY%2Fm7%2BKzBJxVY%3D&amp;reserved=0
+Presenter Full Name: Samira Akili
+Presenter Bio: Samira Akili is a final-year PhD student at the databases
+and information systems group from the Humboldt University of Berlin
+supervised by Prof. Matthias Weidlich. Her research interests include
+distributed stream processing, complex event processing and edge
+computing.
+Her findings on in-network query evaluation were published in the
+proceedings of the ACM SIGMOD conference and the Fundamenta Informaticae.
+
+Paper ID and track: 48, Grand Challenge
+YouTube video link: https://youtu.be/-Kq9ylvNGJg
+Name of the speaker in the video: Suyeon Wang
+A short 3-4 lines biography of the speaker: I was born in January 2000, living south korea and I am DongA University student. I belong to KEVOLab. And he won the Best Papers Award  Multimedia Society from the Korea.
+
+Title: “A High-Performance Stream Processing System Implementation for
+Monitoring Stock Market Data Stream”
+Paper ID and Track: #26, Grand Challenge
+Video Link: https://eur02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FajphH0pZrAs&amp;data=05%7C01%7Crnl%40di.ku.dk%7C07ec49d849f1446b0d0a08da548f3921%7Ca3927f91cda14696af898c9f1ceffa91%7C0%7C0%7C637915271377934950%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=DAqIz7tMltbSsi8A%2FjaR5bepJJc6t3H38nxbH81IaAA%3D&amp;reserved=0
+Presenters Full Names: Jacob Rivera and Daniel Fernandez
+Presenters' Bio:
+Jacob Rivera is a Masters of Computer Science student at the University
+of Texas at Austin. He has recently finished his first year while
+working as a Teaching Assistant, and hopes to join a doctoral program in
+the future.
+Daniel Fernandez is a Senior Computer Science major at UT Austin,
+graduating Fall 2022. Daniel is a Machine Learning Engineer Intern at
+Expedia Group during summer of 2022.
+
+Paper ID and Track: #7, Grand Challenge track
+Video Link: https://youtu.be/g74ZOxIyX40
+Presenter Full Name: Karan Vombatkere
+Presenter Bio: Karan Vombatkere is a computer science PhD student at Boston University and is currently doing a research fellowship at MPI-SWS in Saarbrucken, Germany. Prior to BU, he worked as a data scientist at IBM for three years. In his free time, he enjoys playing tennis and other outdoor activities such as skiing and biking.
+
+Paper ID: 25
+Track: Research
+YouTube video link: https://youtu.be/KAHeIFKN4bQ
+Name of the speaker in the video: Evangelos Kolyvas
+Presenter Bio:
+Evangelos Kolyvas (male): Mr. Kolyvas is pursuing doctoral studies at the Department of Informatics of AUEB since the beginning of 2021, under the supervision of Prof. Voulgaris. He has focused on research towards building P2P overlays for fast and dependable block dissemination in the presence of malicious actors and inherent network and/or node failures. Prior to AUEB, Mr. Kolyvas received an M.Sc. in Computer Science at the Department of Informatics and Telecommunications at University of Athens, and a Diploma on ECE, with major in Computer Science, at the School of Electrical and Computer Engineering at National Technical University of Athens in Greece.

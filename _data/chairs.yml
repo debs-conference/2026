@@ -1,0 +1,339 @@
+general_chairs: 
+    - firstname: Valerio
+      lastname: Schiavoni
+      institution: University of Neuchatel
+
+pc_chairs:
+    - firstname: Bettina 
+      lastname: Kemme
+      institution: McGill
+    - firstname: Etienne 
+      lastname: Riviere
+      institution: UC Louvain
+
+
+#pc_members_research: 
+#    - firstname: Alessandro
+#      lastname: Margara
+#      institution: Politecnico di Milano
+#    - firstname: Alexander
+#      lastname: Artikis
+#      institution: University of Piraeus
+#    - firstname: Annika
+#      lastname: Hinze
+#      institution: The University of Waikato, NZ
+#    - firstname: Arash
+#      lastname: Termehchy
+#      institution: Oregon State University
+#    - firstname: Asterios
+#      lastname: Katsifodimos
+#      institution: TU Delft
+#    - firstname: Bernhard
+#      lastname: Seeger
+#      institution: University of Marburg
+#    - firstname: Boris
+#      lastname: Glavic
+#      institution: Illinois Institute of Technology
+#    - firstname: Boris
+#      lastname: Koldehofe
+#      institution: University of Groningen
+#    - firstname: Christof
+#      lastname: Fetzer
+#      institution: TU Dresden
+#    - firstname: Christopher
+#      lastname: Mutschler
+#      institution: Fraunhofer IIS
+#    - firstname: Danh
+#      lastname: Le Phuoc
+#      institution: Technical University Berlin
+#    - firstname: Davide
+#      lastname: Frey
+#      institution: University of Rennes
+#    - firstname: Dieter
+#      lastname: Gawlick
+#      institution: Oracle
+#    - firstname: Douglas
+#      lastname: Schmidt
+#      institution: Vanderbilt University
+#    - firstname: Eiko
+#      lastname: Yoneki
+#      institution: University of Cambridge
+#    - firstname: Etienne
+#      lastname: Riviere
+#      institution: University Catholique de Louvain
+#    - firstname: Evangelia
+#      lastname: Kalyvianaki
+#      institution: University of Cambridge
+#    - firstname: Frank
+#      lastname: D√ºrr
+#      institution: University of Stuttgart
+#    - firstname: Gabriele
+#      lastname: Russo Russo
+#      institution: University of Rome Tor Vergata
+#    - firstname: Gabriele
+#      lastname: Mencagli
+#      institution: University of Pisa
+#    - firstname: Gianpaolo
+#      lastname: Cugola
+#      institution: Politecnico di Milano
+#    - firstname: Guido
+#      lastname: Salvaneschi
+#      institution: University of St.Gallen
+#    - firstname: Han
+#      lastname: van der Aa
+#      institution: University of Mannheim
+#    - firstname: Hans-Arno
+#      lastname: Jacobsen
+#      institution: University of Toronto
+#    - firstname: Holger
+#      lastname: Pirk
+#      institution: Imperial College
+#    - firstname: Holger
+#      lastname: Ziekow
+#      institution: Hochschule Furtwangen
+#    - firstname: Jayaram
+#      lastname: K. R.
+#      institution: IBM Research
+#    - firstname: Jean
+#      lastname: Bacon
+#      institution: University of Cambridge
+#    - firstname: Jelle
+#      lastname: Hellings
+#      institution: McMaster University
+#    - firstname: Kaiwen
+#      lastname: Zhang
+#      institution: ETS Montreal
+#    - firstname: Kostas
+#      lastname: Stathis
+#      institution: Royal Holloway, Univ. of London
+#    - firstname: Lei
+#      lastname: Cao
+#      institution: MIT
+#    - firstname: Leonardo
+#      lastname: Querzoni
+#      institution: Sapienza University of Rome
+#    - firstname: Lukasz
+#      lastname: Golab
+#      institution: University of Waterloo
+#    - firstname: Marcos
+#      lastname: Dias de Assuncao
+#      institution: ETS Montreal
+#    - firstname: Marina
+#      lastname: Papatriantafilou
+#      institution: Chalmers University of Technology
+#    - firstname: Marios
+#      lastname: Fragkoulis
+#      institution: Delivery Hero SE
+#    - firstname: Marta
+#      lastname: Patino
+#      institution: Madrid Polytechnic University
+#    - firstname: Matteo
+#      lastname: Migliavacca
+#      institution: University of Kent
+#    - firstname: Matthias
+#      lastname: Weidlich
+#      institution: Humboldt-Universit√§t zu Berlin
+#    - firstname: Miguel
+#      lastname: Correia
+#      institution: INESC-ID
+#    - firstname: Mohammad
+#      lastname: Sadoghi
+#      institution: University of California, Davis
+#    - firstname: Nalini
+#      lastname: Venkatasubramanian
+#      institution: University of California, Irvine
+#    - firstname: Olga
+#      lastname: Poppe
+#      institution: Microsoft
+#    - firstname: Pascal
+#      lastname: Felber
+#      institution: University of Neuchatel
+#    - firstname: Patrick
+#      lastname: Eugster
+#      institution: Universitá della Svizzera italiana (USI)
+#    - firstname: Pinar
+#      lastname: Karagoz
+#      institution: METU, Turkey
+#    - firstname: Qiong
+#      lastname: Luo
+#      institution: Hong Kong University of Science and Technology
+#    - firstname: Riccardo
+#      lastname: Tommasini
+#      institution: University of INSA Lyon, France
+#    - firstname: Roman
+#      lastname: Vitenberg
+#      institution: University of Oslo
+#    - firstname: Ruben
+#      lastname: Mayer
+#      institution: Technical University of Munich
+#    - firstname: Schahram
+#      lastname: Dustdar
+#      institution: Technical University of Vienna
+#    - firstname: Shimin
+#      lastname: Chen
+#      institution: Chinese Academy of Sciences
+#    - firstname: Stefan
+#      lastname: Schulte
+#      institution: Hamburg University of Technology
+#    - firstname: Stefanie
+#      lastname: Rinderle-Ma
+#      institution: Technical University of Munich
+#    - firstname: Subhadeep
+#      lastname: Sarkar
+#      institution: Boston University
+#    - firstname: Sukanya
+#      lastname: Bhowmik
+#      institution: University of Stuttgart
+#    - firstname: Sylvain
+#      lastname: Hallé
+#      institution: Université du Québec à Chicoutimi
+#    - firstname: Thomas
+#      lastname: Plagemann
+#      institution: University of Oslo
+#    - firstname: Tore
+#      lastname: Risch
+#      institution: Uppsalla University
+#    - firstname: Valeria
+#      lastname: Cardellini
+#      institution: University of Roma Tor Vergata
+#    - firstname: Valerio
+#      lastname: Schiavoni
+#      institution: University of Neuchatel
+#    - firstname: Vana
+#      lastname: Kalogeraki
+#      institution: Athens University of Economics and Business, Greece
+#    - firstname: Vasiliki
+#      lastname: Kalavri
+#      institution: Boston University
+#    - firstname: Khuzaima
+#      lastname: Daudjee
+#      institution: University of Waterloo
+#    - firstname: Walid
+#      lastname: Aref
+#      institution: Purdue University
+
+#pc_members_industry: 
+#    - firstname: Zainab
+#      lastname: Abbas
+#      institution: Kry, Sweden
+#    - firstname: Bogdan
+#      lastname: Ghit
+#      institution: Databricks, USA
+#    - firstname: Jiong
+#      lastname: He
+#      institution: ByteDance, Singapore
+#    - firstname: Matteo
+#      lastname: Nardelli
+#      institution: Bank of Italy, Italy
+#    - firstname: Sabri
+#      lastname: Skhiri
+#      institution: EURA NOVA, Belgium    
+#    - firstname: Guozhang
+#      lastname: Wang
+#      institution: Confluent, USA       
+#    - firstname: Steffen
+#      lastname: Zeuch
+#      institution: DFKI and TU Berlin, Germany
+#    - firstname: Shuhao
+#      lastname: Zhang
+#      institution: SUTD, Singapore
+#    - firstname: Stefano 
+#      lastname: Iannucci
+#      institution: Roma Tre University, Italy
+
+industry_chairs: 
+    - firstname: Josef 
+      lastname: Spillner
+      institution: ZAHW
+#    - firstname: Yingjun 
+#      lastname: Wu
+#      institution: Singularity Data, Inc.
+
+#grand_challenge_chairs: 
+#    - firstname: Sebastian 
+#      lastname: Frischbier
+#      institution: Infront Financial Technology GmbH (part of Infront group)
+#    - firstname: Arne
+#      lastname: Hormann
+#      institution: Infront Quant AG (part of Infront group)
+#    - firstname: Ruben 
+#      lastname: Mayer
+#      institution: TU Munich
+#    - firstname: Jawad 
+#      lastname: Tahir
+#      institution: TU Munich
+#    - firstname: Christoph 
+#      lastname: Doblander
+#      institution: TU Munich
+
+
+#tutorials_workshop_chairs: 
+#    - firstname: Paris 
+#      lastname: Carbone
+#      institution: KTH
+#    - firstname: Danh 
+#      lastname: Le Phuoc
+#      institution: TU Berlin
+
+
+#doctoral_symposium_chairs: 
+#    - firstname: David 
+#      lastname: Eyers
+#      institution: University of Otago
+#    - firstname: Genoveva 
+#      lastname: Vargas-Solar
+#      institution: CNRS
+
+
+pc_members_poster_demo: 
+ 
+
+#poster_demo_chairs: 
+#    - firstname: Daniele 
+#      lastname: Dell’Aglio
+#      institution: Aalborg University
+#    - firstname: Asterios 
+#      lastname: Katsifodimos
+#      institution: TU Delft
+
+
+#diversity_chairs: 
+#    - firstname: Vana 
+#      lastname: Kalogeraki
+#      institution: Athens University of Economics and Business
+#    - firstname: Panos 
+#      lastname: Chrysanthis
+#      institution: University of Pittsburgh
+
+
+#diversity_members: 
+#    - firstname: Rakan A. 
+#      lastname: Alseghayer
+#      institution: University of Pittsburgh
+#    - firstname: Brian T. 
+#      lastname: Nixon
+#      institution: University of Pittsburgh
+#    - firstname: Xiaozhong
+#      lastname: Zhang
+      institution: University of Pittsburgh
+
+publicity_chairs: 
+    - firstname: Vania 
+      lastname: Marangozova-martin
+      institution: Université Grenoble Alpes
+    - firstname: Naohiro 
+      lastname: Hayashibara 
+      institution: Kyoto Sangyo Univ.
+
+proceeding_chairs: 
+   - firstname: Marcelo 
+     lastname: Pasin
+     institution: HES-SO University
+  
+web_chairs: 
+    - firstname: Jämes
+      lastname: Ménétrey
+      institution: University of Neuchatel
+#    - firstname: Yijian
+#      lastname: Liu
+#      institution: University of Copenhagen

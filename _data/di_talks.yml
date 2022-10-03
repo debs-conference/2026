@@ -1,0 +1,13 @@
+- firstname: Falaah Arif 
+  lastname: Khan
+  title: It’s funny because it’s true - confronting scientific catechisms
+  affiliation: NYU
+  image: /img/keynotes/falaah.jpg
+  abstract: Meet AI - It’s a very strange time in its life. We have a tremendous amount of data at our disposal and a tremendous potential to do good, immense interest to build and widely deploy these systems and a very real impact (including irrevocable harm) associated with this technology. The landscape is rife with problems – incentive structures and gold-rush mentality in scholarship, celebrity culture and media hype, unhealthy extremes of techno-bashing and techno-optimism and the false dichotomy between “social problems” and “engineering problems”. Nuance and critical thinking are the most valuable, yet scarce commodities! A possible first step at self-correction could be for us – as practitioners and designers of these systems – to stop taking *ourselves* so seriously and instead direct this gravitas onto the *consequences* of our work (beyond citation counts and academic accolades). How, you ask? Using the marvelous world of comics! In this talk, I’ll present my thoughts (in comic form) on some of the pressing problems in the AI landscape (broadly defined) and attempt to motivate artistic interventions as a possible solution to catechisms of the scientific landscape that we take too seriously and perhaps need to rethink. A running theme through the talk will be the need to include diverse voices and methodologies, and to define the scope of impact more broadly — what difference does any of our work make if we can’t communicate it to the people that matter? 
+    
+  biography: Falaah is a first year Data Science PhD student at NYU, working with Prof Julia Stoyanovich on the ‘fairness’ and ‘robustness’ of algorithmic systems. An engineer by training and an artist by nature, Falaah creates scientific comic books to bridge together scholarship from different disciplines, and to disseminate the nuances of her research in a way that is more accessible to the general public — She runs the ‘Data, Responsibly’ and ‘We are AI’ comic series with Prof Julia Stoyanovich at NYU’s Center for Responsible AI, and the ‘Superheroes of Deep Learning’ comic series with Prof Zack Lipton (CMU). Falaah holds an undergraduate degree in Electronics and Communication Engineering (with a minor in Mathematics) from Shiv Nadar University, India, and has industry experience in building machine learning models for access management and security at Dell EMC.
+    
+  paper:
+    title: 
+    authors: 
+    doi:

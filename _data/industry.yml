@@ -1,0 +1,40 @@
+- firstname: Yingjun
+  lastname: Wu
+  title: "RisingWave: A Distributed SQL Streaming Database Designed for the Cloud"
+  image: /img/industry/YingjunWu.png
+  affiliation: "Founder and CEO at Singularity Data"
+  affiliation_img: /img/industry/SingularityData.png
+
+  abstract: "In this talk, I will present RisingWave, a distributed SQL streaming database designed for the cloud. RisingWave provides standard SQL as the interactive interface. It speaks in PostgreSQL dialect, and can be seamlessly integrated with the PostgreSQL ecosystem with no code change. RisingWave treats streams as tables and allows users to compose complex queries over streaming and historical data declaratively. RisingWave is designed for the cloud. The cloud-native architecture enables RisingWave to scale compute and storage resources separately and infinitely based on the users’ demands. We open-sourced RisingWave kernel under Apache License 2.0. Together with the open community, we are on the mission to democratize stream processing: to make stream processing simple, affordable, and accessible for everyone."
+
+  biography: "Yingjun Wu is the founder and CEO of Singularity Data, a startup innovating next-generation cloud-native database systems. Before starting his adventure, Yingjun was a software engineer at the Redshift team, Amazon Web Services, and a researcher at the Database group, IBM Almaden Research Center. Yingjun received his PhD degree from National University of Singapore, where he was affiliated with the Database Group (advisor: Kian-Lee Tan). He was also a visiting PhD at the Database Group, Carnegie Mellon University (advisor: Andrew Pavlo). Yingjun Wu is passionate about integrating research into real-world system products. During his time at AWS, Yingjun was responsible for boosting Amazon Redshift performance using advanced vectorization and compression techniques. Before that, he participated in the development of IBM Db2 Event Store’s indexing structure and transaction processing mechanism. Yingjun was an early contributor to Stratosphere, which is now widely known as Apache Flink. Yingjun is also active in academia. He is serving as a Program Committee member in several top-tier database conferences, such as SIGMOD, VLDB, and ICDE."
+
+  paper:
+    doi:
+
+- firstname: Madalina 
+  lastname: Ciortan
+  title: "The Industrial Challenges of Evolving Graph Networks"
+  image: /img/industry/madalina.jpg
+  affiliation: "Head of the Data Science Department at Euranova"
+
+  abstract: "Large network data evolving over time have become ubiquitous across most industries,  ranging from automotive and pharma to e-commerce and banking. Despite recent efforts, using temporal graph neural networks on continuously changing data in an effective and scalable way has been a challenge. This talk presents one of the research tracks studied at Euranova. We provide an overview of relevant continual learning methods directly applicable to real-world use cases. As explainability has become the central ingredient in trustworthy AI, we introduce the landscape of state-of-the-art methods designed for explaining node, link or graph level predictions."
+
+  biography: "Madalina Ciortan is the head of the data science department at Euranova.
+After graduating as an engineer, a master in computer science and a postmaster in bioinformatics, she earned a doctorate in data science. She has over 15 years of experience in roles ranging from development, architecture, team leading, coaching and research. She worked on topics including computer vision, NLP, time series analysis, unsupervised analysis, self-supervised learning, as well as high dimensional and noisy data analysis in the industry."
+
+  paper:
+    doi:
+
+- firstname: Anna
+  lastname: Almén
+  title: "The Value and Challenge of Real Time Market Data: be careful what you are asking for"
+  image: /img/industry/anna.jpg
+  affiliation: Chief Technology Officer at Infront Financial Technology GmbH
+
+  abstract: "Across our business and personal lives, we’re used to getting information in real-time. How many stops until my parcel arrives? Where’s my Uber? Is it faster for me to walk or take the bus? Are there any new videos to watch? We all carry super-computers in our pockets with instant access to all the streaming data we want, customised to our personal preferences. Naturally, financial services professionals in brokerage, trading, and wealth management expect their market data to be real-time as well, allowing them to make split second decisions to buy and sell. But real time market data is hard to provide with sufficient Quality of Information (QoI) and Quality of Service (QoS). It’s massive, constant, and complex. And most days, real-time is much more than people need, even if it is what they ask for. We’ll look at what the real business drivers are for going real-time, when delayed or daily is better, and how to balance the market data needs against the wants."
+
+  biography: "Anna Almén – CTO, joined Infront, a leading European provider of information and technology solutions, in March 2022. Anna has extensive experience in integrating companies based on a data-driven approach leading to more efficient organisations. Anna Almén has held various positions in the Swedish financial technology sector as well as working with startup organisations going through exponential growth. Most recently, she held the position of CTO of eCommerce at Worldline following the merger with the startup company Bambora where she had a key role in the technology leadership. She has also worked for many years for companies in the trading segment including Nasdaq OMX. Anna Almén earned her Master’s Degree in Computer Science at KTH Royal Institute of Technology."
+
+  paper:
+    doi:
