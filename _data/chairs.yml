@@ -244,7 +244,7 @@ pc_chairs:
 industry_chairs: 
     - firstname: Josef 
       lastname: Spillner
-      institution: ZAHW
+      institution: ZHAW
 #    - firstname: Yingjun 
 #      lastname: Wu
 #      institution: Singularity Data, Inc.
