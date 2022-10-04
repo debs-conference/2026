@@ -1,5 +1,9 @@
 /* Custom Stylesheet for DEBS. */
 
+.justify {
+    text-align: justify;
+}
+
 /* Owl carousel override */
 .owl-centered .owl-wrapper {
     display: table !important;
