@@ -4,97 +4,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-<meta name="description" content="DEBS2023">
-<meta name="author" content="Valerio Schiavoni">
-<meta name="editor" content="Valerio Schiavoni">
-
-<link rel="icon" href="img/favicon.ico">
-
 <title>DEBS 2023</title>
-<link rel="stylesheet" href="css/owl.carousel.css" />
-<link rel="stylesheet" href="css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css" />
-<link rel="stylesheet" href="css/ionicons.min.css" />
-<link rel="stylesheet" href="css/animate.css" />
-<link rel="stylesheet" href="css/syntax.css" />
-<link rel="stylesheet" href="css/venobox.css" />
-<!-- Main Stylesheet -->
-
-<link rel="stylesheet" href="css/style.min.css" integrity="" media="screen">
-
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/venobox.min.js"></script>
-
-
-<!-- Main Script -->
-
-<script src="js/main.min.js"></script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-L24NH349M1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-L24NH349M1');
-</script>
-
-
-<style>
-	.owl-centered .owl-wrapper {
-			display: table !important;
-	}
-	.owl-centered .owl-wrapper .owl-item {
-			display: table-cell;
-			float: none;
-			vertical-align: middle;
-	}
-	.owl-centered .owl-wrapper .owl-item div {
-			text-align: center;
-	}
-</style>
-
+{% include head-tags.html %}
 </head>
 <body>
 
 {% include header.html show_logo=1 %}
-
 {% include slider.html %}
-	
-<script>
-$(document).ready(function(){
-  
-  $("a").on('click', function(event) {
-
-    
-    if (this.hash !== "") {
-      
-      event.preventDefault();
-
-      
-      var hash = this.hash;
-
-      
-      
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-
-        
-        window.location.hash = hash;
-      });
-    } 
-  });
-});
-</script>
 
 <section id="intro">
   <div class="container">
@@ -235,6 +151,7 @@ $(document).ready(function(){
   </div>
 </footer>
 
+{% include js-tags.html %}
 
 </body>
 </html>
