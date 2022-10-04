@@ -6,12 +6,16 @@ general_chairs:
 pc_chairs:
     - firstname: Bettina 
       lastname: Kemme
-      institution: McGill
+      institution: McGill University
     - firstname: Etienne 
       lastname: Rivière
       institution: UCLouvain
 
-
+finance_chairs:
+	- firstname: Pascal
+	  lastname: Felber
+      institution: University of Neuchatel
+	  
 #pc_members_research: 
 #    - firstname: Alessandro
 #      lastname: Margara
@@ -323,7 +327,7 @@ publicity_chairs:
       institution: Université Grenoble Alpes
     - firstname: Naohiro 
       lastname: Hayashibara 
-      institution: Kyoto Sangyo Univ.
+      institution: Kyoto Sangyo University
 
 proceeding_chairs: 
    - firstname: Marcelo 
