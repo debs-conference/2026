@@ -1,55 +1,55 @@
-- firstname: Ioana
-  lastname: Manolescu
-  title: "Teasing journalistic findings out of heterogeneous sources: a data/AI journey"
-  affiliation: Inria and LIX/Ecole Polytechnique
-  image: /img/keynotes/ioana.jpg
-  abstract: "Freedom of the press is under threat worldwide, and the quality of information that people have access to is dangerously degraded, under the joint threat of non-democratic governments and fake information propagation. The press as an industry needs powerful data management tools to help them interpret the complex reality surrounding us. Since 2018, I have been cooperating with journalists from Le Monde, France’s leading newspaper, in devising tools for analyzing large and heterogeneuos data sources that they are interested in. This research has been embodied in ConnectionLens, a graph ETL tool capable of ingesting heterogeneous data sources into a graph, enriched (with the help of ML methods) with entities extracted from data of any type. On such integrated graphs, we devised novel algorithms for keyword search, and combine them in more recent research with structured querying. The talk describes the architecture and main algorithmic challenges in building and exploiting ConnectionLens graphs, illustrated in particular on an application where we study conflicts of interest in the biomedical domain. This is joint work with A. Anadiotis, O. Balalau, H. Galhardas and many others. ConnectionLens Web site (papers+code): https://team.inria.fr/cedar/connectionlens/. This research has been funded by Agence Nationale de la Recherche AI Chair SourcesSay (https://sourcessay.inria.fr)."
-    
-  biography: |-
-    
-  paper:
-    title: 
-    authors: 
-    doi:
-
-- firstname: Pat
-  lastname: Helland
-  title: I'm SO Glad I'm Uncoordinated!
-  affiliation: Salesforce
-  image: /img/keynotes/pat.jpeg
-  abstract: In my 44 years building software, technology trends have dramatically changed what's difficult and what's hard.  In 1978, CPU, storage, and memory were precious and expensive but coordinating across work was effectively free.  Running on a single server, networking was infinitely expensive as we had none.  Now, there's an abundance of computation, memory, storage, and network with even more on the way!  The only challenge is coordination.  Year after year, the cost of coordinating gets larger in terms of instruction opportunities lost while waiting.  The first half of the talk explains these changes and their impact on our systems. In response, there are many approaches to avoiding or minimizing the pain of coordination.  We taxonomize these solutions and discuss how our systems are evolving and likely to evolve as the world changes around us. I am, indeed, a person who's uncoordinated and very likely to drop and/or break stuff.  I've adapted to that in my personal life and spend a great deal of my professional life looking for ways our systems can avoid the need to coordinate.
-    
-  biography: Pat Helland has been building distributed systems, database systems, high-performance messaging systems, and multiprocessors since 1978, shortly after dropping out of UC Irvine without a bachelor's degree.  That hasn't stopped him from having a passion for academics and publication. From 1982 to 1990, Pat was the chief architect for TMF (Transaction Monitoring Facility), the transaction logging and recovery systems for NonStop SQL, a message-based fault-tolerant system providing high-availability solutions for business critical solutions.  In 1991, he moved to HaL Computers where he was chief architect for the Mercury Interconnect Architecture, a cache-coherent non-uniform memory architecture multiprocessor. In 1994, Pat moved to Microsoft to help the company develop a business providing enterprise software solutions.  He was chief architect for MTS (Microsoft Transaction Server) and DTC (Distributed Transaction Coordinator).  Starting in 2000, Pat began the SQL Service Broker project, a high-performance transactional exactly-once in-order message processing and app execution engine built deeply into Microsoft SQL Server 2005. From 2005-2007, he worked at Amazon on scalable enterprise solutions, scale-out user facing services, integrating product catalog feeds from millions of sellers, and highly-available eventually consistent storage. From 2007 to 2011, Pat was back at Microsoft working on a number of projects including Structured Streams in Cosmos.  Structured streams kept metadata within the "big data" streams that were typically 10s of terabytes in size.  This metadata allowed affinitized placement within the cluster as well as efficient joins across multiple streams.  On launch, this doubled the work performed within the 250PB store.  Pat also did the initial design for Baja, the distributed transaction support for a distributed event-processing engine implemented as an LSM atop structured streams providing transactional updates targeting the ingestion of "the entire web in one table" with changes visible in seconds. Starting in 2012, Pat has worked at Salesforce on database technology running within cloud environments.  His current interests include latency bounding of online enterprise-grade transaction systems in the face of jitter, the management of metastability in complex environments, and zero-downtime upgrades to databases and stateful applications. In his spare time, Pat regularly writes for ACM Queue, Communications of the ACM, and various conferences.  He has been deeply involved in the organization of the HPTS (High Performance Transactions Systems - www.hpts.ws) workshop since 1985.  His blog is at pathelland.substack.com and he parsimoniously tweets with the handle @pathelland.
-    
-  paper:
-    title: 
-    authors: 
-    doi:
-
-- firstname: Frank
-  lastname: McSherry
-  title: "Materialize: A platform for building scalable event based systems."
-  affiliation: Materialize
-  image: /img/keynotes/frank.jpeg
-  abstract: "Materialize is a system that presents to users as SQL against continually changing data. It transforms inbound streams of *change data capture* events into streams that exactly correspond to transformed data, and maintains indexed representations of the results for efficient access and operation. SQL over changing data is surprisingly (for me) expressive: Materialize can operate on unbounded data, implement data-driven windows, and perform event-based queries, all with ANSI standard SQL. We will discuss what an event-based SQL system looks like, SQL idioms that give rise to traditionally stream-exclusive behavior, and how one architects such a system to scale across multiple dimensions."
-    
-  biography: Frank McSherry is Chief Scientist at Materialize. He was initially a graduate student at the University of Washington where he worked with Anna Karlin on Spectral Graph Theory, then a Researcher at Microsoft Research SVC where he co-developed differential privacy and led the Naiad research project, and later a Visiting Researcher at ETH Zuerich where he honed the dataflows timely and differential.
-    
-  paper:
-    title: 
-    authors: 
-    doi:
-
-- firstname: Till
-  lastname: Rohrmann
-  title: Rethinking how distributed applications are built
-  affiliation: Ververica
-  image: /img/keynotes/till.jpeg
-  abstract: In our more and more connected world where people are used to managing their lives via digital services, it has become mandatory for a successful company to build applications that can scale with the popularity of the company’s services. Scalability is not the only requirement but similarly important is that modern applications are highly available and fast because users are not willing to wait in our ever faster moving world. Due to this, we have seen a shift from the classic monolith towards micro service architectures which promise to be more easily scalable. The emergence of serverless functions further strengthened this trend more recently. By implementing a micro service architecture, application developers are all of a sudden exposed to the realm of distributed applications with its seemingly limitless scalability but also its pitfalls nobody tells you about upfront. So instead of solving business domain problems, developers find themselves fighting with race conditions, distributed failures, inconsistencies and in general a drastically increased complexity. In order to solve some of these problems, people introduce endless retries, timeouts, sagas and distributed transactions. These band aids can quickly result in a not so scalable system that is brittle and hard to maintain. The underlying problem is that developers are responsible for ensuring reliable communication and consistent state changes. Having a system that takes care of these aspects could drastically reduce the complexity of developing scalable distributed applications. By inverting the traditional control-flow from application-to-database to database-to-application, we can put the database in charge of ensuring reliable communication and consistent state changes and, thus, freeing the developer to think about it. In this keynote, I want to explore the idea of putting the database in charge of driving the application logic using the example of Stateful Functions, a library built on top of Apache Flink that follows this idea. I will explain how Stateful Functions achieves scalability and consistency but also what its limitations are. Based on these results, I would like to sketch the requirements for a runtime that can truly realise the full potential of Stateful Functions and discuss with you ideas how it could be implemented.
-    
-  biography: Till is a PMC member of Apache Flink and a cofounder of Ververica. During his time at Ververica, his work focused on enhancing Flink’s scalability and high availability. He also bootstrapped Flink’s CEP and the initial ML library. Nowadays, Till focuses on making the development of distributed applications easier by employing stream processing techniques to this space.
-    
-  paper:
-    title: 
-    authors: 
-    doi:
+#- firstname: Ioana
+#  lastname: Manolescu
+#  title: "Teasing journalistic findings out of heterogeneous sources: a data/AI journey"
+#  affiliation: Inria and LIX/Ecole Polytechnique
+#  image: /img/keynotes/ioana.jpg
+#  abstract: "Freedom of the press is under threat worldwide, and the quality of information that people have access to is dangerously degraded, under the joint threat of non-democratic governments and fake information propagation. The press as an industry needs powerful data management tools to help them interpret the complex reality surrounding us. Since 2018, I have been cooperating with journalists from Le Monde, France’s leading newspaper, in devising tools for analyzing large and heterogeneuos data sources that they are interested in. This research has been embodied in ConnectionLens, a graph ETL tool capable of ingesting heterogeneous data sources into a graph, enriched (with the help of ML methods) with entities extracted from data of any type. On such integrated graphs, we devised novel algorithms for keyword search, and combine them in more recent research with structured querying. The talk describes the architecture and main algorithmic challenges in building and exploiting ConnectionLens graphs, illustrated in particular on an application where we study conflicts of interest in the biomedical domain. This is joint work with A. Anadiotis, O. Balalau, H. Galhardas and many others. ConnectionLens Web site (papers+code): https://team.inria.fr/cedar/connectionlens/. This research has been funded by Agence Nationale de la Recherche AI Chair SourcesSay (https://sourcessay.inria.fr)."
+#    
+#  biography: |-
+#    
+#  paper:
+#    title: 
+#    authors: 
+#    doi:
+#
+#- firstname: Pat
+#  lastname: Helland
+#  title: I'm SO Glad I'm Uncoordinated!
+#  affiliation: Salesforce
+#  image: /img/keynotes/pat.jpeg
+#  abstract: In my 44 years building software, technology trends have dramatically changed what's difficult and what's hard.  In 1978, CPU, storage, and memory were precious and expensive but coordinating across work was effectively free.  Running on a single server, networking was infinitely expensive as we had none.  Now, there's an abundance of computation, memory, storage, and network with even more on the way!  The only challenge is coordination.  Year after year, the cost of coordinating gets larger in terms of instruction opportunities lost while waiting.  The first half of the talk explains these changes and their impact on our systems. In response, there are many approaches to avoiding or minimizing the pain of coordination.  We taxonomize these solutions and discuss how our systems are evolving and likely to evolve as the world changes around us. I am, indeed, a person who's uncoordinated and very likely to drop and/or break stuff.  I've adapted to that in my personal life and spend a great deal of my professional life looking for ways our systems can avoid the need to coordinate.
+#    
+#  biography: Pat Helland has been building distributed systems, database systems, high-performance messaging systems, and multiprocessors since 1978, shortly after dropping out of UC Irvine without a bachelor's degree.  That hasn't stopped him from having a passion for academics and publication. From 1982 to 1990, Pat was the chief architect for TMF (Transaction Monitoring Facility), the transaction logging and recovery systems for NonStop SQL, a message-based fault-tolerant system providing high-availability solutions for business critical solutions.  In 1991, he moved to HaL Computers where he was chief architect for the Mercury Interconnect Architecture, a cache-coherent non-uniform memory architecture multiprocessor. In 1994, Pat moved to Microsoft to help the company develop a business providing enterprise software solutions.  He was chief architect for MTS (Microsoft Transaction Server) and DTC (Distributed Transaction Coordinator).  Starting in 2000, Pat began the SQL Service Broker project, a high-performance transactional exactly-once in-order message processing and app execution engine built deeply into Microsoft SQL Server 2005. From 2005-2007, he worked at Amazon on scalable enterprise solutions, scale-out user facing services, integrating product catalog feeds from millions of sellers, and highly-available eventually consistent storage. From 2007 to 2011, Pat was back at Microsoft working on a number of projects including Structured Streams in Cosmos.  Structured streams kept metadata within the "big data" streams that were typically 10s of terabytes in size.  This metadata allowed affinitized placement within the cluster as well as efficient joins across multiple streams.  On launch, this doubled the work performed within the 250PB store.  Pat also did the initial design for Baja, the distributed transaction support for a distributed event-processing engine implemented as an LSM atop structured streams providing transactional updates targeting the ingestion of "the entire web in one table" with changes visible in seconds. Starting in 2012, Pat has worked at Salesforce on database technology running within cloud environments.  His current interests include latency bounding of online enterprise-grade transaction systems in the face of jitter, the management of metastability in complex environments, and zero-downtime upgrades to databases and stateful applications. In his spare time, Pat regularly writes for ACM Queue, Communications of the ACM, and various conferences.  He has been deeply involved in the organization of the HPTS (High Performance Transactions Systems - www.hpts.ws) workshop since 1985.  His blog is at pathelland.substack.com and he parsimoniously tweets with the handle @pathelland.
+#    
+#  paper:
+#    title: 
+#    authors: 
+#    doi:
+#
+#- firstname: Frank
+#  lastname: McSherry
+#  title: "Materialize: A platform for building scalable event based systems."
+#  affiliation: Materialize
+#  image: /img/keynotes/frank.jpeg
+#  abstract: "Materialize is a system that presents to users as SQL against continually changing data. It transforms inbound streams of *change data capture* events into streams that exactly correspond to transformed data, and maintains indexed representations of the results for efficient access and operation. SQL over changing data is surprisingly (for me) expressive: Materialize can operate on unbounded data, implement data-driven windows, and perform event-based queries, all with ANSI standard SQL. We will discuss what an event-based SQL system looks like, SQL idioms that give rise to traditionally stream-exclusive behavior, and how one architects such a system to scale across multiple dimensions."
+#    
+#  biography: Frank McSherry is Chief Scientist at Materialize. He was initially a graduate student at the University of Washington where he worked with Anna Karlin on Spectral Graph Theory, then a Researcher at Microsoft Research SVC where he co-developed differential privacy and led the Naiad research project, and later a Visiting Researcher at ETH Zuerich where he honed the dataflows timely and differential.
+#    
+#  paper:
+#    title: 
+#    authors: 
+#    doi:
+#
+#- firstname: Till
+#  lastname: Rohrmann
+#  title: Rethinking how distributed applications are built
+#  affiliation: Ververica
+#  image: /img/keynotes/till.jpeg
+#  abstract: In our more and more connected world where people are used to managing their lives via digital services, it has become mandatory for a successful company to build applications that can scale with the popularity of the company’s services. Scalability is not the only requirement but similarly important is that modern applications are highly available and fast because users are not willing to wait in our ever faster moving world. Due to this, we have seen a shift from the classic monolith towards micro service architectures which promise to be more easily scalable. The emergence of serverless functions further strengthened this trend more recently. By implementing a micro service architecture, application developers are all of a sudden exposed to the realm of distributed applications with its seemingly limitless scalability but also its pitfalls nobody tells you about upfront. So instead of solving business domain problems, developers find themselves fighting with race conditions, distributed failures, inconsistencies and in general a drastically increased complexity. In order to solve some of these problems, people introduce endless retries, timeouts, sagas and distributed transactions. These band aids can quickly result in a not so scalable system that is brittle and hard to maintain. The underlying problem is that developers are responsible for ensuring reliable communication and consistent state changes. Having a system that takes care of these aspects could drastically reduce the complexity of developing scalable distributed applications. By inverting the traditional control-flow from application-to-database to database-to-application, we can put the database in charge of ensuring reliable communication and consistent state changes and, thus, freeing the developer to think about it. In this keynote, I want to explore the idea of putting the database in charge of driving the application logic using the example of Stateful Functions, a library built on top of Apache Flink that follows this idea. I will explain how Stateful Functions achieves scalability and consistency but also what its limitations are. Based on these results, I would like to sketch the requirements for a runtime that can truly realise the full potential of Stateful Functions and discuss with you ideas how it could be implemented.
+#    
+#  biography: Till is a PMC member of Apache Flink and a cofounder of Ververica. During his time at Ververica, his work focused on enhancing Flink’s scalability and high availability. He also bootstrapped Flink’s CEP and the initial ML library. Nowadays, Till focuses on making the development of distributed applications easier by employing stream processing techniques to this space.
+#    
+#  paper:
+#    title: 
+#    authors: 
+#    doi:

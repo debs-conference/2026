@@ -8,8 +8,8 @@ pc_chairs:
       lastname: Kemme
       institution: McGill
     - firstname: Etienne 
-      lastname: Riviere
-      institution: UC Louvain
+      lastname: Rivière
+      institution: UCLouvain
 
 
 #pc_members_research: 
@@ -315,7 +315,7 @@ pc_members_poster_demo:
 #      institution: University of Pittsburgh
 #    - firstname: Xiaozhong
 #      lastname: Zhang
-      institution: University of Pittsburgh
+#      institution: University of Pittsburgh
 
 publicity_chairs: 
     - firstname: Vania 

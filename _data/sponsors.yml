@@ -1,18 +1,18 @@
-silver_sponsors:
-  - name: KU
-    link: https://www.ku.dk/english/
-    logo: /img/clients/KU.png
-    sidebar: true
-  - name: Euranova
-    link: https://euranova.eu/
-    logo: /img/clients/clients-logo5.png
-    sidebar: true
-  - name: Singularity
-    link: https://www.singularity-data.com/
-    logo: /img/clients/singularity.png
-    sidebar: true
-bronze_sponsors:
-  - name: Infront Financial Technology GmbH
-    link: https://www.infrontfinance.com
-    logo: /img/clients/infront_logo_color.png
-    sidebar: true
+#silver_sponsors:
+#  - name: KU
+#    link: https://www.ku.dk/english/
+#    logo: /img/clients/KU.png
+#    sidebar: true
+#  - name: Euranova
+#    link: https://euranova.eu/
+#    logo: /img/clients/clients-logo5.png
+#    sidebar: true
+#  - name: Singularity
+#    link: https://www.singularity-data.com/
+#    logo: /img/clients/singularity.png
+#    sidebar: true
+#bronze_sponsors:
+#  - name: Infront Financial Technology GmbH
+#    link: https://www.infrontfinance.com
+#    logo: /img/clients/infront_logo_color.png
+#    sidebar: true

@@ -1,25 +1,25 @@
-- firstname: Dimitrios
-  lastname: Georgakopoulos
-  title: Advances in Industry 4.0 and the Industrial Internet of Things
-  affiliation_img: /img/panel/dimitrios.jpg
-  abstract: |-
-    
-  biography: Prof. Dimitrios Georgakopoulos is the Director of Swinburne University of Technology’s Key IoT Lab and Industry 4.0 Program Leader. Before that he was Research Director at CSIRO’s ICT Centre and Professor at RMIT. Dimitrios has also held research and management positions in several industrial labs in the USA, including Telcordia Technologies (where he helped found Telcordia’s research laboratories in Austin, Texas and Poznan, Poland), Microelectronics and Computer Corporation, GTE (now Verizon) Laboratories, and Bell Communications Research. Dimitrios has authored 200 articles, and his publications have received approximately 20,000 citations. He is ranked by Microsoft Academic as one of the Top Authors in the fields of the Internet of Things (2013-2022), Context Awareness (1990-2021), Middleware (1990-2021), and Workflow (1993-2002). According to Elsevier’s Science-wide author databases of standardized citation indicators (August 2021 data update), I am in the 2% of top-cited authors (top 1%, if self-citations are not considered). He has led major multidisciplinary research initiatives in digital manufacturing, precision agriculture, human services, water management, and defense; won more than twenty research awards; and attracted significant personal research funding ($60.5M+) from both industry and government in the USA, EU, and Australia.
-    
-  paper:
-    doi: 
+#- firstname: Dimitrios
+#  lastname: Georgakopoulos
+#  title: Advances in Industry 4.0 and the Industrial Internet of Things
+#  affiliation_img: /img/panel/dimitrios.jpg
+#  abstract: |-
+#    
+#  biography: Prof. Dimitrios Georgakopoulos is the Director of Swinburne University of Technology’s Key IoT Lab and Industry 4.0 Program Leader. Before that he was Research Director at CSIRO’s ICT Centre and Professor at RMIT. Dimitrios has also held research and management positions in several industrial labs in the USA, including Telcordia Technologies (where he helped found Telcordia’s research laboratories in Austin, Texas and Poznan, Poland), Microelectronics and Computer Corporation, GTE (now Verizon) Laboratories, and Bell Communications Research. Dimitrios has authored 200 articles, and his publications have received approximately 20,000 citations. He is ranked by Microsoft Academic as one of the Top Authors in the fields of the Internet of Things (2013-2022), Context Awareness (1990-2021), Middleware (1990-2021), and Workflow (1993-2002). According to Elsevier’s Science-wide author databases of standardized citation indicators (August 2021 data update), I am in the 2% of top-cited authors (top 1%, if self-citations are not considered). He has led major multidisciplinary research initiatives in digital manufacturing, precision agriculture, human services, water management, and defense; won more than twenty research awards; and attracted significant personal research funding ($60.5M+) from both industry and government in the USA, EU, and Australia.
+#    
+#  paper:
+#    doi: 
 
 
-- firstname: Antoine Amarilli, Christophe Claramunt, and Demetris Zeinalipour
-  lastname: 
-  title: Climate Change and Computing Facts, Perspectives and an Open Discussion
-  affiliation_img0: /img/panel/amarilli.jpg
-  affiliation_img1: /img/panel/claramunt.jpg
-  affiliation_img2: /img/panel/zeinalipour.jpg
-  abstract: "The rise of temperatures on Earth have alerted communities around the globe to devise immediate solutions to help curb the severe effects of Climate Change, which is attributed to greenhouse gas emissions caused by human activities. Even though the Computing field is a cause of emissions in its own right, it also has the potential to increase the efficiency of human workflows in all sectors, such as transportation, buildings, energy & heat production, industry, agriculture and livestock, etc. In this panel discussion, we start out with a general overview of terminology, factors, metrics, and objectives related to climate change, and then survey: (i) Green Conferences; (ii) Green Mobility; (iii) Green Cities and (iv) Green Smart Spaces. The participants are expected to bring into the discussion their own perspectives from the academic, governmental, and industrial sector to report on how they perceive the future of the Computing Field in a future shaped by Climate Change, and how we can all help achieve the goals of the Paris Agreement."
-    
-  biography: "Antoine Amarilli is Associate Professor in Computer Science at Télécom Paris in the DIG team.  His research topics focus on data management and theoretical computer science. He is a maintainer of the TCS4F initiative on the climate crisis and of the 'No free view? No review!' manifesto on open access to scientific publications. Christophe Claramunt is a professor in computer science at the French Naval Academy. His research is oriented towards theoretical, pluri-disciplinary and practical aspects of geographical information science (GIS). His main research interests are oriented to environmental, maritime and and urban GISs. He has long contributed to the development of computing and GIS systems in developping countries and actively orientates his research on the development of green and environmental friendly computing applications. Demetrios Zeinalipour-Yazti is an Associate Professor of Computer Science at the University of Cyprus. His primary research interests include Data Management in Computer Systems and Networks. He actively engages in activities to help curbing the climate crisis, including research and practice on green planning systems for self-consumption of renewable energy and development of virtual conference and tourism platforms to tackle the climate/COVID-19/energy crisis."
-    
-  paper:
-    doi: 
+#- firstname: Antoine Amarilli, Christophe Claramunt, and Demetris Zeinalipour
+#  lastname: 
+#  title: Climate Change and Computing Facts, Perspectives and an Open Discussion
+#  affiliation_img0: /img/panel/amarilli.jpg
+#  affiliation_img1: /img/panel/claramunt.jpg
+#  affiliation_img2: /img/panel/zeinalipour.jpg
+#  abstract: "The rise of temperatures on Earth have alerted communities around the globe to devise immediate solutions to help curb the severe effects of Climate Change, which is attributed to greenhouse gas emissions caused by human activities. Even though the Computing field is a cause of emissions in its own right, it also has the potential to increase the efficiency of human workflows in all sectors, such as transportation, buildings, energy & heat production, industry, agriculture and livestock, etc. In this panel discussion, we start out with a general overview of terminology, factors, metrics, and objectives related to climate change, and then survey: (i) Green Conferences; (ii) Green Mobility; (iii) Green Cities and (iv) Green Smart Spaces. The participants are expected to bring into the discussion their own perspectives from the academic, governmental, and industrial sector to report on how they perceive the future of the Computing Field in a future shaped by Climate Change, and how we can all help achieve the goals of the Paris Agreement."
+#    
+#  biography: "Antoine Amarilli is Associate Professor in Computer Science at Télécom Paris in the DIG team.  His research topics focus on data management and theoretical computer science. He is a maintainer of the TCS4F initiative on the climate crisis and of the 'No free view? No review!' manifesto on open access to scientific publications. Christophe Claramunt is a professor in computer science at the French Naval Academy. His research is oriented towards theoretical, pluri-disciplinary and practical aspects of geographical information science (GIS). His main research interests are oriented to environmental, maritime and and urban GISs. He has long contributed to the development of computing and GIS systems in developping countries and actively orientates his research on the development of green and environmental friendly computing applications. Demetrios Zeinalipour-Yazti is an Associate Professor of Computer Science at the University of Cyprus. His primary research interests include Data Management in Computer Systems and Networks. He actively engages in activities to help curbing the climate crisis, including research and practice on green planning systems for self-consumption of renewable energy and development of virtual conference and tourism platforms to tackle the climate/COVID-19/energy crisis."
+#    
+#  paper:
+#    doi: 
 
