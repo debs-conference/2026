@@ -12,8 +12,8 @@ pc_chairs:
       institution: UCLouvain
 
 finance_chairs:
-	- firstname: Pascal
-	  lastname: Felber
+    - firstname: Pascal
+      lastname: Felber
       institution: University of Neuchatel
 	  
 #pc_members_research: 
