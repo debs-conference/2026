@@ -3,31 +3,6 @@
 <script src="/js/owl.carousel.min.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/venobox.min.js"></script>
-<script src="/js/main.min.js"></script>
-
-<!-- Google tag (gtag.js) -->
+<script src="/js/template.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L24NH349M1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-L24NH349M1');
-</script>
-
-<script>
-$(document).ready(function(){
-    $("a").on('click', function(event) {
-    
-    if (this.hash !== "") {   
-        event.preventDefault();
-        var hash = this.hash;
-        $('html, body').animate({
-        scrollTop: $(hash).offset().top
-        }, 800, function(){
-        window.location.hash = hash;
-        });
-    } 
-    });
-});
-</script>
+<script src="/js/debs.js"></script>
