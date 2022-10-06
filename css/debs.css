@@ -1,7 +1,31 @@
 /* Custom Stylesheet for DEBS. */
 
+/* General style classes */
 .justify {
     text-align: justify;
+}
+
+#logo {
+    padding-top: 8px;
+    width: 200px;
+}
+
+@media (max-width: 767px) {
+    #logo {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #logo {
+        padding-top: 12px;
+        width: 150px;
+    }
+}
+
+/* Template override */
+header .navbar-default .navbar-nav li a {
+    font-size: 13px;
 }
 
 /* Owl carousel override */
