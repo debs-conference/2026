@@ -64,6 +64,12 @@ header .navbar-default .navbar-nav li a {
     font-size: 13px;
 }
 
+@media (max-width: 767px) {
+    #slider .block p {
+        font-size: 20px;
+    }
+}
+
 /* Owl carousel override */
 .owl-centered .owl-wrapper {
     display: table !important;
