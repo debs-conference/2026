@@ -23,6 +23,15 @@
     }
 }
 
+#slider {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#intro {
+    padding: 20px;
+}
+
 /* Template override */
 header .navbar-default .navbar-nav li a {
     font-size: 13px;
