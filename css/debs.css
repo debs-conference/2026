@@ -32,6 +32,28 @@
     padding: 20px;
 }
 
+#feature {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url('/img/campus.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#feature-text {
+    backdrop-filter: blur(4px);
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#feature h2, #feature p {
+    color: lightgrey;
+}
+
 /* Template override */
 header .navbar-default .navbar-nav li a {
     font-size: 13px;
