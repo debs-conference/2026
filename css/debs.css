@@ -23,11 +23,6 @@
     }
 }
 
-#slider {
-    padding-bottom: 100px;
-    padding-top: 100px;
-}
-
 #intro {
     padding: 20px;
 }
@@ -64,9 +59,23 @@ header .navbar-default .navbar-nav li a {
     font-size: 13px;
 }
 
-@media (max-width: 767px) {
-    #slider .block p {
+#slider {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+@media (max-width: 991px) {
+    #slider {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    #slider .block p, #slider .block p1, #slider .block p2 {
         font-size: 20px;
+    }
+
+    #slider .block p {
+        letter-spacing: 2px;
     }
 }
 
