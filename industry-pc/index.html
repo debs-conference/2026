@@ -1,0 +1,87 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>Industry and Application Program Committee</title>
+{% include head-tags.html %}
+</head>
+<body>
+
+{% include header.html %}
+		
+<section id="global-header" style="background-position: center; background-image: url('../img/neuchatel/cvincentbourrut-neuchatel-74a2631-rvb_2000.jpg'),url('../img/neuchatel/cvincentbourrut-neuchatel-74a2631-rvb_2000.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1>Industry and Application Program Committee</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id = "industry-pc">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-sm-12">
+        <div class="block">
+          <div style="margin-bottom: 100px;">
+            <h1>Industry and Application Co-Chairs</h1>
+            
+            {% for chair in site.data.chairs.industry_chairs %}
+              <li align = "justify">{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+            {% endfor %}
+            
+            <h1>Members</h1>
+            
+						{% for member in site.data.chairs.pc_members_industry %}
+            <li>{{member.firstname}} {{member.lastname}}, {{member.institution}}</li>
+						{% endfor %}
+          </div>
+        </div>
+      </div>
+      
+      {% include side.html %}
+
+    </div>
+  </div>
+</section>
+
+	
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+          </ul>
+        </div>
+        <ul class="list-inline mb-20">
+          <li class="list-inline-item">Follow us:</li>
+          
+          <li class="list-inline-item"><a href="https://twitter.com/ACM_DEBS"><i class="fa fa-twitter"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.facebook.com/ACM.DEBS"><i class="fa fa-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.linkedin.com/groups/4747505/"><i class="fa fa-linkedin"></i></a></li>
+          
+        </ul>
+        {% include copyright.html %}
+      </div>
+    </div>
+  </div>
+</footer>
+{% include js-tags.html %}
+</body>
+</html>

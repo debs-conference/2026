@@ -249,9 +249,9 @@ industry_chairs:
     - firstname: Josef 
       lastname: Spillner
       institution: ZHAW
-#    - firstname: Yingjun 
-#      lastname: Wu
-#      institution: Singularity Data, Inc.
+    - firstname: Mandana 
+      lastname: Vaziri
+      institution: IBM Reseearch
 
 #grand_challenge_chairs: 
 #    - firstname: Sebastian 
@@ -338,6 +338,3 @@ web_chairs:
     - firstname: Jämes
       lastname: Ménétrey
       institution: University of Neuchatel
-#    - firstname: Yijian
-#      lastname: Liu
-#      institution: University of Copenhagen
