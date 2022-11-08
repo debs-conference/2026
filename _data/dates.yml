@@ -1,20 +1,52 @@
 conference_dates: 27th June &ndash; 30th June 2023
 conference_dates_calls: June 27th &ndash; 30th June, 2023
 
-#abstract_submission:
-#    old: March 4th, 2023
-#    current: March 21st, 2023
+abstract_submission_fall:
+#old: March 4th, 2023
+    current: November 11st, 2022
 
+research_submission_fall:
+    #old: March 11th, 2023
+    current: November 18h, 2022
+
+rebuttal_phase_fall:
+    #old: March 11th, 2023
+    current: January 7&ndash;11, 2023
+
+research_notification_fall:
+    #old: March 11th, 2023
+    current: January 20, 2023
+ 
+camera_ready_fall:
+    #old: March 11th, 2023
+    current: March 3rd, 2023
+
+abstract_submission_spring:
+    #old: March 4th, 2023
+    current: February 17th, 2023
+
+research_submission_spring:
+    #old: March 11th, 2023
+    current: February 24th, 2023
+
+rebuttal_phase_spring:
+    #old: March 11th, 2023
+    current: April 13&ndash;17, 2023
+
+research_notification_spring:
+    #old: March 11th, 2023
+    current: April 27, 2023
+ 
+camera_ready_spring:
+    #old: March 11th, 2023
+    current: May 26th, 2023 
+ 
 #tutorial_proposal_submission:
 #    current: April 15th, 2023
 #    
 #tutorial_proposal_author_notification:
-#    current: April 29th, 2023
-
-#research_submission:
-#    old: March 11th, 2023
-#    current: March 28th, 2023
-#    
+#    current: April 29th, 2023 
+    
 #research_author_notification:
 #    current: May 6th, 2023
 #
