@@ -16,7 +16,82 @@ finance_chairs:
       lastname: Felber
       institution: University of Neuchatel
 
-#pc_members_research: 
+pc_members_research: 
+    - firstname:   Matthias 
+      lastname:    Weidlich
+      institution: Humboldt-Universität zu Berlin, Germany 
+    - firstname:   Asterios 
+      lastname:    Katsifodimos     
+      institution: Delft University of Technology
+    - firstname:   Hans-Arno
+      lastname:    Jacobsen     
+      institution: University of Toronto
+    - firstname:   Davide 
+      lastname:    Frey     
+      institution: INRIA Rennes, France     
+    - firstname:   Vasiliki
+      lastname:    Kalavri  
+      institution: Boston University, USA
+    - firstname:   Alexander
+      lastname:    Artikis  
+      institution: University of Piraeus, Greece
+    - firstname:   Boris 
+      lastname:    Koldehofe    
+      institution: University of Groningen, The Netherlands
+    - firstname:   Kaiwen 
+      lastname:    Zhang    
+      institution: École de technologie supérieure de Montréal, Canada 
+    - firstname:   Mohammad 
+      lastname:    Sadoghi  
+      institution: University of California, Davis, USA
+    - firstname:   Schahram
+      lastname:    Dustdar  
+      institution: TU Wien, Austria     
+    - firstname:   dustdar@dsg.tuwien.ac.at
+      lastname:    Danh Le Phuoc 
+      institution: TU Berlin, Germany
+    - firstname:   Andrey 
+      lastname:    Brito    
+      institution: Universidade Federal de Campina Grande, Brazil 
+    - firstname:   Roman 
+      lastname:    Vitenberg
+      institution: University of Oslo, Norway
+    - firstname:   Wouter 
+      lastname:    Joosen   
+      institution: KU Leuven, Belgium
+    - firstname:   Ivona
+      lastname:    Brandić 
+      institution: Vienna University of Technology, Austria
+    - firstname:   Paris
+      lastname:    Carbone
+      institution: KTH Royal Institute of Technology, Sweden
+    - firstname:   David
+      lastname:    Eyers    
+      institution: University of Otago, New Zealand
+    - firstname:   Emanuel
+      lastname:    Onica
+      institution: Alexandru Ioan Cuza University of Iaşi, Romania 
+    - firstname:   André 
+      lastname:    Martin   
+      institution: TU Dresden, Germany
+    - firstname:   Michał 
+      lastname:    Krol     
+      institution: City, University of London, UK 
+    - firstname:   Manisha
+      lastname:    Luthra   
+      institution: TU Darmstadt, Germany 
+    - firstname:   Alexandre 
+      lastname:    da Silva Veith   
+      institution: Nokia Bell-Labs, Belgium 
+    - firstname:   Vera
+      lastname:    Goebel   
+      institution: University of Oslo, Norway
+    - firstname:   Yongluan
+      lastname:    Zhou
+      institution: University of Copenhagen, Denmark
+    - firstname:   Kia
+      lastname:    Teymourian
+      institution: UT Austin, USA   
 #    - firstname: Alessandro
 #      lastname: Margara
 #      institution: Politecnico di Milano
