@@ -23,15 +23,6 @@
     }
 }
 
-#intro {
-    padding: 20px;
-}
-
-#intro h3 {
-    margin-bottom: 20px;
-    margin-top: 35px;
-}
-
 #feature {
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
@@ -45,6 +36,8 @@
 
 #feature-text {
     backdrop-filter: blur(4px);
+    border-left: 6px solid white;
+    border-right: 6px solid white;
     -webkit-backdrop-filter: blur(4px);
     padding-bottom: 100px;
     padding-top: 100px;
