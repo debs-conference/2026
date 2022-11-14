@@ -41,6 +41,12 @@ camera_ready_spring:
     #old: March 11th, 2023
     current: May 26th, 2023 
  
+industry_submission:
+    current: March 25th, 2023
+
+industry_author_notification:
+    current: May 18th, 2023
+
 #tutorial_proposal_submission:
 #    current: April 15th, 2023
 #    
@@ -50,13 +56,6 @@ camera_ready_spring:
 #research_author_notification:
 #    current: May 6th, 2023
 #
-#industry_submission:
-#    old: March 25th, 2023
-#    current: April 22nd, 2023
-#
-#industry_author_notification:
-#    old: April 22nd, 2023
-#    current: May 18th, 2023
 #
 #industry_camera_ready:
 #    current: May 31st, 2023
