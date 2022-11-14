@@ -247,8 +247,8 @@
                             <li>
                                 Conference:
                                 <b>
-                                    {% if site.data.dates.conference_dates.current %}
-                                    {{site.data.dates.conference_dates.current}}
+                                    {% if site.data.dates.conference_dates %}
+                                    {{site.data.dates.conference_dates}}
                                     {% else %}
                                     TBA
                                     {% endif %}
@@ -259,11 +259,14 @@
                         <div>
                             <h1>Organizers</h1>
                             <h2>General chair</h2>
-                            <li>Valerio Schiavoni (University of Neuchâtel, Switzerland)</li>
+                            {% for chair in site.data.chairs.general_chairs %}
+                            <li class="justify">{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+                            {% endfor %}
 
                             <h2>PC chairs</h2>
-                            <li>Bettina Kemme (McGill University, Canada)</li>
-                            <li>Etienne Rivière (UCLouvain, Belgium)</li>
+                            {% for chair in site.data.chairs.pc_chairs %}
+                            <li class="justify">{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+                            {% endfor %}
                         </div>
 
 

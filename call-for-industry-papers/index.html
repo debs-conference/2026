@@ -102,11 +102,8 @@
                             <li>
                                 Conference:
                                 <b>
-                                    {% if site.data.dates.conference_dates.old!="" %}
-                                    <del>{{site.data.dates.conference_dates.old}}</del>
-                                    {% endif %}
-                                    {% if site.data.dates.conference_dates.current %}
-                                    {{site.data.dates.conference_dates.current}}
+                                    {% if site.data.dates.conference_dates %}
+                                    {{site.data.dates.conference_dates}}
                                     {% else %}
                                     TBA
                                     {% endif %}
