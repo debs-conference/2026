@@ -51,8 +51,8 @@ pc_members_research:
     - firstname:   Schahram
       lastname:    Dustdar  
       institution: TU Wien, Austria     
-    - firstname:   dustdar@dsg.tuwien.ac.at
-      lastname:    Danh Le Phuoc 
+    - firstname:   Danh
+      lastname:    Le Phuoc 
       institution: TU Berlin, Germany
     - firstname:   Andrey 
       lastname:    Brito    
@@ -93,9 +93,24 @@ pc_members_research:
     - firstname:   Yongluan
       lastname:    Zhou
       institution: University of Copenhagen, Denmark
-    - firstname:   Kia
-      lastname:    Teymourian
-      institution: UT Austin, USA   
+    - firstname: Kia
+      lastname: Teymourian
+      institution: UT Austin, USA
+    - firstname: Kishore
+      lastname: Ramachandran
+      institution:  Georgia Tech, USA
+    - firstname: Stéphane
+      lastname: Delbruel   
+      institution:  LaBRI, University of Bordeaux, France
+    - firstname: Jelle 
+      lastname: Hellings    
+      institution:  McMaster University, Canada
+    - firstname: Suyash 
+      lastname: Gupta    
+      institution:  Purdue University, USA
+    - firstname: Vincenzo 
+      lastname: Gulisano    
+      institution:  Chalmers University of Technology, Sweden     
 #    - firstname: Alessandro
 #      lastname: Margara
 #      institution: Politecnico di Milano
