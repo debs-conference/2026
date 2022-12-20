@@ -1,43 +1,48 @@
-			<div class="col-md-3 col-sm-12">
-				<h3 class="font-weight-regular" style="display: inline-block;">{% unless include.show_table==0 %}Important Dates{% endunless %}</h3>
-				{% unless include.show_table==0 %} {% include dates_table.html %} {% endunless %}
-				
-				<div class="twitter">
-					<a class="twitter-timeline" href="https://twitter.com/ACM_DEBS?lang=en" data-height="390" data-chrome="nofooter" data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List by TwitterDev</a>
-					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div>
-				
-				
-				<div class="col-md-12">
-					<h3 class="font-weight-regular mb-20" style="display: inline-block;">Sponsored by</h3>
-					{% assign add_and = false %}
-					{% for sponsor in site.data.sponsors.gold_sponsors %}
-					{% if sponsor.sidebar %}
-					{% if add_and %}
-					<p class="col-md-12 text-center">and</p>
-					{% endif %}
-					<a href="{{sponsor.link}}" target = _blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}" class="col-xs-12" /></a>
-					{% assign add_and = true %}
-					{% endif %}
-					{% endfor %}
-					{% for sponsor in site.data.sponsors.silver_sponsors %}
-					{% if sponsor.sidebar %}
-					{% if add_and %}
-					<p class="col-md-12 text-center">and</p>
-					{% endif %}
-					<a href="{{sponsor.link}}" target = _blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}" class="col-xs-8 col-xs-offset-2" /></a>
-					{% assign add_and = true %}
-					{% endif %}
-					{% endfor %}
-					{% for sponsor in site.data.sponsors.bronze_sponsors %}
-					{% if sponsor.sidebar %}
-					{% if add_and %}
-					<p class="col-md-12 text-center">and</p>
-					{% endif %}
-					<a href="{{sponsor.link}}" target = _blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}" class="col-xs-6 col-xs-offset-3" /></a>
-					{% assign add_and = true %}
-					{% endif %}
-					{% endfor %}
-				</div>
-				
-			</div>
+<div class="col-md-3 col-sm-12">
+	<h3 class="font-weight-regular" style="display: inline-block;">{% unless include.show_table==0 %}Important Dates{%
+		endunless %}</h3>
+	{% unless include.show_table==0 %} {% include dates_table.html %} {% endunless %}
+
+	<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/ACM_DEBS?lang=en" data-height="390" data-chrome="nofooter"
+			data-link-color="#55acee" data-border-color="#DCDCDC">A Twitter List by TwitterDev</a>
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+
+	{% if site.data.sponsors.gold_sponsors != nil or site.data.sponsors.silver_sponsors != nil or site.data.sponsors.bronze_sponsors != nil %}
+	<div class="col-md-12">
+		<h3 class="font-weight-regular mb-20" style="display: inline-block;">Sponsored by</h3>
+		{% assign add_and = false %}
+		{% for sponsor in site.data.sponsors.gold_sponsors %}
+		{% if sponsor.sidebar %}
+		{% if add_and %}
+		<p class="col-md-12 text-center">and</p>
+		{% endif %}
+		<a href="{{sponsor.link}}" target=_blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}"
+				class="col-xs-12" /></a>
+		{% assign add_and = true %}
+		{% endif %}
+		{% endfor %}
+		{% for sponsor in site.data.sponsors.silver_sponsors %}
+		{% if sponsor.sidebar %}
+		{% if add_and %}
+		<p class="col-md-12 text-center">and</p>
+		{% endif %}
+		<a href="{{sponsor.link}}" target=_blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}"
+				class="col-xs-8 col-xs-offset-2" /></a>
+		{% assign add_and = true %}
+		{% endif %}
+		{% endfor %}
+		{% for sponsor in site.data.sponsors.bronze_sponsors %}
+		{% if sponsor.sidebar %}
+		{% if add_and %}
+		<p class="col-md-12 text-center">and</p>
+		{% endif %}
+		<a href="{{sponsor.link}}" target=_blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}"
+				class="col-xs-6 col-xs-offset-3" /></a>
+		{% assign add_and = true %}
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% endif %}
+</div>

@@ -3,152 +3,196 @@
 ---
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>SUPPORT DEBS 2023</title>
-{% include head-tags.html %}
+  <title>SUPPORT DEBS 2023</title>
+  {% include head-tags.html %}
 </head>
+
 <body>
 
-{% include header.html %}
-{% include slider-regular-page.html title="SUPPORT DEBS 2023" %}
+  {% include header.html %}
+  {% include slider-regular-page.html title="SUPPORT DEBS 2023" %}
 
-<section id = "support">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-9 col-sm-12">
-        <div class="block">
-          <div>
-            <h1>Support DEBS 2023</h1><br>
-            <h4>We would like to invite you to sponsor the 17th edition of the ACM International Conference on Distributed Event-Based Systems (DEBS)!</h4>
-            
-            <p align="justify">DEBS is an annual technical conference with the objectives of providing a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to event-based computing. It is sponsored by ACM, the world leading organization for ICT professionals. Sponsorship by ACM is a token of quality of the conference. Less than 5% of larger international conferences on informatics receive ACM sponsorship.</p>
-            
-            <p align="justify">Distributed event-based systems serve as an enabling technology for many important application areas such as AI/ML, IoT, Blockchain, big data processing, stream processing and CEP, social networking, green computing and enterprise application integration, as well as societal challenges including Smart Urban Transport, Smart Energy Networks, eHealth systems, etc. In particular the pre-conference tutorial day and Industrial and Experience Report track of the conference should be of high relevance for industry and public agencies.</p>
-            
-            <p align="justify">By becoming a DEBS contributor, you will have the great opportunity to display your company and products at a major forum dedicated to event-based computing. DEBS is an established forum to bridge academia with industry. At DEBS, you will get in touch with the best international students in the field who might become your future customers or staff.</p>
-            
-            <p align="justify">With your sponsorship, you will help us in keeping registration fees low while providing an excellent program, hence convincing even more attendees to join DEBS. Moreover, sponsorship entitles you to promote your company at the conference through logo placements and info material in various conference handouts, depending on sponsorship level (see below).</p>
-            
-			<p align="justify">Sponsoring tiers to be announced soon!</p>
+  <section id="support">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-12">
+          <div class="block">
+            <div>
+              <h1>Support DEBS 2023</h1><br>
+              <h4>We would like to invite you to sponsor the 17th edition of the ACM International Conference on
+                Distributed Event-Based Systems (DEBS)!</h4>
+
+              <p align="justify">DEBS is an annual technical conference with the objectives of providing a forum
+                dedicated to the dissemination of original research, the discussion of practical insights, and the
+                reporting of experiences relevant to event-based computing. It is sponsored by ACM, the world leading
+                organization for ICT professionals. Sponsorship by ACM is a token of quality of the conference. Less
+                than 5% of larger international conferences on informatics receive ACM sponsorship.</p>
+
+              <p align="justify">Distributed event-based systems serve as an enabling technology for many important
+                application areas such as AI/ML, IoT, Blockchain, big data processing, stream processing and CEP, social
+                networking, green computing and enterprise application integration, as well as societal challenges
+                including Smart Urban Transport, Smart Energy Networks, eHealth systems, etc. In particular the
+                pre-conference tutorial day and Industrial and Experience Report track of the conference should be of
+                high relevance for industry and public agencies.</p>
+
+              <p align="justify">By becoming a DEBS contributor, you will have the great opportunity to display your
+                company and products at a major forum dedicated to event-based computing. DEBS is an established forum
+                to bridge academia with industry. At DEBS, you will get in touch with the best international students in
+                the field who might become your future customers or staff.</p>
+
+              <p align="justify">With your sponsorship, you will help us in keeping registration fees low while
+                providing an excellent program, hence convincing even more attendees to join DEBS. Moreover, sponsorship
+                entitles you to promote your company at the conference through logo placements and info material in
+                various conference handouts, depending on sponsorship level (see below).</p>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table table-bordered table-hover">
+                <thead class="bg-gray">
+                  <tr>
+                    <th>Sponsorship level</th>
+                    <th>Description of the benefits</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Bronze (1'000 CHF)</td>
+                    <td>
+                      <div style="padding-left: 10px">
+                        <li>Small logo on our website and handouts</li>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Silver (2'000 CHF)</td>
+                    <td>
+                      <div style="padding-left: 10px">
+                        <li>Medium logo on our website and handouts</li>
+                        <li>One free registration</li>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Gold (3'000 CHF)</td>
+                    <td>
+                      <div style="padding-left: 10px">
+                        <li>Large logo on our website and handouts</li>
+                        <li>Two free registrations</li>
+                        <li>Possibility to have a booth at the conference venue</li>
+                      </div>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <p align="justify">Some options are limited and will be offered to the earliest respondents. We are
+                delighted to receive offers for prizes to be donated for the DEBS awards (best paper award, Grand
+                Challenges award) and gadgets/giveaways for the conference bags.</p>
+              <p align="justify">If you are interested in any of the above opportunities for supporting the DEBS 2023
+                conference, please contact <a href="mailto:valerio.schiavoni@unine.ch">Valerio Schiavoni</a>.</p>
+            </div>
+
+            {% if site.data.sponsors.gold_sponsors %}
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Gold Sponsor</h1>
+                <div class="row">
+                  {% for sponsor in site.data.sponsors.gold_sponsors %}
+                  <div class="col-xs-4">
+                    <div style="margin-top: 30px; margin-left" class="row">
+                      <a href="{{sponsor.link}}" target=_blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}"
+                          class="col-xs-12"></a>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if site.data.sponsors.silver_sponsors %}
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Silver Sponsor</h1>
+                <div class="row">
+                  {% for sponsor in site.data.sponsors.silver_sponsors %}
+                  <div class="col-xs-3">
+                    <div style="margin-top: 30px; margin-left" class="row">
+                      <a href="{{sponsor.link}}" target=_blank style="margin-bottom: 100px;"><img src="{{sponsor.logo}}"
+                          alt="{{sponsor.name}}" class="col-xs-12"></a>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
+            {% if site.data.sponsors.bronze_sponsors %}
+            <div class="row">
+              <div class="col-md-12">
+                <h1>Bronze Sponsor</h1>
+                <div class="row">
+                  {% for sponsor in site.data.sponsors.bronze_sponsors %}
+                  <div class="col-xs-2">
+                    <div style="margin-top: 30px; margin-left" class="row">
+                      <a href="{{sponsor.link}}" target=_blank style="margin-bottom: 100px;"><img src="{{sponsor.logo}}"
+                          alt="{{sponsor.name}}" class="col-xs-12"></a>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
           </div>
-		  
-		  <!--		  
-          <div class="table-responsive">
-            <table class="table table-bordered table-hover">
-              <tbody>                
-                <tr>
-                  <td>Bronze (€1000)</td>
-					<td><div style="padding-left: 10px"><li>Small logo on our web site and handouts</li></div></td>
-                </tr>                
-                <tr>
-                  <td>Silver (€2000)</td>
-                  <td><div style="padding-left: 10px"><li>Medium logo on our web site and handouts</li> <li>One free registration</li></div></td>
-                </tr>                
-                <tr>
-                  <td>Gold (€3000)</td>
-				<td><div style="padding-left: 10px"><li>Large logo on our web site and handouts</li> <li>Two free registrations</li> <li>Possibility to have a booth at the conference venue</li></div></td>
-                </tr>
-                
-              </tbody>
-            </table>
-          </div>
-          <div>
-            <p align="justify">Some options are limited and will be offered to the earliest respondents. We are delighted to receive offers for prizes to be donated for the DEBS awards (best paper award, Grand Challenges award) and gadgets/giveaways for the conference bags.</p>
-          <p align="justify">If you are interested in any of the above opportunities for supporting the DEBS 2023 conference, please contact <a href="mailto:valerio.schiavoni@unine.ch">Valerio Schiavoni</a>.</p>
-		  </div>
-	  		-->
-		  
-		  {% if site.data.sponsors.gold_sponsors %}
-          <div class="row">
-				<div class="col-md-12">
-					<h1>Gold Sponsor</h1>
-					<div class="row">
-						{% for sponsor in site.data.sponsors.gold_sponsors %}
-						<div class="col-xs-4">
-							<div style="margin-top: 30px; margin-left" class="row">
-								<a href="{{sponsor.link}}" target = _blank><img src="{{sponsor.logo}}" alt="{{sponsor.name}}" class="col-xs-12"></a>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-		  </div>
-		  {% endif %}
-					
-		  {% if site.data.sponsors.silver_sponsors %}
-		  <div class="row">
-			<div class="col-md-12">
-				<h1>Silver Sponsor</h1>
-				<div class="row">
-					{% for sponsor in site.data.sponsors.silver_sponsors %}
-					<div class="col-xs-3">
-						<div style="margin-top: 30px; margin-left" class="row">
-							<a href="{{sponsor.link}}" target = _blank style="margin-bottom: 100px;"><img src="{{sponsor.logo}}" alt="{{sponsor.name}}" class="col-xs-12"></a>
-						</div>
-					</div>
-					{% endfor %}
-				</div>
-			</div>
-          </div>
-		  {% endif %}
-					
-		  {% if site.data.sponsors.bronze_sponsors %}
-		   <div class="row">
-				<div class="col-md-12">
-					<h1>Bronze Sponsor</h1>
-					<div class="row">
-						{% for sponsor in site.data.sponsors.bronze_sponsors %}
-						<div class="col-xs-2">
-							<div style="margin-top: 30px; margin-left" class="row">
-								<a href="{{sponsor.link}}" target = _blank style="margin-bottom: 100px;"><img src="{{sponsor.logo}}" alt="{{sponsor.name}}" class="col-xs-12"></a>
-							</div>
-						</div>
-						{% endfor %}
-					</div>
-				</div>
-           </div>
-		  {% endif %}
-		  
         </div>
+
+        {% include side.html %}
+
       </div>
-	  
-	  {% include side.html %}
-
     </div>
-  </div>
-</section>
+  </section>
 
-  
 
-  
 
-  
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="footer-manu">
-          <ul>
-            
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-manu">
+            <ul>
+
+            </ul>
+          </div>
+          <ul class="list-inline mb-20">
+            <li class="list-inline-item">Follow us:</li>
+
+            <li class="list-inline-item"><a href="https://twitter.com/ACM_DEBS"><i class="fa fa-twitter"></i></a></li>
+
+            <li class="list-inline-item"><a href="https://www.facebook.com/ACM.DEBS"><i class="fa fa-facebook"></i></a>
+            </li>
+
+            <li class="list-inline-item"><a href="https://www.linkedin.com/groups/4747505/"><i
+                  class="fa fa-linkedin"></i></a></li>
+
           </ul>
+          {% include copyright.html %}
         </div>
-        <ul class="list-inline mb-20">
-          <li class="list-inline-item">Follow us:</li>
-          
-          <li class="list-inline-item"><a href="https://twitter.com/ACM_DEBS"><i class="fa fa-twitter"></i></a></li>
-          
-          <li class="list-inline-item"><a href="https://www.facebook.com/ACM.DEBS"><i class="fa fa-facebook"></i></a></li>
-          
-          <li class="list-inline-item"><a href="https://www.linkedin.com/groups/4747505/"><i class="fa fa-linkedin"></i></a></li>
-          
-        </ul>
-       {% include copyright.html %}
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 
-{% include js-tags.html %}  
+  {% include js-tags.html %}
 </body>
+
 </html>
