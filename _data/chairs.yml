@@ -380,10 +380,10 @@ industry_chairs:
 #      institution: TU Berlin
 
 
-#doctoral_symposium_chairs: 
-#    - firstname: David 
-#      lastname: Eyers
-#      institution: University of Otago
+doctoral_symposium_chairs: 
+    - firstname: Riccardo 
+      lastname: Tommasini
+      institution: INSA Lyon, France
 #    - firstname: Genoveva 
 #      lastname: Vargas-Solar
 #      institution: CNRS
