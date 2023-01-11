@@ -1,23 +1,23 @@
 general_chairs: 
     - firstname: Valerio
       lastname: Schiavoni
-      institution: University of Neuchatel
+      institution: University of Neuchâtel
 
 pc_chairs:
     - firstname: Bettina 
       lastname: Kemme
-      institution: McGill University
+      institution: McGill University, Canada
     - firstname: Etienne 
       lastname: Rivière
-      institution: UCLouvain
+      institution: UCLouvain, Belgium
 
 finance_chairs:
     - firstname: Pascal
       lastname: Felber
-      institution: University of Neuchatel
+      institution: University of Neuchâtel
     - firstname: Alain
       lastname: Sandoz
-      institution: University of Neuchatel
+      institution: University of Neuchâtel
 
 
 pc_members_research: 
@@ -56,7 +56,10 @@ pc_members_research:
       institution:  Purdue University, USA	  	  
     - firstname: Jelle 
       lastname: Hellings    
-      institution:  McMaster University, Canada	  
+      institution:  McMaster University, Canada
+    - firstname:   Hans-Arno 
+      lastname:    Jacobsen   
+      institution: University of Toronto, Canada	  	  
     - firstname:   Wouter 
       lastname:    Joosen   
       institution: KU Leuven, Belgium
@@ -95,10 +98,16 @@ pc_members_research:
       institution: Nokia Bell-Labs, Belgium 
     - firstname: Kia
       lastname: Teymourian
-      institution: UT Austin, USA	  
+      institution: UT Austin, USA
+    - firstname:   Nalini 
+      lastname:    Venkatasubramanian
+      institution: UC Irvine, USA	  	  
     - firstname:   Roman 
       lastname:    Vitenberg
       institution: University of Oslo, Norway
+    - firstname:   Spyros 
+      lastname:    Voulgaris
+      institution: Athens University of Economics and Business, Greece	  
     - firstname:   Matthias 
       lastname:    Weidlich
       institution: Humboldt-Universität zu Berlin, Germany 	  
@@ -242,7 +251,7 @@ pc_members_research:
 #      institution: Microsoft
 #    - firstname: Pascal
 #      lastname: Felber
-#      institution: University of Neuchatel
+#      institution: University of Neuchâtel
 #    - firstname: Patrick
 #      lastname: Eugster
 #      institution: Universitá della Svizzera italiana (USI)
@@ -293,7 +302,7 @@ pc_members_research:
 #      institution: University of Roma Tor Vergata
 #    - firstname: Valerio
 #      lastname: Schiavoni
-#      institution: University of Neuchatel
+#      institution: University of Neuchâtel
 #    - firstname: Vana
 #      lastname: Kalogeraki
 #      institution: Athens University of Economics and Business, Greece
@@ -428,4 +437,4 @@ proceeding_chairs:
 web_chairs: 
     - firstname: Jämes
       lastname: Ménétrey
-      institution: University of Neuchatel
+      institution: University of Neuchâtel
