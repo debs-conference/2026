@@ -384,9 +384,9 @@ doctoral_symposium_chairs:
     - firstname: Riccardo 
       lastname: Tommasini
       institution: INSA Lyon, France
-#    - firstname: Genoveva 
-#      lastname: Vargas-Solar
-#      institution: CNRS
+    - firstname: Senjuti 
+      lastname: Basu Roy 
+      institution: New Jersey Institute of Technology, USA
 
 
 pc_members_poster_demo: 
