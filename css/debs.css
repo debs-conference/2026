@@ -46,6 +46,22 @@
     color: lightgrey;
 }
 
+
+/* Style for the sponsors' logo */
+#clients-logo-section {
+    margin-top: 50px;
+}
+
+#clients-logo-section div:has(> a) {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#clients-logo-section img {
+    height: 70px;
+}
+
+
 /* Template override */
 header .navbar-default .navbar-nav li a {
     font-size: 13px;
