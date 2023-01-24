@@ -392,10 +392,10 @@ doctoral_symposium_chairs:
 pc_members_poster_demo: 
  
 
-#poster_demo_chairs: 
-#    - firstname: Daniele 
-#      lastname: Dell’Aglio
-#      institution: Aalborg University
+poster_demo_chairs: 
+    - firstname: Baptiste
+      lastname: Lepers
+      institution: University of Neuchâtel
 #    - firstname: Asterios 
 #      lastname: Katsifodimos
 #      institution: TU Delft
@@ -423,7 +423,7 @@ pc_members_poster_demo:
 
 publicity_chairs: 
     - firstname: Vania 
-      lastname: Marangozova-martin
+      lastname: Marangozova-Martin
       institution: Université Grenoble Alpes
     - firstname: Naohiro 
       lastname: Hayashibara 
