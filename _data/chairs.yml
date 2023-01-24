@@ -316,34 +316,34 @@ pc_members_research:
 #      lastname: Aref
 #      institution: Purdue University
 
-#pc_members_industry: 
-#    - firstname: Zainab
-#      lastname: Abbas
-#      institution: Kry, Sweden
-#    - firstname: Bogdan
-#      lastname: Ghit
-#      institution: Databricks, USA
-#    - firstname: Jiong
-#      lastname: He
-#      institution: ByteDance, Singapore
-#    - firstname: Matteo
-#      lastname: Nardelli
-#      institution: Bank of Italy, Italy
-#    - firstname: Sabri
-#      lastname: Skhiri
-#      institution: EURA NOVA, Belgium    
-#    - firstname: Guozhang
-#      lastname: Wang
-#      institution: Confluent, USA       
-#    - firstname: Steffen
-#      lastname: Zeuch
-#      institution: DFKI and TU Berlin, Germany
-#    - firstname: Shuhao
-#      lastname: Zhang
-#      institution: SUTD, Singapore
-#    - firstname: Stefano 
-#      lastname: Iannucci
-#      institution: Roma Tre University, Italy
+pc_members_industry: 
+    - firstname: Alexandre
+      lastname:  Da Silva Veith
+      institution: Nokia Bell Labs, Belgium
+    - firstname:  Sebastian
+      lastname: Frischbier
+      institution: Infront, Germany
+    - firstname: Florian
+      lastname:  Forster
+      institution: Zitadel, Switzerland
+    - firstname: Martin
+      lastname: Hirzel
+      institution: IBM Research, USA
+    - firstname: Tania
+      lastname:  Lorido Botran
+      institution: Roblox, USA
+    - firstname: Matteo
+      lastname: Nardelli
+      institution: Bank of Italy, Italy
+    - firstname: Sabri
+      lastname: Skhiri
+      institution: EURA NOVA, Belgium    
+    - firstname:  Maria 
+      lastname: Serrano
+      institution: Nearby Computing, Spain
+    - firstname: Junwei 
+      lastname: Zhang
+      institution: Doordash, USA
 
 industry_chairs: 
     - firstname: Josef 
