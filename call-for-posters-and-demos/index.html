@@ -1,0 +1,149 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CALL FOR POSTERS AND DEMOS</title>
+    {% include head-tags.html %}
+</head>
+
+<body>
+
+    {% include header.html %}
+    {% include slider-regular-page.html title="CALL FOR POSTERS AND DEMOS" %}
+
+    <section id="call-for-posters-and-demos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div class="block">
+                        <div>
+                            <h1>Objective</h1>
+
+                            <p align="justify">Over the past decade, the ACM International Conference on Distributed and
+                                Event-based Systems (DEBS) has become the premier venue for academia and industry to
+                                discuss cutting-edge research of event-based computing related to Big Data, AI/ML, IoT
+                                and Distributed Systems. The objectives of the ACM International Conference on
+                                Distributed and Event‐Based Systems (DEBS) are to provide a forum dedicated to the
+                                dissemination of original research, the discussion of practical insights, and the
+                                reporting of experiences relevant to distributed systems and event‐based computing. The
+                                conference aims at providing a forum for academia and industry to exchange ideas.</p>
+
+
+                            <h1>Demos</h1>
+                            <p align="justify">Demonstrations present first-hand experience with research prototypes or
+                                operational systems. Demonstrations also provide opportunities to exchange ideas gained
+                                from implementing event-based systems and to obtain feedback from expert users.
+                                Demonstration submissions are welcomed in any of the areas identified in the scope of
+                                the conference (see <a href="https://2023.debs.org">2023.debs.org</a> for the
+                                detailed scope of the conference). </p>
+
+                            <p align="justify">Demonstration submissions describe the objectives and findings addressed
+                                by the demonstration, in 2-4 pages, following the ACM format for the conference
+                                proceedings. The demonstration submissions are single-blind. All demo submissions should
+                                have a prefix “Demo:” in their title. All submissions are strongly encouraged, but not
+                                required, to provide in their submission a URL to a live online version of their demo.
+                                Alternatively, authors can provide a URL (e.g, Youtube) to a video showcasing the main
+                                demo features (this is intended for the sole purpose of submission review and
+                                selection). Demonstrations that make their source code freely available are especially
+                                encouraged. Accepted contributions will be published (excluding the appendix) by ACM and
+                                disseminated through the ACM Digital Library.</p>
+
+
+                            <h1>Posters</h1>
+
+                            <p align="justify">Poster presentations offer researchers an excellent forum to present and
+                                discuss preliminary research findings as well as novel and original ideas related to
+                                DEBS. Poster submissions describe ideas, approaches, and possibly preliminary findings,
+                                following the ACM format for the conference proceedings using up to 2 pages. Poster
+                                submissions are also single-blind. All poster submissions should have a prefix “Poster:”
+                                Accepted contributions will be published by ACM and disseminated through the ACM Digital
+                                Library.</p>
+
+                        </div>
+
+                        <div div style="margin-bottom: 50px;">
+                            <h1>Important Dates</h1>
+                            <p>All deadlines are AoE (Anywhere on Earth) timezone</p>
+
+                            <li>Poster and Demo paper submissions <b>{% if
+                                    site.data.dates.poster_demo_submission.old!=""
+                                    %}<del>{{site.data.dates.poster_demo_submission.old}}</del> {% endif %}{% if
+                                    site.data.dates.poster_demo_submission.current
+                                    %}{{site.data.dates.poster_demo_submission.current}}{% else %}tba{% endif %}</b>
+                            </li>
+
+                            <li>Author notification <b>{% if site.data.dates.poster_demo_author_notification.old!=""
+                                    %}<del>{{site.data.dates.poster_demo_author_notification.old}}</del> {% endif %}{%
+                                    if site.data.dates.poster_demo_author_notification.current
+                                    %}{{site.data.dates.poster_demo_author_notification.current}}{% else %}tba{% endif
+                                    %}</b></li>
+
+                            <li>Camera ready deadline <b>{% if site.data.dates.camera_ready.old!=""
+                                    %}<del>{{site.data.dates.camera_ready.old}}</del> {% endif %}{% if
+                                    site.data.dates.camera_ready.current %}{{site.data.dates.camera_ready.current}}{%
+                                    else %}tba{% endif %}</b></li>
+
+                            <li>Conference <b>{{site.data.dates.conference_dates_calls}}</b></li>
+
+                        </div>
+
+                        <div>
+                            <h1>Submissions</h1>
+                            <div style="margin-bottom: 100px;">
+                                <p align="justify">Submissions to the poster and demo track will be evaluated by the
+                                    Poster and Demo Track Program Committee. The authors of accepted papers will be
+                                    given a choice between different copyright agreements, according to the recent
+                                    changes in the ACM policy. The options will include opportunities for open access as
+                                    well as the traditional ACM copyright agreement.</p>
+                                <p align="justify">Submitted papers are required to adhere to the two-column "sigconf"
+                                    ACM conference proceeding style and consist of a maximum of 4 pages (references
+                                    should fit within the 4 pages). Templates and examples in LaTeX and various versions
+                                    of Microsoft Word are available for download from the <a
+                                        href="https://www.acm.org/publications/proceedings-template">2017 ACM Master
+                                        Article Template page</a>.</p>
+                                <p align="justify">Papers may be submitted via HotCRP via the following link: <a
+                                        href="https://debs23pd.hotcrp.com">debs23pd.hotcrp.com</a>.</p>
+                                <p align="justify">If you have any questions, please contact the Poster and Demo Chair Baptiste Lepers, or the General Chair Valerio Schiavoni.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% include side.html %}
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-manu">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <ul class="list-inline mb-20">
+                        <li class="list-inline-item">Follow us:</li>
+
+                        <li class="list-inline-item"><a href="https://twitter.com/ACM_DEBS"><i
+                                    class="fa fa-twitter"></i></a></li>
+
+                        <li class="list-inline-item"><a href="https://www.facebook.com/ACM.DEBS"><i
+                                    class="fa fa-facebook"></i></a></li>
+
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/groups/4747505/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+
+                    </ul>
+                    {% include copyright.html %}
+                </div>
+            </div>
+        </div>
+    </footer>
+    {% include js-tags.html %}
+</body>
+
+</html>

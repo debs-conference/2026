@@ -1,3 +1,4 @@
+conference_year: 2023
 conference_dates: 27th June &ndash; 30th June 2023
 conference_dates_calls: June 27th &ndash; 30th June, 2023
 
@@ -47,6 +48,9 @@ industry_submission:
 industry_author_notification:
     current: April 27th, 2023
 
+camera_ready:
+    current: tba
+
 #tutorial_proposal_submission:
 #    current: April 15th, 2023
 #    
@@ -87,6 +91,3 @@ industry_author_notification:
 #    old: May 26th, 2023
 #    current: June 3rd, 2023
 #
-#camera_ready:
-#    old: May 31st, 2023
-#    current: June 10th, 2023

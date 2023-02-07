@@ -1,0 +1,182 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CALL FOR DOCTORAL SYMPOSIUM</title>
+    {% include head-tags.html %}
+</head>
+
+<body>
+
+    {% include header.html %}
+    {% include slider-regular-page.html title="CALL FOR DOCTORAL SYMPOSIUM" %}
+
+    <section id="call-for-doctoral-symposium">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div class="block">
+                        <div>
+                            <h1>Doctoral Symposium—Call for Papers</h1>
+
+                            <p align="justify">The DEBS {{site.data.dates.conference_year}} Doctoral Symposium welcomes submissions from doctoral
+                                students who are undertaking research relevant to the DEBS {{site.data.dates.conference_year}} conference. Topics
+                                covered include, but are not limited to:</p>
+
+                            <div>
+                                <li>Distributed and event-based computing within, e.g., software systems, distributed
+                                    systems, distributed data processing, data management, dependability, knowledge
+                                    management, networking, programming languages, security and software engineering;
+                                </li>
+                                <li>Domain-specific topics within event-based computing: e.g., real-time analytics,
+                                    mobile computing, social networking, pervasive, green computing and ubiquitous
+                                    computing, sensor networks, user interfaces, big data processing, spatio-temporal
+                                    processing, cloud computing, edge computing, peer-to-peer computing, embedded
+                                    systems and stream processing;</li>
+                                <li>Enterprise-related topics: e.g., complex event detection, enterprise application
+                                    integration, real-time enterprises and web services; and</li>
+                                <li>Relevant research topics within the Internet of Things.</li>
+                            </div>
+
+                        </div>
+
+                        <!-- <div>
+                  
+                  <h1>Eligibility</h1>
+                  <p align="justify">The forum is open to all Ph.D. students. Ph.D. students at the beginning of their research journey are particularly welcome when they have a well-defined problem statement and some ideas about the solution that they want to discuss. Ph.D. students in a more advanced stage of their research should still have sufficient time remaining before completing their dissertation to be able to benefit from feedback provided from participation in the DEBS Doctoral Symposium.</p>
+                  
+                </div> -->
+
+                        <div>
+
+                            <h1>Submission Guidelines</h1>
+                            <p align="justify">Doctoral symposium papers should describe the problem addressed as part
+                                of the PhD work, explain its importance, discuss the shortcomings of existing solutions
+                                and give some indication of steps taken towards a solution. There should be enough
+                                substance to stimulate discussion at the symposium, but the work does not need to be
+                                complete. We thus encourage submissions from students both at early and late stages of
+                                their doctoral work.</p>
+
+                            <p align="justify">Submissions should be written based on the following structure, which
+                                focuses on the key methodological components required for a sound research synthesis:
+                            </p>
+
+                            <div style="margin-bottom: 10px; font-size: 15px">
+                                <li><b>Problem:</b> What is the core problem you are studying during your PhD? Why is it
+                                    relevant?</li>
+                                <li><b>Research setting:</b> What are your research questions? Which hypotheses are you
+                                    going to investigate? (Noting that hypotheses must be falsifiable!) What assumptions
+                                    are you taking?</li>
+                                <li><b>State of the art:</b> Who has worked on your problem (or a similar one) in the
+                                    past? What are the main differences with regards to your research?</li>
+                                <li><b>Research approach:</b> What is your approach for investigating your research
+                                    questions? How and why is it novel with respect to the existing state of the art?
+                                    Which methodologies are you adopting?</li>
+                                <li><b>Evaluation plan:</b> How are you going to evaluate your research? Which datasets
+                                    will you use? Are you using any established benchmarks? Have you reached any result
+                                    so far?</li>
+                                <li><b>Conclusions and reflections:</b> What is the current status of your research?
+                                    What are the main challenges you are facing? Why do you think your research will be
+                                    successful?</li>
+                            </div>
+
+                            <p align="justify">Submissions must be no longer than 4 pages and must adhere to the
+                                two-column ACM conference proceeding style. Templates and examples in LaTeX and various
+                                versions of Microsoft Word are available for download from the ACM Master Article
+                                Template web pages at <a
+                                    href="https://www.acm.org/publications/proceedings-template">www.acm.org/publications/proceedings-template</a>.
+                                Papers must be in PDF (Adobe’s Portable Document Format) format and must be submitted
+                                electronically.</p>
+                            <p align="justify">Submissions must be single-author, on the topic of the doctoral work. The
+                                name of the supervisor must be clearly marked (&ldquo;supervised by …&rdquo;) on the
+                                paper, under the author’s name.</p>
+
+                            <p align="justify">
+                                All accepted submissions must be presented at the symposium. Distinguished scientists
+                                will be present to give feedback and advice to the students. During the event,
+                                presentations from authors can involve media other than traditional PowerPoint-style
+                                slideshows. Online presentation will be possible when pandemic issues preclude
+                                participants travelling to DEBS.</p>
+
+                        </div>
+
+                        <div style="margin-bottom: 90px">
+                            <h1>Submission</h1>
+                            <p align="justify">
+                                Submit your paper using HotCRP: <a
+                                    href="https://debs23dw.hotcrp.com">debs23dw.hotcrp.com</a>.
+                                If you have any questions, please contact the Doctoral Symposium Co-Chairs, Riccardo Tommasini and Senjuti Basu Roy.
+                            </p>
+                            <p align="justify">A short summary of each accepted project will be included in the
+                                published conference proceedings, but students are free to submit their work elsewhere
+                                in parallel, also.</p>
+                            <p align="justify">An expert panel will judge the best submission and separately the best
+                                presentation by participating students.</p>
+                        </div>
+
+                        <div>
+                            <h1>Important Dates</h1>
+
+                            <li>Deadline: <b>{% if site.data.dates.doctoral_symposium_submission.old!=""
+                                    %}<del>{{site.data.dates.doctoral_symposium_submission.old}}</del> {% endif %}{% if
+                                    site.data.dates.doctoral_symposium_submission.current
+                                    %}{{site.data.dates.doctoral_symposium_submission.current}}{% else %}tba{% endif
+                                    %}</b></li>
+
+                            <li>Date of Notification: <b>{% if
+                                    site.data.dates.doctoral_symposium_author_notification.old!=""
+                                    %}<del>{{site.data.dates.doctoral_symposium_author_notification.old}}</del> {% endif
+                                    %}{% if site.data.dates.doctoral_symposium_author_notification.current
+                                    %}{{site.data.dates.doctoral_symposium_author_notification.current}}{% else %}tba{%
+                                    endif %}</b></li>
+
+                            <!--
+                  <li>Camera ready deadline <b>{% if site.data.dates.camera_ready.old!="" %}<del>{{site.data.dates.camera_ready.old}}</del> {% endif %}{% if site.data.dates.camera_ready.current %}{{site.data.dates.camera_ready.current}}{% else %}tba{% endif %}</b></li>-->
+
+                            <li>Conference: <b>{{site.data.dates.conference_dates_calls}}</b></li>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                {% include side.html %}
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-manu">
+                        <ul>
+
+                        </ul>
+                    </div>
+                    <ul class="list-inline mb-20">
+                        <li class="list-inline-item">Follow us:</li>
+
+                        <li class="list-inline-item"><a href="https://twitter.com/ACM_DEBS"><i
+                                    class="fa fa-twitter"></i></a></li>
+
+                        <li class="list-inline-item"><a href="https://www.facebook.com/ACM.DEBS"><i
+                                    class="fa fa-facebook"></i></a></li>
+
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/groups/4747505/"><i
+                                    class="fa fa-linkedin"></i></a></li>
+
+                    </ul>
+                    {% include copyright.html %}
+                </div>
+            </div>
+        </div>
+    </footer>
+    {% include js-tags.html %}
+</body>
+
+</html>
