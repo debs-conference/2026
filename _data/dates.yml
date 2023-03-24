@@ -43,7 +43,8 @@ camera_ready_spring:
     current: May 26th, 2023 
  
 industry_submission:
-    current: March 25th, 2023
+	old: March 25th, 2023
+    current: April 7th, 2023
 
 industry_author_notification:
     current: April 27th, 2023
