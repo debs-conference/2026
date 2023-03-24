@@ -1,11 +1,11 @@
-#- firstname: Ioana
-#  lastname: Manolescu
-#  title: "Teasing journalistic findings out of heterogeneous sources: a data/AI journey"
-#  affiliation: Inria and LIX/Ecole Polytechnique
-#  image: /img/keynotes/ioana.jpg
+- firstname: Boris
+  lastname: Koldehofe
+  title: "TBA"
+  affiliation: Technical University of Ilmenau, Germany
+  image: /img/keynotes/boris.jpg
 #  abstract: "Freedom of the press is under threat worldwide, and the quality of information that people have access to is dangerously degraded, under the joint threat of non-democratic governments and fake information propagation. The press as an industry needs powerful data management tools to help them interpret the complex reality surrounding us. Since 2018, I have been cooperating with journalists from Le Monde, France’s leading newspaper, in devising tools for analyzing large and heterogeneuos data sources that they are interested in. This research has been embodied in ConnectionLens, a graph ETL tool capable of ingesting heterogeneous data sources into a graph, enriched (with the help of ML methods) with entities extracted from data of any type. On such integrated graphs, we devised novel algorithms for keyword search, and combine them in more recent research with structured querying. The talk describes the architecture and main algorithmic challenges in building and exploiting ConnectionLens graphs, illustrated in particular on an application where we study conflicts of interest in the biomedical domain. This is joint work with A. Anadiotis, O. Balalau, H. Galhardas and many others. ConnectionLens Web site (papers+code): https://team.inria.fr/cedar/connectionlens/. This research has been funded by Agence Nationale de la Recherche AI Chair SourcesSay (https://sourcessay.inria.fr)."
-#    
-#  biography: |-
+    
+  biography: Boris Koldehofe is a Full Professor at the Technical University of Ilmenau, leading the Distributed and Operating Systems Group at the department of Computer Science and Automation. He received a Ph.D. degree from Chalmers University of Technology, Gothenburg, Sweden, in 2005. Since then, he has worked in the field of distributed and network-centric computing systems at the EPFL (PostDoc), the University of Stuttgart, the Technical University of Darmstadt (Senior researcher and lecturer), and the University of Groningen (Full professor). He has a long-standing interest in event-based and stream processing systems covering issues related to scalability, performance, mobility, reliability and security. His current research focuses complementary on software-defined networks, adaptive communication middleware and distributed in-network computing. He has contributed to more than 100 scientific publications in major journals, e.g., the IEEE Transactions on Networking (ToN) and the IEEE Transactions on Parallel and Distributed Systems, and conferences, e.g., the ACM/USENIX Middleware and the ACM DEBS conferences. He has also contributed to many academic services at major conferences and journals. In the context of the ACM DEBS conference, he has served in several roles in the organizing and steering committee, e.g., as TPC Co-Chair in 2017, and as the General Chair in 2019. He has also served as a Tutorial Speaker for the ACM/USENIX Middleware, ACM DEBS, GI, and NetSys conferences.
 #    
 #  paper:
 #    title: 

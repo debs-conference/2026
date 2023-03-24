@@ -1,0 +1,130 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>KEYNOTE SPEAKERS</title>
+{% include head-tags.html %}
+</head>
+<body>
+
+{% include header.html %}
+{% include slider-regular-page.html title="KEYNOTE SPEAKERS" %}
+
+  <section id = "keynote-speakers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-12">
+          <div class="block">
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Keynotes</h1>
+								<hr>
+							</div>
+							
+							<div class="col-md-12" style="padding-top: 50px"></div>
+							{% for keynote in site.data.keynotes %}
+							<div id="{{keynote.lastname}}" class="col-md-12" style="margin-top: -100px; padding-top: 100px">
+								<div>
+									<div>
+										<div class="col-md-3 mb-10">
+											<img src={{keynote.image}} width=100% height="auto">
+										</div>
+									</div>
+									<div class="col-md-9">
+										<div class="mb-10">
+											<p style="color: #655E7A; font-size:30px;"><b>{{keynote.firstname}} {{keynote.lastname}}</b></p>
+											<p style="font-size:20px;"><b>{{keynote.affiliation}}</b></p>
+											{% if keynote.title %}
+											<p style="font-size:18px;"><b>Keynote Title: {{keynote.title}}</b></p>
+											{% endif %}
+										</div>
+									</div>
+									<div style="padding-bottom:50px;" class="col-md-12">
+										{% if keynote.abstract %}
+										<p><b>Abstract</b></p>
+										<p align = "justify">{{keynote.abstract}}</p>
+										{% endif %}
+										{% if keynote.biography %}
+										<p><b>Biography</b></p>
+										<p align = "justify">{{keynote.biography}}</p>
+										{% endif %}
+										<hr>
+										</div>
+								</div>
+							</div>
+							{% endfor %}
+						</div>
+
+            {% for tutorial in site.data.di_talks %}
+							<div id="{{keynote.lastname}}" class="col-md-12" style="margin-top: -100px; padding-top: 100px">
+								<div>
+									<div>
+										<div class="col-md-3 mb-10">
+											<img src={{tutorial.image}} width=100% height="auto">
+										</div>
+									</div>
+									<div class="col-md-9">
+										<div class="mb-10">
+											<p style="color: #655E7A; font-size:30px;"><b>{{tutorial.firstname}} {{tutorial.lastname}}</b></p>
+											<p style="font-size:20px;"><b>{{tutorial.affiliation}}</b></p>
+											{% if tutorial.title %}
+											<p style="font-size:18px;"><b>D&I Talk Title: {{tutorial.title}}</b></p>
+											{% endif %}
+										</div>
+									</div>
+									<div style="padding-bottom:50px;" class="col-md-12">
+										{% if tutorial.abstract %}
+										<p><b>Abstract</b></p>
+										<p align = "justify">{{tutorial.abstract}}</p>
+										{% endif %}
+										{% if tutorial.biography %}
+										<p><b>Biography</b></p>
+										<p align = "justify">{{tutorial.biography}}</p>
+										{% endif %}
+										<hr>
+										</div>
+								</div>
+							</div>
+							{% endfor %}
+
+            
+          </div>
+        </div>
+		
+		{% include side.html %}
+				
+      </div>
+    </div>
+  </section>
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+          </ul>
+        </div>
+        <ul class="list-inline mb-20">
+          <li class="list-inline-item">Follow us:</li>
+          
+          <li class="list-inline-item"><a href="https://twitter.com/ACM_DEBS"><i class="fa fa-twitter"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.facebook.com/ACM.DEBS"><i class="fa fa-facebook"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.linkedin.com/groups/4747505/"><i class="fa fa-linkedin"></i></a></li>
+          
+        </ul>
+        {% include copyright.html %}
+      </div>
+    </div>
+  </div>
+</footer>
+{% include js-tags.html %}
+</body>
+</html>
