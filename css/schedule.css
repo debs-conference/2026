@@ -1,0 +1,137 @@
+/* Stylesheet for the program schedule. */
+table.sch {
+    table-layout:auto;
+    caption-side: bottom;
+    border-collapse: collapse;
+    border: 0;
+    text-align: left;
+    width: 100%;
+    vertical-align: top;
+}
+
+th.sch {
+    text-align: inherit;
+    text-align: -webkit-match-parent;
+    border-bottom: solid 2px;
+}
+  
+td.sch, th.sch{
+    padding: 10px;
+    position: relative;
+}
+
+td.sch.quarter {
+    padding: 0px 10px 20px 10px;
+}
+
+tr.half .quarter{
+    padding: 0px 10px 0px 10px;
+}
+
+tr.fourtime .quarter{
+    padding: 0px 10px 80px 10px;
+}
+  
+  /*
+  tr.sch:hover {
+    background-color: #ffa;
+}
+   */
+  
+td.sch.festival{
+    background-color: #FCE5CD;
+}
+td.sch.reg{
+    background-color: #e6ecee;
+}
+td.sch.keynote{
+    background-color: #D9EAD3;
+}
+td.sch.session{
+    background-color: #CFE2F3;
+}
+td.sch.closing{
+    background-color: #f2caaa;
+}
+td.sch.social{
+    background-color: #c0e1ec;
+}
+td.sch.special{
+    background-color: #FFF2CC;
+}
+  
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+  
+td.sch{
+    border-right: solid thin;
+    text-align: center;
+}
+  
+td.sch a{
+    font-weight: bold;
+}
+  
+td.dashed{
+    border-right: dashed thin;
+}
+  
+tr.sch{
+    border-bottom: solid thin;
+}
+  
+td.sch.bord{
+    border-right: 1px solid;
+}
+  
+th.sch.bord{
+    border-right: solid 2px;
+}
+  
+td.bord{
+    border-right: 1px solid;
+}
+  
+th.sch.days{
+    background-color: #F4CCCC;
+    width: 20%;
+}
+  
+td.sch.subday{
+    width: 10%;
+}
+  
+td.sch .anchor{
+    display: block;
+    position: relative;
+    top: -110px;
+    visibility: hidden;
+}
+  
+@media (min-width: 992px) and (max-width: 1199px) {
+    td.sch .anchor{
+        top: -150px;
+    }
+}
+  
+@media (min-width: 768px) and (max-width: 991px) {
+    td.sch .anchor{
+        top: -190px;
+    }
+}
+
+@media (max-width: 767px) {
+    td.sch .anchor{
+        top: -130px;
+    }
+}
+  
+td.sch a{
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.schedule-day{
+    margin-top: 60px;
+}
