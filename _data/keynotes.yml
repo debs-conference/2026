@@ -28,10 +28,10 @@
 #
 - firstname: Tania
   lastname: Lorido-Botran
-  title: "Metastability in the Metaverse (Tentative)"
+  title: "Metastability in the Metaverse"
   affiliation: Roblox, USA
   image: /img/keynotes/tania.jpg
-  #abstract: TBA   
+  abstract: Roblox Metaverse supports an impressive 55M daily users. The underlying infrastructure is geographically distributed, with multiple edge data centers in all continents. The Metaverse stack consists of multiple layers of software systems, with complex dependencies that can be represented as a DAG (Directed Acyclic Graph) or a multi-layered queueing system. In short, the concept of Metastability happens when each moving part of the stack works in harmony. In contrast, a Metastable failure results from a trigger originating in some part of the stack that cascades through multiple dependencies to finally affect a third-party system. Such kind of failure has large-scale consequences and can deem the overall stack unusable. The present talk will deep-dive in the characterization (or absence) of metastability based on a queueing theory model and analyze the dynamics that can lead to different flavors of system-wide failures. Furthermore, the model will be used as the basis to (mathematically) devise measures for the early detection of failures and explore fault-tolerance measures that ensure metastability.   
   biography: Dr. Tania Lorido-Botran is a Research Scientist at Roblox where she leads several efforts at the intersection of ML and Systems. Prior to that, she worked at Microsoft and the Pacific Northwest National Laboratory. She was also a visiting PhD at Rice University. Dr. Lorido Botran received her PhD from the University of Deusto in Spain with a Cum Laude distinction. Her current research interests span across reinforcement learning, data center sustainability and fault-tolerance. She is also active in academia. She actively collaborates with universities and also serves as Program Committee member in several top-tier conferences, such as CCGRID or DISC.
 #    
 #  paper:
