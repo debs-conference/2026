@@ -18,29 +18,30 @@
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div style="margin-bottom: 100px;">
-            {% for category in site.data.papers.categories %}
-            <h1>{{ category.label }}</h1>
-                {% for paper in category.papers %}
-                    <p>
-                        <b>{{ paper.title }}</b>
-                        {% if paper.type == "regular" %}
-                        (REG)
-                        {% elsif paper.type == "vision" %}
-                        (VIS)
-                        {% endif %}
-                        <br />
-                        <i>
-                            {% for author in paper.authors %}
-                                {{- author.name -}} 
-                                {%- assign next = paper.authors[forloop.index] -%}
-                                {% unless author.institution == next.institution %}
-                                ({{ author.institution -}})
-                                {%- endunless -%}
-                                {%- unless forloop.last %},{% endunless %}
-                            {% endfor %}
-                        </i>
-                    </p>
-                {% endfor %}
+            <h1>List of (conditionally) accepted papers</h1>
+            {% assign sortedPapers = site.data.papers | sort: 'title' %}
+            {% for paper in sortedPapers %}
+                <p>
+                    <b>{{ paper.title }}</b>
+                    {% if paper.type == "regular" %}
+                    (regular paper)
+                    {% elsif paper.type == "vision" %}
+                    (vision paper)
+                    {% elsif paper.type == "industry" %}
+                    (industry paper)
+                    {% endif %}
+                    <br />
+                    <i>
+                        {% for author in paper.authors %}
+                            {{- author.name -}} 
+                            {%- assign next = paper.authors[forloop.index] -%}
+                            {% unless author.institution == next.institution %}
+                            ({{ author.institution -}})
+                            {%- endunless -%}
+                            {%- unless forloop.last %},{% endunless %}
+                        {% endfor %}
+                    </i>
+                </p>
             {% endfor %}
           </div>
         </div>
