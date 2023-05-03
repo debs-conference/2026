@@ -74,9 +74,9 @@ categories:
         type: vision
         authors:
           - name: Xianzhi Zeng
-            institution: SUTD
+            institution: Singapore University of Technology and Design
           - name: Shuhao Zhang
-            institution: SUTD
+            institution: Singapore University of Technology and Design
 
   - label: "List of (conditionally) accepted industry papers"
     papers:
@@ -127,19 +127,19 @@ categories:
       - title: "Programming Abstractions for Message Protocols in Event-based Systems"
         authors:
           - name: Matthias Prellwitz
-            institution: Bundesanstalt für Materialforschung und -prüfung (BAM)
+            institution: Bundesanstalt für Materialforschung und -prüfung
           - name: Helge Parzyjegla
             institution: University of Rostock
           - name: Thilo Muth
-            institution: Bundesanstalt für Materialforschung und -prüfung (BAM)
+            institution: Bundesanstalt für Materialforschung und -prüfung
           - name: Gero Mühl
             institution: University of Rostock
       - title: "Discovery of breakout patterns in financial tick data via parallel stream processing with in-order guarantees"
         authors:
           - name: Stefanos Kalogerakis
-            institution: Foundation for Research and Technology - Hellas (FORTH) & Univ. of Crete
+            institution: Foundation for Research and Technology - Hellas & Univ. of Crete
           - name: Kostas Magoutis
-            institution: Foundation for Research and Technology - Hellas (FORTH) & Univ. of Crete
+            institution: Foundation for Research and Technology - Hellas & Univ. of Crete
       - title: "An exploratory analysis of methods for real-time data deduplication in streaming processes"
         authors:
           - name: João Esteves
