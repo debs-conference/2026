@@ -18,39 +18,30 @@
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div style="margin-bottom: 100px;">
-            <h1>List of (conditionally) accepted research papers</h1>
-            
-            {% for paper in site.data.papers.research %}
-                <p>
-                    <b>{{ paper.title }}</b>
-                    {% if paper.type == "regular" %}
-                    (REG)
-                    {% elsif paper.type == "vision" %}
-                    (VIS)
-                    {% endif %}
-                    <br />
-                    <i>
-                        {% for author in paper.authors %}
-                            {{ author.name }} ({{ author.institution }}){% unless forloop.last %},{% endunless %}
-                        {% endfor %}
-                    </i>
-                </p>
+            {% for category in site.data.papers.categories %}
+            <h1>{{ category.label }}</h1>
+                {% for paper in category.papers %}
+                    <p>
+                        <b>{{ paper.title }}</b>
+                        {% if paper.type == "regular" %}
+                        (REG)
+                        {% elsif paper.type == "vision" %}
+                        (VIS)
+                        {% endif %}
+                        <br />
+                        <i>
+                            {% for author in paper.authors %}
+                                {{- author.name -}} 
+                                {%- assign next = paper.authors[forloop.index] -%}
+                                {% unless author.institution == next.institution %}
+                                ({{ author.institution -}})
+                                {%- endunless -%}
+                                {%- unless forloop.last %},{% endunless %}
+                            {% endfor %}
+                        </i>
+                    </p>
+                {% endfor %}
             {% endfor %}
-            
-            <h1>List of (conditionally) accepted industry papers</h1>
-            
-			{% for paper in site.data.papers.industry %}
-                <p>
-                    <b>{{ paper.title }}</b>
-                    <br />
-                    <i>
-                        {% for author in paper.authors %}
-                            {{ author.name }} ({{ author.institution }}){% unless forloop.last %},{% endunless %}
-                        {% endfor %}
-                    </i>
-                </p>
-			{% endfor %}
-
           </div>
         </div>
       </div>

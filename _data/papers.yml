@@ -1,165 +1,168 @@
-research:
-  - title: "On Improving Streaming System Autoscaler Behaviour using Windowing and Weighting Methods"
-    type: regular
-    authors:
-      - name: Stuart Jamieson
-        institution: Newcastle University, UK
-      - name: Matthew Forshaw
-        institution: Newcastle University, UK
-  - title: "I Will Survive: An Event-driven Conformance Checking Approach Over Process Streams"
-    type: regular
-    authors:
-      - name: Kristo Raun
-        institution: University of Tartu
-      - name: Riccardo Tommasini
-        institution: LIRIS Lab INSA de Lyon
-      - name: Ahmed Awad
-        institution: University of Tartu
-  - title: "Practical Forecasting of Cryptocoins Timeseries using Correlation Patterns"
-    type: regular
-    authors:
-      - name: Pasquale De Rosa
-        institution: University of Neuchâtel, Switzerland
-      - name: Pascal Felber
-        institution: University of Neuchâtel, Switzerland
-      - name: Valerio Schiavoni
-        institution: University of Neuchâtel, Switzerland
-  - title: "No One Size (PPM) Fits All: Towards Privacy in Stream Processing Systems"
-    type: vision
-    authors:
-      - name: Mikhail Fomichev
-        institution: TU Darmstadt
-      - name: Manisha Luthra
-        institution: TU Darmstadt
-      - name: Maik Benndorf
-        institution: University of Oslo
-      - name: Pratyush Agnihotri
-        institution: TU Darmstadt
-  - title: "ComDeX: A Context-aware Federated Platform for IoT-enhanced Communities"
-    type: regular
-    authors:
-      - name: Nikolaos Papadakis
-        institution: University of Crete & ICS-FORTH
-      - name: Georgios Bouloukakis
-        institution: Télécom SudParis, France
-      - name: Kostas Magoutis
-        institution: University of Crete & FORTH-ICS
-  - title: "Adaptive Distributed Streaming Similarity Joins"
-    type: regular
-    authors:
-      - name: George Siachamis
-        institution: TU Delft
-      - name: Kyriakos Psarakis
-        institution: TU Delft
-      - name: Marios Fragkoulis
-        institution: Delivery Hero SE
-      - name: Odysseas Papapetrou
-        institution: TU Eindhoven
-      - name: Arie van Deursen
-        institution: TU Delft
-      - name: Asterios Katsifodimos
-        institution: TU Delft
-  - title: "AQuA-CEP: Adaptive Quality-Aware Complex Event Processing in the Internet of Things"
-    type: regular
-    authors:
-      - name: Majid Lotfian Delouee
-        institution: University of Groningen
-      - name: Boris Koldehofe
-        institution: University of Groningen
-      - name: Viktoriya Degeler
-        institution: University of Amsterdam
-  - title: "A Hardware-Conscious Stateful Stream Compression Framework for IoT Applications (Vision)"
-    type: vision
-    authors:
-      - name: Xianzhi Zeng
-        institution: SUTD
-      - name: Shuhao Zhang
-        institution: SUTD
+categories:
+  - label: "List of (conditionally) accepted research papers"
+    papers:
+      - title: "On Improving Streaming System Autoscaler Behaviour using Windowing and Weighting Methods"
+        type: regular
+        authors:
+          - name: Stuart Jamieson
+            institution: Newcastle University, UK
+          - name: Matthew Forshaw
+            institution: Newcastle University, UK
+      - title: "I Will Survive: An Event-driven Conformance Checking Approach Over Process Streams"
+        type: regular
+        authors:
+          - name: Kristo Raun
+            institution: University of Tartu
+          - name: Riccardo Tommasini
+            institution: LIRIS Lab INSA de Lyon
+          - name: Ahmed Awad
+            institution: University of Tartu
+      - title: "Practical Forecasting of Cryptocoins Timeseries using Correlation Patterns"
+        type: regular
+        authors:
+          - name: Pasquale De Rosa
+            institution: University of Neuchâtel, Switzerland
+          - name: Pascal Felber
+            institution: University of Neuchâtel, Switzerland
+          - name: Valerio Schiavoni
+            institution: University of Neuchâtel, Switzerland
+      - title: "No One Size (PPM) Fits All: Towards Privacy in Stream Processing Systems"
+        type: vision
+        authors:
+          - name: Mikhail Fomichev
+            institution: TU Darmstadt
+          - name: Manisha Luthra
+            institution: TU Darmstadt
+          - name: Maik Benndorf
+            institution: University of Oslo
+          - name: Pratyush Agnihotri
+            institution: TU Darmstadt
+      - title: "ComDeX: A Context-aware Federated Platform for IoT-enhanced Communities"
+        type: regular
+        authors:
+          - name: Nikolaos Papadakis
+            institution: University of Crete & ICS-FORTH
+          - name: Georgios Bouloukakis
+            institution: Télécom SudParis, France
+          - name: Kostas Magoutis
+            institution: University of Crete & FORTH-ICS
+      - title: "Adaptive Distributed Streaming Similarity Joins"
+        type: regular
+        authors:
+          - name: George Siachamis
+            institution: TU Delft
+          - name: Kyriakos Psarakis
+            institution: TU Delft
+          - name: Marios Fragkoulis
+            institution: Delivery Hero SE
+          - name: Odysseas Papapetrou
+            institution: TU Eindhoven
+          - name: Arie van Deursen
+            institution: TU Delft
+          - name: Asterios Katsifodimos
+            institution: TU Delft
+      - title: "AQuA-CEP: Adaptive Quality-Aware Complex Event Processing in the Internet of Things"
+        type: regular
+        authors:
+          - name: Majid Lotfian Delouee
+            institution: University of Groningen
+          - name: Boris Koldehofe
+            institution: University of Groningen
+          - name: Viktoriya Degeler
+            institution: University of Amsterdam
+      - title: "A Hardware-Conscious Stateful Stream Compression Framework for IoT Applications (Vision)"
+        type: vision
+        authors:
+          - name: Xianzhi Zeng
+            institution: SUTD
+          - name: Shuhao Zhang
+            institution: SUTD
 
-industry:
-  - title: "FORTE: an extensible framework for robustness and efficiency in data transfer pipelines"
-    authors:
-      - name: Martin Hilgendorf
-        institution: Chalmers University of Technology
-      - name: Vincenzo Gulisano
-        institution: Chalmers University of Technology
-      - name: Marina Papatriantafilou
-        institution: Chalmers University of Technology
-      - name: Jan Engström
-        institution: Volvo Group Trucks Technology
-      - name: Binay Mishra
-        institution: Volvo Group Trucks Technology
-  - title: "Evaluating HPC Job Run Time Predictions Using Application Input Parameters"
-    authors:
-      - name: Kenneth Lamar
-        institution: University of Central Florida
-      - name: Alexander Goponenko
-        institution: University of Central Florida
-      - name: Omar Aaziz
-        institution: Sandia National Laboratories
-      - name: Benjamin A. Allan
-        institution: Sandia National Laboratories
-      - name: Jim M. Brandt
-        institution: Sandia National Laboratories
-      - name: Damian Dechev
-        institution: University of Central Florida
-  - title: "Tree-structured Overlays with Minimal Height: Construction, Maintenance and Operation"
-    authors:
-      - name: Patrick Laskowski
-        institution: Fraunhofer Institute for Material Flow and Logistics, Department for AI and Autonomous Systems
-      - name: Peter Detzner
-        institution: Fraunhofer Institute for Material Flow and Logistics, Department for AI and Autonomous Systems
-      - name: Steffen Bondorf
-        institution: Faculty of Computer Science, Ruhr University Bochum
-  - title: "Considerations for integrating virtual threads in a Java framework: a Quarkus example in a resource-constrained environment"
-    authors:
-      - name: Arthur Navarro
-        institution: Red Hat
-      - name: Julien Ponge
-        institution: Red Hat
-      - name: Frédéric Le Mouël
-        institution: University of Lyon, INSA Lyon
-      - name: Clément Escoffier
-        institution: Red Hat
-  - title: "Programming Abstractions for Message Protocols in Event-based Systems"
-    authors:
-      - name: Matthias Prellwitz
-        institution: Bundesanstalt für Materialforschung und -prüfung (BAM)
-      - name: Helge Parzyjegla
-        institution: University of Rostock
-      - name: Thilo Muth
-        institution: Bundesanstalt für Materialforschung und -prüfung (BAM)
-      - name: Gero Mühl
-        institution: University of Rostock
-  - title: "Discovery of breakout patterns in financial tick data via parallel stream processing with in-order guarantees"
-    authors:
-      - name: Stefanos Kalogerakis
-        institution: Foundation for Research and Technology - Hellas (FORTH) & Univ. of Crete
-      - name: Kostas Magoutis
-        institution: Foundation for Research and Technology - Hellas (FORTH) & Univ. of Crete
-  - title: "An exploratory analysis of methods for real-time data deduplication in streaming processes"
-    authors:
-      - name: João Esteves
-        institution: HelloFresh SE
-      - name: Rosa Costa
-        institution: State University of Rio de Janeiro
-      - name: Yongluan Zhou
-        institution: University of Copenhagen
-      - name: Ana Almeida
-        institution: University of Copenhagen, State University of Rio de Janeiro
-  - title: "Preventing EFail Attacks with Client-Side WebAssembly: The Case of Swiss Post's IncaMail"
-    authors:
-      - name: Pascal Gerig
-        institution: University of Bern, Switzerland
-      - name: Jämes Ménétrey
-        institution: University of Neuchâtel, Switzerland
-      - name: Baptiste Lanoix
-        institution: Swiss Post, Switzerland
-      - name: Florian Stoller
-        institution: Swiss Post, Switzerland
-      - name: Pascal Felber
-        institution: University of Neuchâtel, Switzerland
-      - name: Marcelo Pasin
-        institution: HES-SO University of Applied Sciences
-      - name: Valerio Schiavoni
-        institution: University of Neuchâtel, Switzerland
+  - label: "List of (conditionally) accepted industry papers"
+    papers:
+      - title: "FORTE: an extensible framework for robustness and efficiency in data transfer pipelines"
+        authors:
+          - name: Martin Hilgendorf
+            institution: Chalmers University of Technology
+          - name: Vincenzo Gulisano
+            institution: Chalmers University of Technology
+          - name: Marina Papatriantafilou
+            institution: Chalmers University of Technology
+          - name: Jan Engström
+            institution: Volvo Group Trucks Technology
+          - name: Binay Mishra
+            institution: Volvo Group Trucks Technology
+      - title: "Evaluating HPC Job Run Time Predictions Using Application Input Parameters"
+        authors:
+          - name: Kenneth Lamar
+            institution: University of Central Florida
+          - name: Alexander Goponenko
+            institution: University of Central Florida
+          - name: Omar Aaziz
+            institution: Sandia National Laboratories
+          - name: Benjamin A. Allan
+            institution: Sandia National Laboratories
+          - name: Jim M. Brandt
+            institution: Sandia National Laboratories
+          - name: Damian Dechev
+            institution: University of Central Florida
+      - title: "Tree-structured Overlays with Minimal Height: Construction, Maintenance and Operation"
+        authors:
+          - name: Patrick Laskowski
+            institution: Fraunhofer Institute for Material Flow and Logistics, Department for AI and Autonomous Systems
+          - name: Peter Detzner
+            institution: Fraunhofer Institute for Material Flow and Logistics, Department for AI and Autonomous Systems
+          - name: Steffen Bondorf
+            institution: Faculty of Computer Science, Ruhr University Bochum
+      - title: "Considerations for integrating virtual threads in a Java framework: a Quarkus example in a resource-constrained environment"
+        authors:
+          - name: Arthur Navarro
+            institution: Red Hat
+          - name: Julien Ponge
+            institution: Red Hat
+          - name: Frédéric Le Mouël
+            institution: University of Lyon, INSA Lyon
+          - name: Clément Escoffier
+            institution: Red Hat
+      - title: "Programming Abstractions for Message Protocols in Event-based Systems"
+        authors:
+          - name: Matthias Prellwitz
+            institution: Bundesanstalt für Materialforschung und -prüfung (BAM)
+          - name: Helge Parzyjegla
+            institution: University of Rostock
+          - name: Thilo Muth
+            institution: Bundesanstalt für Materialforschung und -prüfung (BAM)
+          - name: Gero Mühl
+            institution: University of Rostock
+      - title: "Discovery of breakout patterns in financial tick data via parallel stream processing with in-order guarantees"
+        authors:
+          - name: Stefanos Kalogerakis
+            institution: Foundation for Research and Technology - Hellas (FORTH) & Univ. of Crete
+          - name: Kostas Magoutis
+            institution: Foundation for Research and Technology - Hellas (FORTH) & Univ. of Crete
+      - title: "An exploratory analysis of methods for real-time data deduplication in streaming processes"
+        authors:
+          - name: João Esteves
+            institution: HelloFresh SE
+          - name: Rosa Costa
+            institution: State University of Rio de Janeiro
+          - name: Yongluan Zhou
+            institution: University of Copenhagen
+          - name: Ana Almeida
+            institution: University of Copenhagen, State University of Rio de Janeiro
+      - title: "Preventing EFail Attacks with Client-Side WebAssembly: The Case of Swiss Post's IncaMail"
+        authors:
+          - name: Pascal Gerig
+            institution: University of Bern, Switzerland
+          - name: Jämes Ménétrey
+            institution: University of Neuchâtel, Switzerland
+          - name: Baptiste Lanoix
+            institution: Swiss Post, Switzerland
+          - name: Florian Stoller
+            institution: Swiss Post, Switzerland
+          - name: Pascal Felber
+            institution: University of Neuchâtel, Switzerland
+          - name: Marcelo Pasin
+            institution: HES-SO University of Applied Sciences
+          - name: Valerio Schiavoni
+            institution: University of Neuchâtel, Switzerland
