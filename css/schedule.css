@@ -135,3 +135,7 @@ td.sch a{
 .schedule-day{
     margin-top: 60px;
 }
+
+.scroll-container{
+    overflow: auto;
+}
