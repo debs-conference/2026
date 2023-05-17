@@ -77,13 +77,13 @@ camera_ready:
 #    current: May 9th, 2023
 #
 doctoral_symposium_submission:
-#    old: May 13rd, 2023
+    old: May 10th, 2023
     current: May 20th, 2023
-#
+
 doctoral_symposium_author_notification:
-#    old: May 20th, 2023
+    old: May 20th, 2023
     current: May 27th, 2023
-#
+
 poster_demo_submission:
     old: May 12th, 2023
     current: May 18th, 2023
