@@ -17,15 +17,16 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #logo {
-        padding-top: 12px;
-        margin-left:35px; /* This value depends on the content width of the menu */
+    .navbar-nav {
+        margin-top: -10px;
+        width: 480px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    #logo {
-        margin-left:70px; /* This value depends on the content width of the menu */
+    .navbar-nav {
+        margin-top: -10px;
+        width: 700px;
     }
 }
 
