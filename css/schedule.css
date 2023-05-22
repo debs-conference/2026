@@ -96,9 +96,17 @@ td.bord{
     border-right: 1px solid;
 }
   
+th.sch.day-header{
+    background-color: #F4CCCC;
+}
+  
 th.sch.days{
     background-color: #F4CCCC;
     width: 20%;
+}
+
+td.sch.detailed-time{
+    width: 100px;
 }
   
 td.sch.subday{
