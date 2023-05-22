@@ -1,0 +1,20 @@
+<ul class="sch">
+    {% assign sessionPapers = site.data.papers | where: "session",include.session | sort: "session_order" %}
+    {% for paper in sessionPapers %}
+        <li>{{ paper.title }}<br />
+            <em><small>
+                {% for author in paper.authors %}
+                    {{- author.name -}} 
+                    {%- assign next = paper.authors[forloop.index] -%}
+                    {% unless author.institution == next.institution %}
+                    ({{ author.institution -}})
+                    {%- endunless -%}
+                    {%- unless forloop.last %},{% endunless %}
+                {% endfor %}
+            </small></em>
+        </li>
+        {%- unless forloop.last %}
+            <span class="paper-space"></span>
+        {% endunless %}
+    {% endfor %}
+</ul>

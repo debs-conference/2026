@@ -142,3 +142,12 @@ td.sch a{
 .scroll-container{
     overflow: auto;
 }
+
+.paper-space{
+    border-top: 1px dashed black;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 40px;
+}

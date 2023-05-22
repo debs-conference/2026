@@ -1,5 +1,7 @@
 - title: "On Improving Streaming System Autoscaler Behaviour using Windowing and Weighting Methods"
   type: regular
+  session: 5
+  session_order: 2
   authors:
     - name: Stuart Jamieson
       institution: Newcastle University, UK
@@ -7,6 +9,8 @@
       institution: Newcastle University, UK
 - title: "I Will Survive: An Event-driven Conformance Checking Approach Over Process Streams"
   type: regular
+  session: 2
+  session_order: 1
   authors:
     - name: Kristo Raun
       institution: University of Tartu
@@ -16,6 +20,8 @@
       institution: University of Tartu
 - title: "Practical Forecasting of Cryptocoins Timeseries using Correlation Patterns"
   type: regular
+  session: 3
+  session_order: 2
   authors:
     - name: Pasquale De Rosa
       institution: University of Neuchâtel, Switzerland
@@ -25,6 +31,8 @@
       institution: University of Neuchâtel, Switzerland
 - title: "No One Size (PPM) Fits All: Towards Privacy in Stream Processing Systems"
   type: vision
+  session: 2
+  session_order: 2
   authors:
     - name: Mikhail Fomichev
       institution: TU Darmstadt
@@ -36,6 +44,8 @@
       institution: TU Darmstadt
 - title: "ComDeX: A Context-aware Federated Platform for IoT-enhanced Communities"
   type: regular
+  session: 4
+  session_order: 3
   authors:
     - name: Nikolaos Papadakis
       institution: University of Crete & ICS-FORTH
@@ -45,6 +55,8 @@
       institution: University of Crete & FORTH-ICS
 - title: "Adaptive Distributed Streaming Similarity Joins"
   type: regular
+  session: 1
+  session_order: 2
   authors:
     - name: George Siachamis
       institution: TU Delft
@@ -60,6 +72,8 @@
       institution: TU Delft
 - title: "AQuA-CEP: Adaptive Quality-Aware Complex Event Processing in the Internet of Things"
   type: regular
+  session: 4
+  session_order: 2
   authors:
     - name: Majid Lotfian Delouee
       institution: University of Groningen
@@ -69,6 +83,8 @@
       institution: University of Amsterdam
 - title: "A Hardware-Conscious Stateful Stream Compression Framework for IoT Applications (Vision)"
   type: vision
+  session: 4
+  session_order: 1
   authors:
     - name: Xianzhi Zeng
       institution: Singapore University of Technology and Design
@@ -76,6 +92,8 @@
       institution: Singapore University of Technology and Design
 - title: "FORTE: an extensible framework for robustness and efficiency in data transfer pipelines"
   type: industry
+  session: 1
+  session_order: 3
   authors:
     - name: Martin Hilgendorf
       institution: Chalmers University of Technology
@@ -89,6 +107,8 @@
       institution: Volvo Group Trucks Technology
 - title: "Evaluating HPC Job Run Time Predictions Using Application Input Parameters"
   type: industry
+  session: 6
+  session_order: 1
   authors:
     - name: Kenneth Lamar
       institution: University of Central Florida
@@ -104,6 +124,8 @@
       institution: University of Central Florida
 - title: "Tree-structured Overlays with Minimal Height: Construction, Maintenance and Operation"
   type: industry
+  session: 6
+  session_order: 2
   authors:
     - name: Patrick Laskowski
       institution: Fraunhofer Institute for Material Flow and Logistics, Department for AI and Autonomous Systems
@@ -113,6 +135,8 @@
       institution: Faculty of Computer Science, Ruhr University Bochum
 - title: "Considerations for integrating virtual threads in a Java framework: a Quarkus example in a resource-constrained environment"
   type: industry
+  session: 5
+  session_order: 3
   authors:
     - name: Arthur Navarro
       institution: Red Hat
@@ -124,6 +148,8 @@
       institution: Red Hat
 - title: "Programming Abstractions for Message Protocols in Event-based Systems"
   type: industry
+  session: 1
+  session_order: 1
   authors:
     - name: Matthias Prellwitz
       institution: Bundesanstalt für Materialforschung und -prüfung
@@ -135,6 +161,8 @@
       institution: University of Rostock
 - title: "Discovery of breakout patterns in financial tick data via parallel stream processing with in-order guarantees"
   type: industry
+  session: 3
+  session_order: 1
   authors:
     - name: Stefanos Kalogerakis
       institution: Foundation for Research and Technology - Hellas & Univ. of Crete
@@ -142,6 +170,8 @@
       institution: Foundation for Research and Technology - Hellas & Univ. of Crete
 - title: "An exploratory analysis of methods for real-time data deduplication in streaming processes"
   type: industry
+  session: 5
+  session_order: 1
   authors:
     - name: João Esteves
       institution: HelloFresh SE
@@ -153,6 +183,8 @@
       institution: University of Copenhagen, State University of Rio de Janeiro
 - title: "Preventing EFail Attacks with Client-Side WebAssembly: The Case of Swiss Post's IncaMail"
   type: industry
+  session: 2
+  session_order: 3
   authors:
     - name: Pascal Gerig
       institution: University of Bern, Switzerland
