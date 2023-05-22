@@ -50,6 +50,9 @@ td.sch.keynote{
 td.sch.session{
     background-color: #CFE2F3;
 }
+td.sch.peoplepanel{
+    background-color: #F9CB9C;
+}
 td.sch.closing{
     background-color: #f2caaa;
 }
