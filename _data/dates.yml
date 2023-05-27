@@ -86,9 +86,12 @@ doctoral_symposium_author_notification:
 
 poster_demo_submission:
     old: May 12th, 2023
-    current: May 18th, 2023
+    current: May 19th, 2023
 #
 poster_demo_author_notification:
     current: May 26th, 2023
 #    current: June 3rd, 2023
 #
+
+poster_demo_camera_ready:
+    current: May 31st, 2023

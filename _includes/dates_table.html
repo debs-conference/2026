@@ -141,8 +141,12 @@
 		</tr>
 
 		<tr>
-			<td>Camera Ready for All Tracks</td>
+			<td>Camera Ready for All Tracks (except Poster & Demo)</td>
 			<td>{% if site.data.dates.camera_ready.old!="" %}<del>{{site.data.dates.camera_ready.old}}</del> {% endif %}{% if site.data.dates.camera_ready.current %}{{site.data.dates.camera_ready.current}}{% else %}tba{% endif %}</td>
+		</tr>
+		<tr>
+			<td>Camera Ready for Poster & Demo</td>
+			<td>{% if site.data.dates.poster_demo_camera_ready.old!="" %}<del>{{site.data.dates.poster_demo_camera_ready.old}}</del> {% endif %}{% if site.data.dates.poster_demo_camera_ready.current %}{{site.data.dates.poster_demo_camera_ready.current}}{% else %}tba{% endif %}</td>
 		</tr>
 		<tr>
 			<td>Conference</td>
