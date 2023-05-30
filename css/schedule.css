@@ -76,10 +76,6 @@ td.sch a{
     font-weight: bold;
 }
   
-td.dashed{
-    border-right: dashed thin;
-}
-  
 tr.sch{
     border-bottom: solid thin;
 }
@@ -107,10 +103,6 @@ th.sch.days{
 
 td.sch.detailed-time{
     width: 100px;
-}
-  
-td.sch.subday{
-    width: 10%;
 }
   
 td.sch .anchor{
