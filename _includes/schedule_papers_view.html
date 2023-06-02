@@ -1,7 +1,16 @@
 <ul class="sch">
     {% assign sessionPapers = site.data.papers | where: "session",include.session | sort: "session_order" %}
     {% for paper in sessionPapers %}
-        <li>{{ paper.title }}<br />
+        <li>
+            {{ paper.title }}
+            {% if paper.type == "regular" %}
+                (research paper)
+                {% elsif paper.type == "vision" %}
+                (vision paper)
+                {% elsif paper.type == "industry" %}
+                (industry paper)
+            {% endif %}
+            <br />
             <em><small>
                 {% for author in paper.authors %}
                     {{- author.name -}} 
