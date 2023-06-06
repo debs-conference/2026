@@ -31,6 +31,10 @@ tr.half .quarter{
 tr.fourtime .quarter{
     padding: 0px 10px 80px 10px;
 }
+
+tr.twotime .quarter{
+    padding: 0px 10px 40px 10px;
+}
   
   /*
   tr.sch:hover {
