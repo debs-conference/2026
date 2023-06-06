@@ -10,7 +10,7 @@ function setUpGoogleTagManager() {
 
 function animateLinksWithHash() {
 $("a").on('click', function(event) {
-    if (this.hash !== "") {   
+    if (this.hash !== "" && this.pathname == window.location.pathname) {   
         event.preventDefault();
         var hash = this.hash;
         $('html, body').animate({
