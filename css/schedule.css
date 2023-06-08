@@ -73,6 +73,7 @@ tr:nth-child(even){
   
 td.sch{
     border-right: solid thin;
+    background-clip: padding-box; /* Fix the invisible borders in Firefox. */
     text-align: center;
 }
   
