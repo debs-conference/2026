@@ -63,7 +63,7 @@
     margin-top: 50px;
 }
 
-#clients-logo-section div:has(> a) {
+#clients-logo-section .row div {
     margin-bottom: 50px;
     text-align: center;
 }
