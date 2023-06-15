@@ -9,6 +9,10 @@ table.sch {
     vertical-align: top;
 }
 
+ul.sch li {
+    text-align: center;
+}
+
 th.sch {
     text-align: inherit;
     text-align: -webkit-match-parent;
