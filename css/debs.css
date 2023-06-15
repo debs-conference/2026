@@ -1,7 +1,7 @@
 /* Custom Stylesheet for DEBS. */
 
 /* General style classes */
-.justify {
+p, li {
     text-align: justify;
 }
 
