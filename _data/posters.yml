@@ -1,0 +1,106 @@
+- title: "Towards Pattern-Level Privacy Protection in Distributed Complex Event Processing"
+  authors:
+    - name: Majid Lotfian Delouee
+      institution: University of Groningen
+    - name: Boris Koldehofe
+      institution: Technische Universität Ilmenau
+    - name: Viktoriya Degeler
+      institution: University of Amsterdam
+- title: "Handling Inconsistent Data in Industry 4.0"
+  authors:
+    - name: Simon Paasche
+      institution: Automotive Electronics, Robert Bosch Elektronik GmbH
+    - name: Sven Groppe
+      institution: Institute of Information Systems, University of Lübeck
+- title: "StreamToxWatch – Data Poisoning Detector in Distributed, Event-based Environments"
+  authors:
+    - name: Edmon Begoli
+      institution: Oak Ridge National Laboratory
+- title: "Cognitive Cyber – Dynamic, Adaptive Cyber Defense Systems for Massively Distributed, Autonomous, and Ad-hoc Computing Environments"
+  authors:
+    - name: Edmon Begoli
+      institution: Oak Ridge National Laboratory
+    - name: Ed Meyer
+      institution: Oak Ridge National Laboratory
+    - name: Pablo Moriano
+      institution: Oak Ridge National Laboratory
+    - name: Sean Oesch
+      institution: Oak Ridge National Laboratory
+- title: "I Will Survive: An Event-driven Conformance Checking Approach Over Process Streams"
+  authors:
+    - name: Kristo Raun
+      institution: University of Tartu
+    - name: Riccardo Tommasini
+      institution: LIRIS Lab INSA de Lyon
+    - name: Ahmed Awad
+      institution: University of Tartu
+- title: "SLASH: Serverless Apache Spark Hub"
+  authors:
+    - name: Josef Spillner
+      institution: Zurich University of Applied Sciences
+- title: "No One Size (PPM) Fits All: Towards Privacy in Stream Processing Systems"
+  authors:
+    - name: Mikhail Fomichev
+      institution: TU Darmstadt
+    - name: Manisha Luthra
+      institution: TU Darmstadt
+    - name: Maik Benndorf
+      institution: University of Oslo
+    - name: Pratyush Agnihotri
+      institution: TU Darmstadt
+- title: "Practical Forecasting of Cryptocoins Timeseries using Correlation Patterns"
+  authors:
+    - name: Pasquale De Rosa
+      institution: University of Neuchâtel, Switzerland
+    - name: Pascal Felber
+      institution: University of Neuchâtel, Switzerland
+    - name: Valerio Schiavoni
+      institution: University of Neuchâtel, Switzerland
+- title: "ComDeX Unveiled Demonstrating the Future of IoT-Enhanced Communities"
+  authors:
+    - name: Nikolaos Papadakis
+      institution: FORTH-ICS & Télécom SudParis / IP Paris
+    - name: Georgios Bouloukakis
+      institution: Télécom SudParis / IP Paris
+    - name: Kostas Magoutis
+      institution: University of Crete & FORTH-ICS
+- title: "Thetacrypt: a distributed service for threshold cryptography on chain"
+  authors:
+    - name: Mariarosaria Barbaraci
+      institution: University of Bern
+- title: "A Transaction-Level Model for Blockchain Privacy"
+  authors:
+    - name: François-Xavier Wicht
+      institution: University of Bern
+- title: "Towards Scalable Neuroevolution for Heterogenous Tasks: An X-NEAT Approach with a Universal Knowledge Representation"
+  authors:
+    - name: Romain Clairet
+      institution: University of Neuchâtel
+- title: "Preventing EFail Attacks with Client-Side WebAssembly: The Case of Swiss Post's IncaMail"
+  authors:
+    - name: Pascal Gerig
+      institution: University of Bern, Switzerland
+    - name: Jämes Ménétrey
+      institution: University of Neuchâtel, Switzerland
+    - name: Baptiste Lanoix
+      institution: Swiss Post, Switzerland
+    - name: Florian Stoller
+      institution: Swiss Post, Switzerland
+    - name: Pascal Felber
+      institution: University of Neuchâtel, Switzerland
+    - name: Marcelo Pasin
+      institution: HES-SO University of Applied Sciences
+    - name: Valerio Schiavoni
+      institution: University of Neuchâtel, Switzerland
+- title: "Towards Guaranteed Privacy in Stream Processing: Differential Privacy for Private Pattern Protection"
+  authors:
+    - name: He Gu
+      institution: University of Oslo
+- title: "Agent-based Orchestration on a Swarm of Edge Devices"
+  authors:
+    - name: Banani Anuraj
+      institution: HES-SO, Sierre, Switzerland
+- title: "Decentralized Stream Reasoning Agents"
+  authors:
+    - name: Gözde Ayşe Tataroğlu Özbulak
+      institution: 
