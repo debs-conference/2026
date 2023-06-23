@@ -19,66 +19,89 @@
       <div class="col-md-9 col-sm-12">
         <div class="block">
           <div style="margin-bottom: 100px;">
+            {% if site.data.chairs.general_chairs %}
             <h1>General Chair</h1>
             {% for chair in site.data.chairs.general_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
+            {% if site.data.chairs.pc_chairs %}
             <h1>PC Co-Chairs</h1>
             {% for chair in site.data.chairs.pc_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
                 
+            {% if site.data.chairs.industry_chairs %}
             <h1>Industry and Application Co-Chairs</h1>
             {% for chair in site.data.chairs.industry_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
                 
+            {% if site.data.chairs.finance_chairs %}
             <h1>Finance Chairs</h1>
             {% for chair in site.data.chairs.finance_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
-            <!--
+            {% if site.data.chairs.grand_challenge_chairs %}
             <h1>Grand Challenge Co-Chairs</h1>
             {% for chair in site.data.chairs.grand_challenge_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
-            -->
+            {% endif %}
+
+            {% if site.data.chairs.tutorials_workshop_chairs %}
             <h1>Tutorials/Workshop Co-Chairs</h1>
             {% for chair in site.data.chairs.tutorials_workshop_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
+            {% if site.data.chairs.doctoral_symposium_chairs %}
             <h1>Doctoral Symposium Co-Chairs</h1>
             {% for chair in site.data.chairs.doctoral_symposium_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
-            <h1>Poster and Demo Co-Chairs</h1>
+            {% if site.data.chairs.poster_demo_chairs %}
+            <h1>Poster and Demo Chair</h1>
             {% for chair in site.data.chairs.poster_demo_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
+            {% if site.data.chairs.diversity_chairs %}
 						<h1>Diversity and Inclusion Co-Chairs</h1>
             {% for chair in site.data.chairs.diversity_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
+            {% if site.data.chairs.publicity_chairs %}
             <h1>Publicity Co-Chairs</h1>
             {% for chair in site.data.chairs.publicity_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
+            {% if site.data.chairs.proceeding_chairs %}
             <h1>Proceeding Chair</h1>
             {% for chair in site.data.chairs.proceeding_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
+            {% if site.data.chairs.web_chairs %}
 						<h1>Web Chair</h1>
             {% for chair in site.data.chairs.web_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
+            {% endif %}
 
           </div>
         </div>
