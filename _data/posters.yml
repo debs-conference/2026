@@ -104,3 +104,17 @@
   authors:
     - name: Gözde Ayşe Tataroğlu Özbulak
       institution: University of Applied Sciences and Arts Western Switzerland HES-SO
+- title: "Adaptive Distributed Streaming Similarity Joins"
+  authors:
+    - name: George Siachamis
+      institution: TU Delft
+    - name: Kyriakos Psarakis
+      institution: TU Delft
+    - name: Marios Fragkoulis
+      institution: Delivery Hero SE
+    - name: Odysseas Papapetrou
+      institution: TU Eindhoven
+    - name: Arie van Deursen
+      institution: TU Delft
+    - name: Asterios Katsifodimos
+      institution: TU Delft
