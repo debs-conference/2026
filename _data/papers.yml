@@ -1,7 +1,7 @@
 - title: "On Improving Streaming System Autoscaler Behaviour using Windowing and Weighting Methods"
   type: regular
-  session: 5
-  session_order: 2
+  session: 3
+  session_order: 3
   authors:
     - name: Stuart Jamieson
       institution: Newcastle University, UK
