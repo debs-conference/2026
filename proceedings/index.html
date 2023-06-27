@@ -1,0 +1,1253 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Proceedings</title>
+    {% include head-tags.html %}
+    <link rel="stylesheet" href="/css/proceedings.css" />
+</head>
+
+<body>
+
+    {% include header.html %}
+    {% include slider-regular-page.html title="PROCEEDINGS" %}
+
+    <section id="program-committee">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-12">
+                    <div class="block">
+                        <div style="margin-bottom: 100px;">
+                            <h1>Proceedings of the 17th ACM International Conference on Distributed and
+                                Event-based Systems</h1>
+                            <p>
+                                <a class="DLcitLink"
+                                    title="Go to the ACM Digital Library for additional information about this proceeding"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    href="https://dl.acm.org/doi/proceedings/10.1145/3583678"><img class="DLlogo"
+                                        alt="Digital Library logo" height="30"
+                                        src="/img/acm_logo_proceedings.png" />
+                                    <br />
+                                    Index of the proceedings in the ACM Digital Library
+                                </a>
+                            </p>
+
+
+                            <div id="DLcontent">
+                                <h3>SESSION: Keynotes</h3>
+                                <p><b>A
+                                        selective and biased choice of techniques for building a distributed data
+                                        store</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603441">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Paweł Tomasz Wojciechowski</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Single-machine data stores cannot support the scale and ubiquity of data
+                                            today. The Internet
+                                            applications and services must process a huge number of concurrent requests
+                                            and events per
+                                            second. So, they use distributed (or replicated) data stores which store and
+                                            process data on
+                                            multiple machines, offering key advantages in performance, scalability, and
+                                            reliability.</p>
+                                        <p>The purpose of the talk is to present a selective and biased choice of
+                                            techniques and results
+                                            which can be used for building an efficient distributed data store. Biased,
+                                            because I only
+                                            present solutions and results developed within a research project that I did
+                                            with my PhD
+                                            students. Selective, because an exhaustive description would be too
+                                            exhausting to fit into a
+                                            single talk. Therefore I will be discussing in detail just the design of our
+                                            novel database
+                                            index for key-value data store systems, and only skim our other
+                                            contributions that are directly
+                                            related to distributed systems.</p>
+                                        <p>The index, called Jiffy, has been designed with performance and scalability
+                                            in mind. Therefore it
+                                            has been designed as a lock-free concurrent data structure, which can
+                                            dynamically adapt to the
+                                            changing workload. It achieves superior performance despite built-in atomic
+                                            operations (batch
+                                            updates, snapshots, and range scans). During the talk I will be presenting
+                                            Jiffy's architecture,
+                                            the algorithms for inserting and looking up the key-value pairs, and the
+                                            operations used for
+                                            resizing the data structure dynamically.</p>
+                                        <p>The other contributions of our project include: efficient support for replica
+                                            state recovery
+                                            after failures, either by extending the classic Paxos consensus algorithm,
+                                            or through the use of
+                                            persistent memory, and some surprising theoretical results which are
+                                            applicable to distributed
+                                            data store systems that compromise consistency in favour of high
+                                            availability and speed, but
+                                            also support operations ensuring strong consistency (which requires
+                                            consensus among replicas).
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Accelerating the
+                                        performance of distributed
+                                        stream processing systems with in-network computing</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603443">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Boris Koldehofe</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>The performance of stream processing systems heavily relies on the ability to
+                                            move data between
+                                            stream processing operators efficiently. The softwarization of computer
+                                            networks offers a huge
+                                            potential for distributed systems to accelerate the performance of
+                                            distributed stream processing
+                                            operators by minimizing data movements and accelerating the execution of
+                                            operators. Yet, using
+                                            methods of in-network computing to accelerate middleware services like
+                                            stream processing systems
+                                            often conflict with the famous end-to-end principle. Therefore, in this
+                                            talk, we will focus on
+                                            abstractions that allow executing computations on heterogeneous resources of
+                                            network elements
+                                            and discuss how these abstractions can support stream processing systems. In
+                                            particular, we
+                                            highlight and introduce recent findings in distributed data stream
+                                            processing, network function
+                                            virtualization, and realtime packet streaming. We show how different
+                                            paradigms and programming
+                                            models support accelerating performance by better utilizing the capabilities
+                                            of in-network
+                                            computing elements. Moreover, we give an outlook on how future developments
+                                            can change how
+                                            distributed computing can be adaptively performed over networked
+                                            infrastructures.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Internet Computer
+                                        Protocol: democratic
+                                        evolution of a web3 platform</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603439">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Yvonne-Anne Pignolet</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Recent technological advances have enabled the efficient execution of
+                                            decentralized web3
+                                            applications and smart contracts. The Internet Computer Protocol (ICP) is a
+                                            fast and efficient
+                                            decentralized blockchain-based system for the execution of general-purpose
+                                            applications in the
+                                            form of smart contracts. In particular, the ICPs execution, governance and
+                                            evolution are
+                                            controlled by different parties in a trustless and fault-tolerant manner
+                                            instead of a central
+                                            entity. In this talk, I will give an overview of the ICP, followed by a
+                                            discussion of the
+                                            challenges the IC faces to facilitate upgrading itself through voting by ICP
+                                            token holders and
+                                            present our approach to tackle them.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Metastability in the
+                                        Metaverse</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603440">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Tania Lorido Botran</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Roblox Metaverse supports an impressive 55M daily users. The underlying
+                                            infrastructure is
+                                            geographically distributed, with multiple edge data centers in all
+                                            continents. The Meta-verse
+                                            stack consists of multiple layers of software systems, with complex
+                                            dependencies that can be
+                                            represented as a DAG (Directed Acyclic Graph) or a multi-layered queueing
+                                            system. In short, the
+                                            concept of Metastability happens when each moving part of the stack works in
+                                            harmony. In
+                                            contrast, a Metastable failure results from a trigger originating in some
+                                            part of the stack that
+                                            cascades through multiple dependencies to finally affect a third-party
+                                            system. Such kind of
+                                            failure has large-scale consequences and can deem the overall stack
+                                            unusable. The present talk
+                                            will deep-dive in the characterization (or absence) of metastability based
+                                            on a queueing theory
+                                            model and analyze the dynamics that can lead to different flavors of
+                                            system-wide failures.
+                                            Furthermore, the model will be used as the basis to (mathematically) devise
+                                            measures for the
+                                            early detection of failures and explore fault-tolerance measures that ensure
+                                            metastability.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Secure distributed data
+                                        and event processing
+                                        at scale: where are we now?</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603442">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Patrick Eugster</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>The continuously increasing availability of cloud and edge data center
+                                            resources is driving our
+                                            evolution to a data-driven society. Meanwhile, however, the innate sharing
+                                            of third-party data
+                                            center resources by users continues to fuel strong security concerns around
+                                            data and
+                                            computations handled in and across such infrastructures. While many basic
+                                            solutions to enforce
+                                            security have been proposed over the years, both in terms of software
+                                            mechanisms (cryptographic
+                                            primitives) and hardware mechanisms (trusted execution environments), they
+                                            all come with their
+                                            respective pros and cons. In this talk I will report and reflect on almost a
+                                            decade of
+                                            experience of working on the problem of confidentiality-preserving data and
+                                            event processing. I
+                                            will cover challenges in terms of guarantees, performance, transparency, or
+                                            portability and
+                                            interoperability, discuss tradeoffs therein, solutions, and, finally, open
+                                            challenges.</p>
+                                    </div>
+                                </div>
+
+                                <h3>SESSION: Research Track, Fall Deadline</h3>
+                                <p><b>A
+                                        Hardware-Conscious Stateful Stream Compression Framework for IoT Applications
+                                        (Vision)</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596885">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Xianzhi Zeng</li>
+                                    <li class="nameList Last">Shuhao Zhang</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Data stream compression has attracted vast interest in emerging IoT (Internet
+                                            of Things)
+                                            applications. However, adopting stream compression on IoT applications is
+                                            non-trivial due to the
+                                            divergent demands, i.e., low energy consumption, high throughput, low
+                                            latency, high
+                                            compressibility, and tolerable information loss, which sometimes conflict
+                                            with each other. This
+                                            is particularly challenging when adopting stateful stream compression
+                                            algorithms, which rely on
+                                            <em>states</em>, e.g., a dictionary or model. This paper presents our vision
+                                            of CStream, a
+                                            hardware-conscious stateful stream compression framework for IoT
+                                            applications. Through careful
+                                            hardware-conscious optimizations, CStream will minimize energy consumption
+                                            while striving to
+                                            satisfy the divergent performance demands for parallelizing complex stateful
+                                            stream compression
+                                            algorithms for IoT applications.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>AQuA-CEP: Adaptive
+                                        Quality-Aware Complex Event
+                                        Processing in the Internet of Things</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596884">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Majid Lotfian Delouee</li>
+                                    <li class="nameList">Boris Koldehofe</li>
+                                    <li class="nameList Last">Viktoriya Degeler</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Sensory data profoundly influences the quality of detected events in a
+                                            distributed complex event
+                                            processing system (DCEP). Since each sensor's status is unstable at runtime,
+                                            a single sensing
+                                            assignment is often insufficient to fulfill the consumer's quality
+                                            requirements. In this paper,
+                                            we study in the context of AQuA-CEP the problem of dynamic quality
+                                            monitoring and adaptation of
+                                            complex event processing by active integration of suitable data sources. To
+                                            support this, in
+                                            AQuA-CEP, queries to detect complex events are supplemented with
+                                            consumer-definable quality
+                                            policies that are evaluated and used to autonomously select (or even
+                                            configure) suitable data
+                                            sources of the sensing infrastructure. In addition, we studied different
+                                            forms of expressing
+                                            quality policies and analyzed how it affects the quality monitoring process.
+                                            Various modes of
+                                            evaluating and applying quality-related adaptations and their impacts on
+                                            correlation efficiency
+                                            are addressed, too. We assessed the performance of AQuA-CEP in IoT scenarios
+                                            by utilizing the
+                                            notion of the quality policy alongside the query processing adaptation using
+                                            knowledge derived
+                                            from quality monitoring. The results show that AQuA-CEP can improve the
+                                            performance of DCEP
+                                            systems in terms of the quality of results while fulfilling the consumer's
+                                            quality requirements.
+                                            Quality-based adaptation can also increase the network's lifetime by
+                                            optimizing the sensor's
+                                            energy consumption due to efficient data source selection.</p>
+                                    </div>
+                                </div>
+
+                                <h3>SESSION: Research Track, Spring Deadline</h3>
+                                <p><b>Adaptive Distributed
+                                        Streaming Similarity
+                                        Joins</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596891">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">George Siachamis</li>
+                                    <li class="nameList">Kyriakos Psarakis</li>
+                                    <li class="nameList">Marios Fragkoulis</li>
+                                    <li class="nameList">Odysseas Papapetrou</li>
+                                    <li class="nameList">Arie van Deursen</li>
+                                    <li class="nameList Last">Asterios Katsifodimos</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>How can we perform similarity joins of multi-dimensional streams in a
+                                            distributed fashion,
+                                            achieving low latency? Can we adaptively repartition those streams in order
+                                            to retain high
+                                            performance under concept drifts? Current approaches to similarity joins are
+                                            either restricted
+                                            to single-node deployments or focus on set-similarity joins, failing to
+                                            cover the ubiquitous
+                                            case of metric-space similarity joins. In this paper, we propose the first
+                                            adaptive distributed
+                                            streaming similarity join approach that gracefully scales with variable
+                                            velocity and
+                                            distribution of multi-dimensional data streams. Our approach can adaptively
+                                            rebalance the load
+                                            of nodes in the case of concept drifts, allowing for similarity computations
+                                            in the general
+                                            metric space. We implement our approach on top of Apache Flink and evaluate
+                                            its data
+                                            partitioning and load balancing schemes on a set of synthetic datasets in
+                                            terms of latency,
+                                            comparisons ratio, and data duplication ratio.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>ComDeX: A Context-aware
+                                        Federated Platform for
+                                        IoT-enhanced Communities</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596890">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Nikolaos Papadakis</li>
+                                    <li class="nameList">Georgios Bouloukakis</li>
+                                    <li class="nameList Last">Kostas Magoutis</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>This paper presents ComDeX, a context-aware federated architecture and IoT
+                                            platform for enabling
+                                            data exchange between IoT-enhanced communities. Today, such smart
+                                            communities are highly
+                                            heterogeneous and siloed as they can offer IoT applications and services
+                                            only to their local
+                                            community inhabitants. ComDeX uses property graphs to represent smart
+                                            community entities and
+                                            automatically maps them to context-aware publish/subscribe messages. Such
+                                            messages can be
+                                            discovered and exchanged between communities via a hierarchical federated
+                                            topology and an
+                                            advertisement-based mechanism. The ComDeX prototype is implemented using
+                                            well-known IoT
+                                            technologies such as MQTT and NGSI-LD. ComDeX is evaluated using a realistic
+                                            smart port scenario
+                                            and compared against different federation topologies. The experimental
+                                            results demonstrate that
+                                            our approach outperforms existing NGSI-LD solutions in realistic IoT
+                                            scenarios with
+                                            synthetically generated workloads, with low impact in larger deployments
+                                            where the number of
+                                            hops between brokers of the federation increases.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>I
+                                        Will Survive: An Event-driven Conformance Checking Approach Over Process
+                                        Streams</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596887">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Kristo Raun</li>
+                                    <li class="nameList">Riccardo Tommasini</li>
+                                    <li class="nameList Last">Ahmed Awad</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Online conformance checking deals with finding discrepancies between
+                                            real-life and modeled
+                                            behavior on data streams. The current state-of-the-art output of online
+                                            conformance checking is
+                                            a prefix-alignment, which is used for pinpointing the exact deviations in
+                                            terms of the trace and
+                                            the model while accommodating a trace's unknown termination in an online
+                                            setting. Current
+                                            methods for producing prefix-alignments are computationally expensive and
+                                            hinder the
+                                            applicability in real-life settings.</p>
+                                        <p>This paper introduces a new approximate algorithm - I Will Survive (IWS). The
+                                            algorithm utilizes
+                                            the trie data structure to improve the calculation speed, while remaining
+                                            memory-efficient.
+                                            Comparative analysis on real-life and synthetic datasets shows that the IWS
+                                            algorithm can
+                                            achieve an order of magnitude faster execution time while having a smaller
+                                            error cost, compared
+                                            to the current state of the art. In extreme cases, the IWS finds
+                                            prefix-alignments roughly three
+                                            orders of magnitude faster than previous approximate methods. The IWS
+                                            algorithm includes a
+                                            discounted decay time setting for more efficient memory usage and a
+                                            look-ahead limit for
+                                            improving computation time. Finally, the algorithm is stress tested for
+                                            performance using a
+                                            simulation of high-traffic event streams.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>No
+                                        One Size (PPM) Fits All: Towards Privacy in Stream Processing Systems</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596889">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Mikhail Fomichev</li>
+                                    <li class="nameList">Manisha Luthra</li>
+                                    <li class="nameList">Maik Benndorf</li>
+                                    <li class="nameList Last">Pratyush Agnihotri</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Stream processing systems (SPSs) have been designed to process data streams
+                                            in real-time,
+                                            allowing organizations to analyze and act upon data on-the-fly, as it is
+                                            generated. However,
+                                            handling sensitive or personal data in these multilayered SPSs that
+                                            distribute resources across
+                                            sensor, fog, and cloud layers raises privacy concerns, as the data may be
+                                            subject to
+                                            unauthorized access and attacks that can violate user privacy, hence facing
+                                            regulations such as
+                                            the GDPR across the SPS layers. To address these issues, different
+                                            privacy-preserving mechanisms
+                                            (PPMs) are proposed to protect user privacy in SPSs. Yet, selecting and
+                                            applying such PPMs in
+                                            SPSs is challenging, since they must operate in real-time while tolerating
+                                            little overhead. The
+                                            multilayered nature of SPSs complicates privacy protection because each
+                                            layer may confront
+                                            different privacy threats, which must be addressed by specific PPMs. To
+                                            overcome these
+                                            challenges, we present Prinseps, our comprehensive privacy vision for SPSs.
+                                            Towards this vision,
+                                            we (1) identify critical privacy threats on different layers of the
+                                            multilayered SPS, (2)
+                                            evaluate the effectiveness of existing PPMs in addressing such threats, and
+                                            (3) integrate
+                                            privacy considerations into the decision-making processes of SPSs.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>On
+                                        Improving Streaming System Autoscaler Behaviour using Windowing and Weighting
+                                        Methods</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596886">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Stuart Jamieson</li>
+                                    <li class="nameList Last">Matthew Forshaw</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Distributed stream processing systems experience highly variable workloads.
+                                            This presents a
+                                            challenge when provisioning compute to meet the needs of these workloads.
+                                            Rightsizing systems
+                                            for peak demand leads to often-unacceptable financial cost, motivating the
+                                            need for adaptive
+                                            approaches to meet the needs of changing workloads. The choice of
+                                            parallelism of workload
+                                            operators are commonly governed by autoscalers, but their behaviour is often
+                                            case specific and
+                                            highly sensitive to the choice of tunable parameters and thresholds. This
+                                            presents a challenge
+                                            to practitioners wishing to understand the performance implications of their
+                                            decisions.</p>
+                                        <p>We systematically explore the impact of parameter tuning for a
+                                            state-of-the-art autoscaler;
+                                            identifying impacts in terms of SASO properties as well as behavioural
+                                            phenomena such as extreme
+                                            parallelism shifts and robustness. Autoscalers commonly make decisions on
+                                            instantaneous system
+                                            performance, without incorporating historical information. This seeks to
+                                            mitigate challenges of
+                                            being overly influenced by historical values, to be able to respond in
+                                            response to the evolving
+                                            system state. We demonstrate the potential to augment existing
+                                            state-of-the-art autoscaling
+                                            controllers with windowing and weighting methods to make more robust
+                                            decisions, successfully
+                                            mitigating over 90% of undesirable extreme parallelism shifts and
+                                            significantly reducing scaling
+                                            behaviour volatility.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Practical Forecasting of
+                                        Cryptocoins
+                                        Timeseries using Correlation Patterns</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596888">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Pasquale De Rosa</li>
+                                    <li class="nameList">Pascal Felber</li>
+                                    <li class="nameList Last">Valerio Schiavoni</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Cryptocoins (<em>i.e.</em>, Bitcoin, Ether, Litecoin) are tradable digital
+                                            assets. Ownerships of
+                                            cryptocoins are registered on distributed ledgers (<em>i.e.</em>,
+                                            blockchains). Secure
+                                            encryption techniques guarantee the security of the transactions (transfers
+                                            of coins among
+                                            owners), registered into the ledger. Cryptocoins are exchanged for specific
+                                            trading prices. The
+                                            extreme volatility of such trading prices across all different sets of
+                                            crypto-assets remains
+                                            undisputed. However, the relations between the trading prices across
+                                            different cryptocoins
+                                            remains largely unexplored. Major coin exchanges indicate trend correlation
+                                            to advise for sells
+                                            or buys. However, price correlations remain largely unexplored. We shed some
+                                            light on the trend
+                                            correlations across a large variety of cryptocoins, by investigating their
+                                            coin/price
+                                            correlation trends over the past two years. We study the causality between
+                                            the trends, and
+                                            exploit the derived correlations to understand the accuracy of
+                                            state-of-the-art forecasting
+                                            techniques for time series modeling (<em>e.g.</em>, GBMs, LSTM and GRU) of
+                                            correlated
+                                            cryptocoins. Our evaluation shows <em>(i)</em> strong correlation patterns
+                                            between the most
+                                            traded coins (<em>e.g.</em>, Bitcoin and Ether) and other types of
+                                            cryptocurrencies, and
+                                            <em>(ii)</em> state-of-the-art time series forecasting algorithms can be
+                                            used to forecast
+                                            cryptocoins price trends. We released datasets and code to reproduce our
+                                            analysis to the
+                                            research community.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <h3>SESSION: Industry Track</h3>
+                                <p><b>An
+                                        exploratory analysis of methods for real-time data deduplication in streaming
+                                        processes</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596898">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">João Esteves</li>
+                                    <li class="nameList">Rosa Costa</li>
+                                    <li class="nameList">Yongluan Zhou</li>
+                                    <li class="nameList Last">Ana Almeida</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Modern stream processing systems typically require ingesting and correlating
+                                            data from multiple
+                                            data sources. However, these sources are out of control and prone to
+                                            software errors and
+                                            unavailability, causing data anomalies that must be necessarily remedied
+                                            before processing the
+                                            data. In this context, anomaly, such as data duplication, appears as one of
+                                            the most prominent
+                                            challenges of stream processing. Data duplication can hinder real-time
+                                            analysis of data for
+                                            decision making. This paper investigates the challenges and performs an
+                                            experimental analysis of
+                                            operators and auxiliary tools to help with data deduplication. The results
+                                            show that there is an
+                                            increase in data delivery time when using external mechanisms. However,
+                                            these mechanisms are
+                                            essential for an ingestion process to guarantee that no data is lost and
+                                            that no duplicates are
+                                            persisted.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Considerations for
+                                        integrating virtual threads
+                                        in a Java framework: a Quarkus example in a resource-constrained environment</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596895">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Arthur Navarro</li>
+                                    <li class="nameList">Julien Ponge</li>
+                                    <li class="nameList">Frédéric Le Mouël</li>
+                                    <li class="nameList Last">Clément Escoffier</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Virtual threads are a highly anticipated feature in the Java world, aiming at
+                                            improving resource
+                                            efficiency in the JVM for I/O intensive operations while simplifying
+                                            developer experience. This
+                                            feature keeps the traditional thread abstraction and makes it compatible
+                                            with most of the
+                                            existing Java applications, allowing developers preferring synchronous
+                                            imperative abstractions
+                                            to benefit from better performance without switching to asynchronous and
+                                            reactive programming
+                                            models. However, limitations currently hinder the usability of virtual
+                                            threads. These
+                                            limitations must be considered when building a piece of software around
+                                            virtual threads for they
+                                            might have non-trivial effects. This paper (i) discusses the different
+                                            strategies envisioned to
+                                            leverage virtual threads in the <em>Quarkus</em> framework, (ii) gives an
+                                            overview of the final
+                                            implementation, (iii) presents the benchmark used to characterize the
+                                            benefits of using virtual
+                                            threads in a typical container environment where resources are scarce
+                                            compared to using Quarkus
+                                            with traditional thread pools and Quarkus with reactive libraries ; (iv)
+                                            results are interpreted
+                                            and discussed. Our study reveals that the integration of virtual threads in
+                                            Quarkus doesn't
+                                            perform as well as Quarkus-reactive. This seems to be due to a mismatch
+                                            between the core
+                                            hypothesis of Netty and virtual threads regarding the amount of threads
+                                            available.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Discovery of breakout
+                                        patterns in financial
+                                        tick data via parallel stream processing with in-order guarantees</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596897">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Stefanos Kalogerakis</li>
+                                    <li class="nameList Last">Kostas Magoutis</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>In this paper we describe a parallel solution to the problem of discovering
+                                            <em>breakout
+                                                patterns</em> in continuously evaluated exponential-moving averages
+                                            (EMA) of financial tick
+                                            data streams over tumbling windows, achieving in-order processing of stock
+                                            quotes. Our solution
+                                            extends a first system we developed for this problem that used sequential
+                                            ingestion of tick data
+                                            to correctly preserve the per symbol ordering while placing them to their
+                                            corresponding time
+                                            window. The solution described in this paper allows for parallel ingestion
+                                            of tick data streams
+                                            to increase throughput, while ensuring order via a broadcast mechanism that
+                                            propagates necessary
+                                            ordering metadata to downstream operators. Evaluation of our prototype on a
+                                            32-core cluster of
+                                            high-performance servers shows that our parallel prototype scales well
+                                            (although sublinearly,
+                                            given the constraint of maintaining in-order guarantees), and yields up to
+                                            ~1.73x faster
+                                            processing compared to the sequential-ingest version when each is deployed
+                                            on 32 cores over 4
+                                            servers.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Evaluating HPC Job Run
+                                        Time Predictions Using
+                                        Application Input Parameters</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596893">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Kenneth Lamar</li>
+                                    <li class="nameList">Alexander Goponenko</li>
+                                    <li class="nameList">Omar Aaziz</li>
+                                    <li class="nameList">Benjamin A Allan</li>
+                                    <li class="nameList">James M Brandt</li>
+                                    <li class="nameList Last">Damian Dechev</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>It is difficult to accurately predict application run times in high
+                                            performance computing (HPC),
+                                            yet these predictions have useful applications in job scheduling and user
+                                            feedback. User-led
+                                            predictions can be inaccurate for a variety of factors, including
+                                            inexperience, user burden, and
+                                            an incentive to overpredict. Most automated efforts consider standardized
+                                            job inputs from
+                                            submission scripts but ignore application input parameters. Application
+                                            input parameters can
+                                            greatly enhance run time prediction accuracy but have typically been avoided
+                                            due to the need for
+                                            manual, per-application parameter collection.</p>
+                                        <p>In this paper, we evaluate and compare the trade-offs between conventional,
+                                            job script-based
+                                            predictors and specialized, application input-based predictors. This is
+                                            accomplished by testing
+                                            20 machine learning model variants and four traditional predictors against a
+                                            suite of five
+                                            applications. This suite includes four commonly used and representative
+                                            proxy applications and
+                                            one real-world application. For reproducibility and extensibility, we
+                                            provide the source code of
+                                            our testing framework and our data set, which, to the best of our knowledge,
+                                            is the first known
+                                            publicized data set to include application input parameters alongside
+                                            standard job parameters.
+                                            We determine that the random forest regressor offers the best trade-off
+                                            between accuracy and
+                                            training time among all tested model variants. We show that job parameters
+                                            alone are
+                                            insufficient to produce adequate predictions while application input
+                                            parameters provide
+                                            excellent results, as high as 99% <em>R</em><sup>2</sup>, and typically
+                                            outperform the use of
+                                            job parameters alone.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>FORTE: an extensible
+                                        framework for robustness
+                                        and efficiency in data transfer pipelines</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596892">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Martin Hilgendorf</li>
+                                    <li class="nameList">Vincenzo Gulisano</li>
+                                    <li class="nameList">Marina Papatriantafilou</li>
+                                    <li class="nameList">Jan Engström</li>
+                                    <li class="nameList Last">Binay Mishra</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>In the age of big data and growing product complexity, it is common to
+                                            monitor many aspects of a
+                                            product or system, in order to extract well-founded intelligence and draw
+                                            conclusions, to
+                                            continue driving innovation. Automating and scaling processes in
+                                            data-pipelines becomes
+                                            essential to keep pace with increasing rates of data generated by such
+                                            practices, while meeting
+                                            security, governance, scalability and resource-efficiency demands.</p>
+                                        <p>We present FORTE, an extensible framework for robustness and
+                                            transfer-efficiency in data
+                                            pipelines. We identify sources of potential bottlenecks and explore the
+                                            design space of
+                                            approaches to deal with the challenges they pose. We study and evaluate
+                                            synergetic effects of
+                                            data compression and in-memory processing as well as task scheduling, in
+                                            association with
+                                            pipeline performance.</p>
+                                        <p>A prototype implementation of FORTE is implemented and studied in a use-case
+                                            at Volvo Trucks for
+                                            high-volume production-level data sets, in the order of magnitude of
+                                            hundreds of gigabytes to
+                                            terabytes per burst. Various general-purpose lossless data compression
+                                            algorithms are evaluated,
+                                            in order to balance compression effectiveness and time in the pipeline.</p>
+                                        <p>All in all, FORTE enables to deal with trade-offs and achieve benefits in
+                                            latency and sustainable
+                                            rate (up to 1.8 times better), effectiveness in resource utilisation, all
+                                            while also enabling
+                                            additional features such as integrity verification, logging, monitoring and
+                                            traceability, as
+                                            well as cataloguing of transferred data. We also note that the resource
+                                            efficiency improvements
+                                            achievable with FORTE, and its extensibility, can imply further benefits
+                                            regarding scheduling,
+                                            orchestration and energy-efficiency in such pipelines.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Preventing EFail Attacks
+                                        with Client-Side
+                                        WebAssembly: The Case of Swiss Post's IncaMail</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596899">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Pascal Gerig</li>
+                                    <li class="nameList">Jämes Ménétrey</li>
+                                    <li class="nameList">Baptiste Lanoix</li>
+                                    <li class="nameList">Florian Stoller</li>
+                                    <li class="nameList">Pascal Felber</li>
+                                    <li class="nameList">Marcelo Pasin</li>
+                                    <li class="nameList Last">Valerio Schiavoni</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Traditional email encryption schemes are vulnerable to EFail attacks, which
+                                            exploit the lack of
+                                            message authentication by manipulating ciphertexts and exfiltrating
+                                            plaintext via HTML
+                                            backchannels. Swiss Post's IncaMail, a secure email service for transmitting
+                                            legally binding,
+                                            encrypted, and verifiable emails, counters EFail attacks using an
+                                            <em>authenticated-encryption
+                                                with associated data</em> (AEAD) encryption scheme to ensure message
+                                            privacy and
+                                            authentication between servers. IncaMail relies on a trusted infrastructure
+                                            backend and encrypts
+                                            messages per user policy. This paper presents a revised IncaMail
+                                            architecture that offloads the
+                                            majority of cryptographic operations to clients, offering benefits such as
+                                            reduced computational
+                                            load and energy footprint, relaxed trust assumptions, and per-message
+                                            encryption key policies.
+                                            Our proof-of-concept prototype and benchmarks demonstrate the robustness of
+                                            the proposed scheme,
+                                            with client-side WebAssembly-based cryptographic operations yielding
+                                            significant performance
+                                            improvements (up to ~14×) over conventional JavaScript implementations.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Programming Abstractions
+                                        for Messaging
+                                        Protocols in Event-based Systems</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596896">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Matthias Prellwitz</li>
+                                    <li class="nameList">Helge Parzyjegla</li>
+                                    <li class="nameList Last">Gero Mühl</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>In ubiquitous computing and the Internet of Things, devices monitor the
+                                            environment and supply
+                                            data to applications that assist people or export results for other
+                                            services. Given the
+                                            distributed nature of such systems, message-based systems are often used due
+                                            to their high
+                                            degree of decoupling and flexibility. A major problem for developers of such
+                                            distributed
+                                            applications is that the characteristics of the deployment scenario are
+                                            often not fully known at
+                                            design time or can change unpredictively at run time. A middleware with
+                                            suitable programming
+                                            abstractions can fill this gap hiding complexity and uncertainty from the
+                                            application developer.
+                                            For example, the dynamic set programming abstraction decreases the amount of
+                                            information needed
+                                            by an application developer at design time by allowing applications to
+                                            interact with multiple
+                                            remote devices as if there was only a single device.</p>
+                                        <p>This paper deals with platform and protocol-independent abstractions for
+                                            remote object binding,
+                                            pull and push-based interactions as well as the adaptive switch between push
+                                            and pull to
+                                            optimize communication. We present a mapping of interaction patterns to an
+                                            expandable addressing
+                                            scheme based on topic-based publish/subscribe communication. Abstractions to
+                                            cope with the fact
+                                            that transport protocols are often not known at design time are also
+                                            discussed. MQTT and AMQP
+                                            serve as examples for protocols with different message structures. In
+                                            addition, the structuring
+                                            of the associated serialization through JavaScript object notation (JSON)
+                                            and protocol buffers
+                                            is discussed.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Tree-structured Overlays
+                                        with Minimal Height:
+                                        Construction, Maintenance and Operation</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3596894">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Patrick Laskowski</li>
+                                    <li class="nameList">Peter Detzner</li>
+                                    <li class="nameList Last">Steffen Bondorf</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Distributed systems, potentially growing large and consisting of
+                                            heterogeneous nodes, are advised
+                                            to be constructed following the Peer-to-Peer (P2P) networking paradigm. It
+                                            becomes imperative
+                                            that a Peer-to-Peer (P2P) network is paired with efficient protocols for
+                                            each phase of its life
+                                            cycle: construction as well as maintenance and operation. Three operations
+                                            are fundamental for a
+                                            Peer-to-Peer (P2P) network: nodes must be able to <em>a)</em> join,
+                                            <em>b)</em> be located,
+                                            <em>c)</em> leave. The main challenge for efficient protocols is that a
+                                            single node will only
+                                            possess limited information about the network, also known as the local view.
+                                            In this paper, we
+                                            present the minimal height tree overlay network (MINHTON), a Peer-to-Peer
+                                            (P2P) overlay
+                                            architecture featuring several beneficial structural properties added over
+                                            existing
+                                            tree-structured networks. The minimal height guarantees a global tree
+                                            balance, yet, it must be
+                                            retained at all times, even though the Peer-to-Peer (P2P) network may change
+                                            dynamically.
+                                            MINHTON provides efficient protocols for node <em>Join</em> and
+                                            <em>Departure</em>, both
+                                            retaining a minimal height tree. We show that the operations achieve
+                                            performance in logarithmic
+                                            order, comparable to tree overlays with less strict structural guarantees.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <h3>POSTER SESSION: Posters</h3>
+                                <p><b>Poster: Cognitive Cyber –
+                                        Dynamic, Adaptive
+                                        Cyber Defense Systems for Massively Distributed, Autonomous, and Ad-hoc
+                                        Computing Environments</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603283">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Edmon Begoli</li>
+                                    <li class="nameList">Edmon Meyer</li>
+                                    <li class="nameList">Pablo Moriano</li>
+                                    <li class="nameList Last">Sean Oesch</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>The unprecedented scale, speed, and scope of interconnectivity, ranging from
+                                            the microsensors on
+                                            the <em>edge</em> to the global networks, will be the prominent
+                                            characteristics of the emerging
+                                            computing environments. Our current cyber defense methods, designed for the
+                                            computing
+                                            environments we know, will be mainly rendered inadequate for these future
+                                            environments. To meet
+                                            the emerging cyber defense demands, we need a new approach. The poster
+                                            presents our early work
+                                            on the cognitive cyber concept, which attempts to meet some of these
+                                            emerging challenges by
+                                            promoting dynamic, adaptive, and largely autonomous defenses in dynamic
+                                            networks and edge
+                                            computing environments.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Poster: Handling
+                                        Inconsistent Data in Industry
+                                        4.0</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603281">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Simon Paasche</li>
+                                    <li class="nameList Last">Sven Groppe</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>The increasing use of data-driven applications helps companies to optimize
+                                            internal processes,
+                                            supply chains and business models. Simultaneously, the immense amounts of
+                                            data pose a major
+                                            challenge for companies to store and process the data in a target-oriented
+                                            manner. This is
+                                            particularly problematic in the case of erroneous data with limited
+                                            information content. Faulty
+                                            data consumes resources, such as memory and CPU, during collection, storage
+                                            and analysis steps
+                                            and thereby also increase energy consumption. In our work, we discuss the
+                                            use of a data
+                                            validation approach to detect, categorize and, if necessary, discard
+                                            erroneous data.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Poster: StreamToxWatch –
+                                        Data Poisoning
+                                        Detector in Distributed, Event-based Environments</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603282">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Edmon Begoli</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>StreamToxWatch, or ToxWatch for short, is an early-stage ensemble
+                                            architecture for data poisoning
+                                            detection and monitoring in online learning systems over streams. Detecting
+                                            data poisoning is
+                                            difficult, especially in distributed streaming systems where statistical
+                                            baselines change on the
+                                            fly and across the system. For that reason, ToxWatch employs a combination
+                                            of input,
+                                            (adversarial) conceptual drift, and model performance monitors intended to
+                                            observe anomalous
+                                            behaviors and phenomena across the system and to offer targeted detection
+                                            signals to downstream
+                                            applications.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Poster: Towards
+                                        Pattern-Level Privacy
+                                        Protection in Distributed Complex Event Processing</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603278">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Majid Lotfian Delouee</li>
+                                    <li class="nameList">Boris Koldehofe</li>
+                                    <li class="nameList Last">Viktoriya Degeler</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>In event processing systems, detected event patterns can reveal
+                                            privacy-sensitive information. In
+                                            this paper, we propose and discuss <em>how</em> to integrate pattern-level
+                                            privacy protection in
+                                            event-based systems. Compared to state-of-the-art approaches, we aim to
+                                            enforce privacy
+                                            independent of the particularities of specific operators. We accomplish this
+                                            by supporting the
+                                            flexible integration of multiple obfuscation techniques and studying
+                                            deployment strategies for
+                                            privacy-enforcing mechanisms. In addition, we share ideas on <em>how</em> to
+                                            model the
+                                            adversary's knowledge to select appropriate obfuscation techniques for the
+                                            discussed deployment
+                                            strategies. Initial results indicate that flexibly choosing obfuscation
+                                            techniques and
+                                            deployment strategies is essential to conceal privacy-sensitive event
+                                            patterns accurately.</p>
+                                    </div>
+                                </div>
+
+                                <h3>DEMONSTRATION SESSION: Demos</h3>
+                                <p><b>Demo: ComDeX Unveiled
+                                        Demonstrating the Future
+                                        of IoT-Enhanced Communities</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603279">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Nikolaos Papadakis</li>
+                                    <li class="nameList">Georgios Bouloukakis</li>
+                                    <li class="nameList Last">Kostas Magoutis</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>The rapidly expanding field of Internet of Things (IoT) has necessitated the
+                                            development of
+                                            effective and efficient systems for handling the vast quantities of data
+                                            that are generated.
+                                            However, the inherent diversity and complexity of IoT environments, coupled
+                                            with the large
+                                            volume of data, pose significant challenges to achieving interoperability
+                                            and efficient data
+                                            exchange. ComDeX [3], is a novel approach designed to meet these challenges.
+                                            This demo paper
+                                            presents the prototype of ComDeX, which is designed to facilitate efficient
+                                            data exchange in
+                                            smart communities using a federation of message brokers. The prototype
+                                            harnesses NGSI-LD and
+                                            MQTT standards along with an advertisement-based mechanism to enable dynamic
+                                            data exchange. We
+                                            detail its implementation and key functionalities, demonstrating its
+                                            applicability through
+                                            scenarios that mimic real-world smart communities.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Demo: Interactive
+                                        Performance Exploration of
+                                        Stream Processing Applications Using Colored Petri Nets</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603280">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList">Timo Räth</li>
+                                    <li class="nameList">Francesco Bedini</li>
+                                    <li class="nameList">Kai-Uwe Sattler</li>
+                                    <li class="nameList Last">Armin Zimmermann</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Stream processing is becoming increasingly important as the amount of data
+                                            being produced,
+                                            transmitted, processed, and stored continues to grow. One of the greatest
+                                            difficulties in
+                                            designing stream processing applications is estimating the final runtime
+                                            performance in
+                                            production. This is often complicated by differences between the development
+                                            and final execution
+                                            environments, unexpected outliers in the incoming data, or subtle long-term
+                                            problems such as
+                                            congestion due to bottlenecks in the pipeline. In this demonstration, we
+                                            present an automated
+                                            tool workflow for interactively simulating and exploring the performance
+                                            characteristics of a
+                                            stream processing pipeline in real-time. Changes to input data, pipeline
+                                            structure, or operator
+                                            configurations during the simulation are immediately reflected in the
+                                            simulation results,
+                                            allowing to interactively explore the robustness of the pipeline to
+                                            outliers, changes in input
+                                            data, or long-term effects.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Demo: SLASH: Serverless
+                                        Apache Spark Hub</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603277">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Josef Spillner</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Application needs for big data processing are shifting from planned batch
+                                            processing to emergent
+                                            scenarios involving high elasticity. Consequently, for many organisations
+                                            managing private or
+                                            public cloud resources it is no longer wise to pre-provision big data
+                                            frameworks over large
+                                            fixed-size clusters. Instead, they are looking forward to on-demand
+                                            provisioning of those
+                                            frameworks in the same way that the underlying compute resources such as
+                                            virtual machines or
+                                            containers can already be instantiated on demand today. Yet many big data
+                                            frameworks, including
+                                            the widely used Apache Spark, do not sandwich well in between underlying
+                                            resource managers and
+                                            user requests. With SLASH, we introduce a light-weight <em>serverless</em>
+                                            provisioning model
+                                            for worker nodes in standalone Spark clusters that help organisations
+                                            slashing operating costs
+                                            while providing greater flexibility and comfort to their users and more
+                                            sustainable operations
+                                            based on a unique <em>triple scaling</em> method.</p>
+                                    </div>
+                                </div>
+
+                                <h3>WORKSHOP SESSION: Doctoral Workshop</h3>
+                                <p><b>Agent-based Orchestration
+                                        on a Swarm of Edge
+                                        Devices</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603285">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Banani Anuraj</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>The proliferation of smart devices, sensors, autonomous robots, drones, and
+                                            other similar
+                                            instruments have profoundly changed the way of implementing and deploying
+                                            systems in industrial
+                                            and home environments, for diverse scenarios such as smart agriculture,
+                                            healthcare, or
+                                            manufacturing. Devices in these settings are not limited to simply observe
+                                            and acquire data for
+                                            monitoring, but they are also equipped with actuation capabilities, as well
+                                            as the possibility
+                                            of autonomously processing the incoming data through various techniques.
+                                            However, given their
+                                            intrinsic limitations regarding the capacity to store and process
+                                            computations, it is often
+                                            necessary to delegate some of these processing tasks to intermediary edge
+                                            nodes in the network.
+                                            These nodes, given their unique position can act as orchestrators guiding
+                                            the decentralized work
+                                            of the interconnected autonomous devices. Beyond static and pre-defined
+                                            organization structures,
+                                            in this work we propose the usage of agent and multi-agent-based models for
+                                            designing and
+                                            implementing swarms of edge nodes, conceived to dynamically orchestrate
+                                            other devices, while
+                                            meeting quality of service conditions. Allowing the control of intelligent
+                                            edge nodes as
+                                            conveyors and orchestrators on swarms of devices, we aim at providing
+                                            intelligence to the
+                                            self-organization of edge nodes, which may interchange streaming data, and
+                                            represent their own
+                                            capabilities through semantic models. Swarm-inspired behavioral patterns
+                                            would guide the
+                                            collaborative distribution of their computational tasks. Finally, we will
+                                            implement and
+                                            demonstrate the proposed technologies in an elderly home environment powered
+                                            with a host of edge
+                                            computing, sensing, and actuating devices.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Decentralized Stream
+                                        Reasoning Agents</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603286">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">Gözde Ayşe Tataroğlu Özbulak</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>This PhD project proposes the theoretical and technological foundations of an
+                                            approach for
+                                            decentralized processing of streaming knowledge graphs, where autonomous
+                                            reasoners may combine
+                                            individual and collective processing of continuous data. These decentralized
+                                            stream processors
+                                            shall be capable of sharing not only data stream knowledge, but also
+                                            processing duties, using
+                                            collaboration and negotiation protocols. Moreover, commonly agreed semantic
+                                            vocabularies will be
+                                            used to address the high dynamicity of reasoners' knowledge and goals. The
+                                            approach proposed in
+                                            this project goes beyond previous works on stream reasoning, enabling the
+                                            self-organization and
+                                            coordination among distributed stream reasoners, based on techniques and
+                                            principles inspired by
+                                            Multi-Agent systems. On the one hand, it adds the ability to explicate
+                                            processing goals,
+                                            capabilities and knowledge, while on the other it exploits potential ways of
+                                            interconnecting
+                                            them in ways that expand their combined capacity/efficacy for managing
+                                            highly dynamic flows of
+                                            streaming knowledge. Through this approach, efficient local stream
+                                            processors can establish
+                                            cooperative processing schemes, respecting data privacy restrictions and
+                                            data locality
+                                            requirements through the exchange of streaming Knowledge Graphs.</p>
+                                    </div>
+                                </div>
+
+
+                                <p><b>Towards Guaranteed Privacy
+                                        in Stream
+                                        Processing: Differential Privacy for Private Pattern Protection</b></p><p><a href="https://dl.acm.org/doi/10.1145/3583678.3603284">Download in the ACM Digital Library</a></p>
+                                <ul class="DLauthors">
+                                    <li class="nameList Last">He Gu</li>
+                                </ul>
+                                <div class="DLabstract">
+                                    <div style="display:inline">
+                                        <p>Sensor data often contain private information that requires proper
+                                            protection. Most existing
+                                            privacy-preserving mechanisms (PPMs) for data streams undermine the utility
+                                            of the entire data
+                                            stream and limit the performance of data-driven applications. We attempt to
+                                            break the limitation
+                                            and establish a new foundation for PPMs by proposing novel pattern-level
+                                            differential privacy
+                                            (DP) guarantees and pattern-level PPMs that fulfill pattern-level DP. They
+                                            operate only on data
+                                            that correlate with private patterns rather than on the entire data stream,
+                                            leading to higher
+                                            data utility. We first describe results for sequence operator based patterns
+                                            in a centralized
+                                            system and outline future work to generalize it for other operators and to
+                                            local solutions.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                {% include side.html %}
+
+            </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
+</body>
+
+</html>

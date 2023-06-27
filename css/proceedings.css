@@ -1,0 +1,22 @@
+.DLabstract {
+    margin-bottom: 50px;
+}
+
+.DLauthors::before {
+    font-weight: bold;
+    content: "Authors: ";
+}
+
+.DLauthors li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+.DLauthors li:after {
+    content: ",";
+}
+
+.DLauthors li.nameList.Last:after {
+    content: "";
+}
