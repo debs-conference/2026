@@ -7,6 +7,7 @@
       institution: Newcastle University, UK
     - name: Matthew Forshaw
       institution: Newcastle University, UK
+  cancelled_reason: Due to unforeseeable events, we will post a video recording of this presentation after the conference.
 - title: "I Will Survive: An Event-driven Conformance Checking Approach Over Process Streams"
   type: regular
   session: 2

@@ -2,25 +2,33 @@
     {% assign sessionPapers = site.data.papers | where: "session",include.session | sort: "session_order" %}
     {% for paper in sessionPapers %}
         <li>
-            {{ paper.title }}
-            {% if paper.type == "regular" %}
-                (research paper)
-                {% elsif paper.type == "vision" %}
-                (vision paper)
-                {% elsif paper.type == "industry" %}
-                (industry paper)
+            {% if paper.cancelled_reason %}
+            <span class="strikethrough">
             {% endif %}
+                {{ paper.title }}
+                {% if paper.type == "regular" %}
+                    (research paper)
+                    {% elsif paper.type == "vision" %}
+                    (vision paper)
+                    {% elsif paper.type == "industry" %}
+                    (industry paper)
+                {% endif %}
+                <br />
+                <em><small>
+                    {% for author in paper.authors %}
+                        {{- author.name -}} 
+                        {%- assign next = paper.authors[forloop.index] -%}
+                        {% unless author.institution == next.institution %}
+                        ({{ author.institution -}})
+                        {%- endunless -%}
+                        {%- unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                </small></em>
+            {% if paper.cancelled_reason %}
+            </span>
             <br />
-            <em><small>
-                {% for author in paper.authors %}
-                    {{- author.name -}} 
-                    {%- assign next = paper.authors[forloop.index] -%}
-                    {% unless author.institution == next.institution %}
-                    ({{ author.institution -}})
-                    {%- endunless -%}
-                    {%- unless forloop.last %},{% endunless %}
-                {% endfor %}
-            </small></em>
+            <span class="cancelled">{{ paper.cancelled_reason }}</span>
+            {% endif %}
         </li>
         {%- unless forloop.last %}
             <span class="paper-space"></span>

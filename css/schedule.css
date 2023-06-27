@@ -160,3 +160,12 @@ td.sch a{
     margin-top: 10px;
     width: 40px;
 }
+
+.strikethrough{
+    text-decoration: line-through;
+}
+
+.cancelled {
+    font-style: italic;
+    font-size: small;
+}
