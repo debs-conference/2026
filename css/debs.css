@@ -81,6 +81,19 @@ p, li {
 }
 
 
+/* Quick access */
+.quick-access {
+    background-color: #0000aa;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.quick-access a {
+    color: white;
+}
+
+
 /* Template override */
 header .navbar-default .navbar-nav li a {
     font-size: 13px;
