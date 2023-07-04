@@ -74,6 +74,7 @@ p, li {
 
 #clients-logo-section img {
     height: 70px;
+    max-width: 100%;
 }
 
 .block img{
