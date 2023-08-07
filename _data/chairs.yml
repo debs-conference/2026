@@ -1,179 +1,191 @@
 general_chairs: 
-    - firstname: Valerio
-      lastname: Schiavoni
-      institution: University of Neuchâtel, Switzerland
+    # - firstname: Valerio
+    #   lastname: Schiavoni
+    #   institution: University of Neuchâtel, Switzerland
+    - firstname: Riccardo
+      lastname: Tommasini
+      institution: INSA Lyon, France
+    - firstname: Angela
+      lastname: Bonifati
+      institution: Lyon 1 University, France
 
 pc_chairs:
-    - firstname: Bettina 
-      lastname: Kemme
-      institution: McGill University, Canada
-    - firstname: Etienne 
-      lastname: Rivière
-      institution: UCLouvain, Belgium
+    # - firstname: Bettina 
+    #   lastname: Kemme
+    #   institution: McGill University, Canada
+    # - firstname: Etienne 
+    #   lastname: Rivière
+    #   institution: UCLouvain, Belgium
 
 finance_chairs:
-    - firstname: Pascal
-      lastname: Felber
-      institution: University of Neuchâtel, Switzerland
-    - firstname: Alain
-      lastname: Sandoz
-      institution: University of Neuchâtel, Switzerland
+    # - firstname: Pascal
+    #   lastname: Felber
+    #   institution: University of Neuchâtel, Switzerland
+    # - firstname: Alain
+    #   lastname: Sandoz
+    #   institution: University of Neuchâtel, Switzerland
 
 
 pc_members_research: 
-    - firstname:   Alexander
-      lastname:    Artikis  
-      institution: University of Piraeus, Greece
-    - firstname:   Ivona
-      lastname:    Brandić 
-      institution: Vienna University of Technology, Austria	  
-    - firstname:   Andrey 
-      lastname:    Brito    
-      institution: Universidade Federal de Campina Grande, Brazil 	  
-    - firstname:   Paris
-      lastname:    Carbone
-      institution: KTH Royal Institute of Technology, Sweden
-    - firstname: Stéphane
-      lastname: Delbruel   
-      institution:  LaBRI, University of Bordeaux, France
-    - firstname:   Schahram
-      lastname:    Dustdar  
-      institution: TU Wien, Austria     
-    - firstname:   David
-      lastname:    Eyers    
-      institution: University of Otago, New Zealand
-    - firstname:   Davide 
-      lastname:    Frey     
-      institution: INRIA Rennes, France     	  
-    - firstname:   Vera
-      lastname:    Goebel   
-      institution: University of Oslo, Norway
-    - firstname: Vincenzo 
-      lastname: Gulisano    
-      institution:  Chalmers University of Technology, Sweden     
-    - firstname: Suyash 
-      lastname: Gupta    
-      institution:  Purdue University, USA	  	  
-    - firstname: Jelle 
-      lastname: Hellings    
-      institution:  McMaster University, Canada
-    - firstname:   Hans-Arno 
-      lastname:    Jacobsen   
-      institution: University of Toronto, Canada	  	  
-    - firstname:   Wouter 
-      lastname:    Joosen   
-      institution: KU Leuven, Belgium
-    - firstname:   Vasiliki
-      lastname:    Kalavri  
-      institution: Boston University, USA
-    - firstname:   Asterios 
-      lastname:    Katsifodimos     
-      institution: Delft University of Technology
-    - firstname:   Boris 
-      lastname:    Koldehofe    
-      institution: University of Groningen, The Netherlands
-    - firstname:   Michał 
-      lastname:    Krol     
-      institution: City, University of London, UK 	  	  	  
-    - firstname:   Danh
-      lastname:    Le Phuoc 
-      institution: TU Berlin, Germany
-    - firstname:   Manisha
-      lastname:    Luthra   
-      institution: TU Darmstadt, Germany 	  
-    - firstname:   Emanuel
-      lastname:    Onica
-      institution: Alexandru Ioan Cuza University of Iaşi, Romania 
-    - firstname:   André 
-      lastname:    Martin   
-      institution: TU Dresden, Germany
-    - firstname: Kishore
-      lastname: Ramachandran
-      institution:  Georgia Tech, USA
-    - firstname:   Mohammad 
-      lastname:    Sadoghi  
-      institution: University of California, Davis, USA
-    - firstname:   Alexandre 
-      lastname:    da Silva Veith   
-      institution: Nokia Bell-Labs, Belgium 
-    - firstname: Kia
-      lastname: Teymourian
-      institution: UT Austin, USA
-    - firstname:   Nalini 
-      lastname:    Venkatasubramanian
-      institution: UC Irvine, USA	  	  
-    - firstname:   Roman 
-      lastname:    Vitenberg
-      institution: University of Oslo, Norway
-    - firstname:   Spyros 
-      lastname:    Voulgaris
-      institution: Athens University of Economics and Business, Greece	  
-    - firstname:   Matthias 
-      lastname:    Weidlich
-      institution: Humboldt-Universität zu Berlin, Germany 	  
-    - firstname:   Kaiwen 
-      lastname:    Zhang    
-      institution: École de technologie supérieure de Montréal, Canada
-    - firstname:   Yongluan
-      lastname:    Zhou
-      institution: University of Copenhagen, Denmark	   	  
+    # - firstname:   Alexander
+    #   lastname:    Artikis  
+    #   institution: University of Piraeus, Greece
+    # - firstname:   Ivona
+    #   lastname:    Brandić 
+    #   institution: Vienna University of Technology, Austria	  
+    # - firstname:   Andrey 
+    #   lastname:    Brito    
+    #   institution: Universidade Federal de Campina Grande, Brazil 	  
+    # - firstname:   Paris
+    #   lastname:    Carbone
+    #   institution: KTH Royal Institute of Technology, Sweden
+    # - firstname: Stéphane
+    #   lastname: Delbruel   
+    #   institution:  LaBRI, University of Bordeaux, France
+    # - firstname:   Schahram
+    #   lastname:    Dustdar  
+    #   institution: TU Wien, Austria     
+    # - firstname:   David
+    #   lastname:    Eyers    
+    #   institution: University of Otago, New Zealand
+    # - firstname:   Davide 
+    #   lastname:    Frey     
+    #   institution: INRIA Rennes, France     	  
+    # - firstname:   Vera
+    #   lastname:    Goebel   
+    #   institution: University of Oslo, Norway
+    # - firstname: Vincenzo 
+    #   lastname: Gulisano    
+    #   institution:  Chalmers University of Technology, Sweden     
+    # - firstname: Suyash 
+    #   lastname: Gupta    
+    #   institution:  Purdue University, USA	  	  
+    # - firstname: Jelle 
+    #   lastname: Hellings    
+    #   institution:  McMaster University, Canada
+    # - firstname:   Hans-Arno 
+    #   lastname:    Jacobsen   
+    #   institution: University of Toronto, Canada	  	  
+    # - firstname:   Wouter 
+    #   lastname:    Joosen   
+    #   institution: KU Leuven, Belgium
+    # - firstname:   Vasiliki
+    #   lastname:    Kalavri  
+    #   institution: Boston University, USA
+    # - firstname:   Asterios 
+    #   lastname:    Katsifodimos     
+    #   institution: Delft University of Technology
+    # - firstname:   Boris 
+    #   lastname:    Koldehofe    
+    #   institution: University of Groningen, The Netherlands
+    # - firstname:   Michał 
+    #   lastname:    Krol     
+    #   institution: City, University of London, UK 	  	  	  
+    # - firstname:   Danh
+    #   lastname:    Le Phuoc 
+    #   institution: TU Berlin, Germany
+    # - firstname:   Manisha
+    #   lastname:    Luthra   
+    #   institution: TU Darmstadt, Germany 	  
+    # - firstname:   Emanuel
+    #   lastname:    Onica
+    #   institution: Alexandru Ioan Cuza University of Iaşi, Romania 
+    # - firstname:   André 
+    #   lastname:    Martin   
+    #   institution: TU Dresden, Germany
+    # - firstname: Kishore
+    #   lastname: Ramachandran
+    #   institution:  Georgia Tech, USA
+    # - firstname:   Mohammad 
+    #   lastname:    Sadoghi  
+    #   institution: University of California, Davis, USA
+    # - firstname:   Alexandre 
+    #   lastname:    da Silva Veith   
+    #   institution: Nokia Bell-Labs, Belgium 
+    # - firstname: Kia
+    #   lastname: Teymourian
+    #   institution: UT Austin, USA
+    # - firstname:   Nalini 
+    #   lastname:    Venkatasubramanian
+    #   institution: UC Irvine, USA	  	  
+    # - firstname:   Roman 
+    #   lastname:    Vitenberg
+    #   institution: University of Oslo, Norway
+    # - firstname:   Spyros 
+    #   lastname:    Voulgaris
+    #   institution: Athens University of Economics and Business, Greece	  
+    # - firstname:   Matthias 
+    #   lastname:    Weidlich
+    #   institution: Humboldt-Universität zu Berlin, Germany 	  
+    # - firstname:   Kaiwen 
+    #   lastname:    Zhang    
+    #   institution: École de technologie supérieure de Montréal, Canada
+    # - firstname:   Yongluan
+    #   lastname:    Zhou
+    #   institution: University of Copenhagen, Denmark	   	  
 
 pc_members_industry: 
-    - firstname: Alexandre
-      lastname:  Da Silva Veith
-      institution: Nokia Bell Labs, Belgium
-    - firstname:  Sebastian
-      lastname: Frischbier
-      institution: FintechX, Germany
-    - firstname: Florian
-      lastname:  Forster
-      institution: Zitadel, Switzerland
-    - firstname: Martin
-      lastname: Hirzel
-      institution: IBM Research, USA
-    - firstname: Tania
-      lastname:  Lorido Botran
-      institution: Roblox, USA
-    - firstname: Matteo
-      lastname: Nardelli
-      institution: Bank of Italy, Italy
-    - firstname: Sabri
-      lastname: Skhiri
-      institution: EURA NOVA, Belgium    
-    - firstname:  Maria 
-      lastname: Serrano
-      institution: Nearby Computing, Spain
-    - firstname: Junwei 
-      lastname: Zhang
-      institution: Doordash, USA
+    # - firstname: Alexandre
+    #   lastname:  Da Silva Veith
+    #   institution: Nokia Bell Labs, Belgium
+    # - firstname:  Sebastian
+    #   lastname: Frischbier
+    #   institution: FintechX, Germany
+    # - firstname: Florian
+    #   lastname:  Forster
+    #   institution: Zitadel, Switzerland
+    # - firstname: Martin
+    #   lastname: Hirzel
+    #   institution: IBM Research, USA
+    # - firstname: Tania
+    #   lastname:  Lorido Botran
+    #   institution: Roblox, USA
+    # - firstname: Matteo
+    #   lastname: Nardelli
+    #   institution: Bank of Italy, Italy
+    # - firstname: Sabri
+    #   lastname: Skhiri
+    #   institution: EURA NOVA, Belgium    
+    # - firstname:  Maria 
+    #   lastname: Serrano
+    #   institution: Nearby Computing, Spain
+    # - firstname: Junwei 
+    #   lastname: Zhang
+    #   institution: Doordash, USA
 
 industry_chairs: 
-    - firstname: Josef 
-      lastname: Spillner
-      institution: ZHAW, Switzerland
-    - firstname: Mandana 
-      lastname: Vaziri
-      institution: IBM Research
+    # - firstname: Josef 
+    #   lastname: Spillner
+    #   institution: ZHAW, Switzerland
+    # - firstname: Mandana 
+    #   lastname: Vaziri
+    #   institution: IBM Research
 
-#grand_challenge_chairs: 
-#    - firstname: Sebastian 
-#      lastname: Frischbier
-#      institution: Infront Financial Technology GmbH (part of Infront group)
-#    - firstname: Arne
-#      lastname: Hormann
-#      institution: Infront Quant AG (part of Infront group)
-#    - firstname: Ruben 
-#      lastname: Mayer
-#      institution: TU Munich
-#    - firstname: Jawad 
-#      lastname: Tahir
-#      institution: TU Munich
-#    - firstname: Christoph 
-#      lastname: Doblander
-#      institution: TU Munich
+grand_challenge_chairs: 
+    - firstname: Alessandro
+      lastname: Margara
+      institution: Politecnico di Milano, Italy
+  #  - firstname: Sebastian 
+  #    lastname: Frischbier
+  #    institution: Infront Financial Technology GmbH (part of Infront group)
+  #  - firstname: Arne
+  #    lastname: Hormann
+  #    institution: Infront Quant AG (part of Infront group)
+  #  - firstname: Ruben 
+  #    lastname: Mayer
+  #    institution: TU Munich
+  #  - firstname: Jawad 
+  #    lastname: Tahir
+  #    institution: TU Munich
+  #  - firstname: Christoph 
+  #    lastname: Doblander
+  #    institution: TU Munich
 
 
-#tutorials_workshop_chairs: 
+tutorials_workshop_chairs: 
+    - firstname: Pieter
+      lastname: Bonte
+      institution: Universiteit Gent, Belgium
 #    - firstname: Paris 
 #      lastname: Carbone
 #      institution: KTH
@@ -183,21 +195,21 @@ industry_chairs:
 
 
 doctoral_symposium_chairs: 
-    - firstname: Riccardo 
-      lastname: Tommasini
-      institution: INSA Lyon, France
-    - firstname: Senjuti 
-      lastname: Basu Roy 
-      institution: New Jersey Institute of Technology, USA
+    # - firstname: Riccardo 
+    #   lastname: Tommasini
+    #   institution: INSA Lyon, France
+    # - firstname: Senjuti 
+    #   lastname: Basu Roy 
+    #   institution: New Jersey Institute of Technology, USA
 
 
 pc_members_poster_demo: 
  
 
 poster_demo_chairs: 
-    - firstname: Baptiste
-      lastname: Lepers
-      institution: University of Neuchâtel, Switzerland
+    # - firstname: Baptiste
+    #   lastname: Lepers
+    #   institution: University of Neuchâtel, Switzerland
 
 
 #diversity_chairs: 
@@ -221,19 +233,22 @@ poster_demo_chairs:
 #      institution: University of Pittsburgh
 
 publicity_chairs: 
-    - firstname: Vania 
-      lastname: Marangozova-Martin
-      institution: Université Grenoble Alpes, France
-    - firstname: Naohiro 
-      lastname: Hayashibara 
-      institution: Kyoto Sangyo University
+    # - firstname: Vania 
+    #   lastname: Marangozova-Martin
+    #   institution: Université Grenoble Alpes, France
+    # - firstname: Naohiro 
+    #   lastname: Hayashibara 
+    #   institution: Kyoto Sangyo University
 
 proceeding_chairs: 
-   - firstname: Marcelo 
-     lastname: Pasin
-     institution: HES-SO University, Switzerland
+  #  - firstname: Marcelo 
+  #    lastname: Pasin
+  #    institution: HES-SO University, Switzerland
   
 web_chairs: 
-    - firstname: Jämes
-      lastname: Ménétrey
-      institution: University of Neuchâtel, Switzerland
+    # - firstname: Jämes
+    #   lastname: Ménétrey
+    #   institution: University of Neuchâtel, Switzerland
+    - firstname: Samuele
+      lastname: Langhi
+      institution: Lyon 1 University, France

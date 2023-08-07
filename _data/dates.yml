@@ -1,97 +1,115 @@
-conference_year: 2023
-conference_dates: 27th&ndash;30th 2023
-conference_dates_calls: June 27th&ndash;30th, 2023
+conference_year: 2024
+conference_dates: June 25th&ndash;28th 2024
+conference_dates_calls: June 25th&ndash;28th, 2024
 
 abstract_submission_fall:
-    old: November 11st, 2022
-    current: November 18st, 2022
+    # old: November 11st, 2023
+    # current: November 18st, 2023
+    current: TBD
 
 research_submission_fall:
-    old: November 18h, 2022
-    current: November 25th, 2022
+    # old: November 18h, 2023
+    # current: November 25th, 2023
+    current: TBD
 
 rebuttal_phase_fall:
-    #old: March 11th, 2023
-    current: January 9&ndash;13, 2023
+    #old: March 11th, 2024
+    # current: January 9&ndash;13, 2024
+    current: TBD
 
 research_notification_fall:
-    #old: March 11th, 2023
-    current: January 20, 2023
+    #old: March 11th, 2024
+    # current: January 20, 2024
+    current: TBD
  
 camera_ready_fall:
-    #old: March 11th, 2023
-    current: March 3rd, 2023
+    #old: March 11th, 2024
+    # current: March 3rd, 2024
+    current: TBD
 
 abstract_submission_spring:
-    old: February 17th, 2023
-    current: February 24th, 2023
+    # old: February 17th, 2024
+    # current: February 24th, 2024
+    current: TBD
 
 research_submission_spring:
-    old: February 24th, 2023
-    current: March 3rdth, 2023
+    # old: February 24th, 2024
+    # current: March 3rdth, 2024
+    current: TBD
 
 rebuttal_phase_spring:
-    #old: March 11th, 2023
-    current: April 13&ndash;17, 2023
+    #old: March 11th, 2024
+    # current: April 13&ndash;17, 2024
+    current: TBD
 
 research_notification_spring:
-    #old: March 11th, 2023
-    current: April 27, 2023
+    #old: March 11th, 2024
+    # current: April 27, 2024
+    current: TBD
  
 camera_ready_spring:
-    #old: March 11th, 2023
-    current: May 26th, 2023 
+    #old: March 11th, 2024
+    # current: May 26th, 2024 
+    current: TBD
  
 industry_submission:
-    old: March 25th, 2023
-    current: April 7th, 2023
+    # old: March 25th, 2024
+    # current: April 7th, 2024
+    current: TBD
 
 industry_author_notification:
-    current: April 27th, 2023
+    # current: April 27th, 2024
+    current: TBD
 
 camera_ready:
-    current: May 26th, 2023
+    # current: May 26th, 2024
+    current: TBD
 
 #tutorial_proposal_submission:
-#    current: April 15th, 2023
+#    current: April 15th, 2024
 #    
 #tutorial_proposal_author_notification:
-#    current: April 29th, 2023 
+#    current: April 29th, 2024 
     
 #research_author_notification:
-#    current: May 6th, 2023
+#    current: May 6th, 2024
 #
 #
 #industry_camera_ready:
-#    current: May 31st, 2023
+#    current: May 31st, 2024
 #
 #grand_challenge_upload_code:
-#    old: April 5th, 2023
-#    current: April 15th, 2023
+#    old: April 5th, 2024
+#    current: April 15th, 2024
 #
 #grand_challenge_submission:
-#    current: April 22th, 2023
+#    current: April 22th, 2024
 #    
 #grand_challenge_author_notification:
-#    old: May 3rd, 2023
-#    current: May 9th, 2023
+#    old: May 3rd, 2024
+#    current: May 9th, 2024
 #
 doctoral_symposium_submission:
-    old: May 10th, 2023
-    current: May 20th, 2023
+    # old: May 10th, 2024
+    # current: May 20th, 2024
+    current: TBD
 
 doctoral_symposium_author_notification:
-    old: May 20th, 2023
-    current: May 27th, 2023
+    # old: May 20th, 2024
+    # current: May 27th, 2024
+    current: TBD
 
 poster_demo_submission:
-    old: May 12th, 2023
-    current: May 19th, 2023
+    # old: May 12th, 2024
+    # current: May 19th, 2024
+    current: TBD
 #
 poster_demo_author_notification:
-    current: May 26th, 2023
-#    current: June 3rd, 2023
+    # current: May 26th, 2024
+#    current: June 3rd, 2024
 #
+    current: TBD
 
 poster_demo_camera_ready:
-    current: May 31st, 2023
+    # current: May 31st, 2024
+    current: TBD
