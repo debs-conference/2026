@@ -41,14 +41,14 @@
             {% endif %}
                 
             {% if site.data.chairs.finance_chairs %}
-            <h1>Finance Chairs</h1>
+            <h1>Finance Chair</h1>
             {% for chair in site.data.chairs.finance_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
             {% endif %}
 
             {% if site.data.chairs.grand_challenge_chairs %}
-            <h1>Grand Challenge Chair</h1>
+            <h1>Grand Challenge Co-Chairs</h1>
             {% for chair in site.data.chairs.grand_challenge_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
@@ -97,8 +97,15 @@
             {% endif %}
 
             {% if site.data.chairs.web_chairs %}
-						<h1>Web Chair</h1>
+						<h1>Web Co-Chairs</h1>
             {% for chair in site.data.chairs.web_chairs %}
+              <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+            {% endfor %}
+            {% endif %}
+            
+            {% if site.data.chairs.podcast_chairs %}
+						<h1>Podcast Chair</h1>
+            {% for chair in site.data.chairs.podcast_chairs %}
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
             {% endif %}

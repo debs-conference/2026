@@ -10,17 +10,17 @@ general_chairs:
       institution: Lyon 1 University, France
 
 pc_chairs:
-    # - firstname: Bettina 
-    #   lastname: Kemme
-    #   institution: McGill University, Canada
-    # - firstname: Etienne 
-    #   lastname: Rivière
-    #   institution: UCLouvain, Belgium
+    - firstname: Tilmann 
+      lastname: Rabl
+      institution: Hasso Plattner Institute, Germany
+    - firstname: Avrilia
+      lastname: Floratou
+      institution: Microsoft Research, USA
 
 finance_chairs:
-    # - firstname: Pascal
-    #   lastname: Felber
-    #   institution: University of Neuchâtel, Switzerland
+    - firstname: Andrea
+      lastname: Mauri
+      institution: Lyon 1 University, France
     # - firstname: Alain
     #   lastname: Sandoz
     #   institution: University of Neuchâtel, Switzerland
@@ -154,62 +154,57 @@ pc_members_industry:
     #   institution: Doordash, USA
 
 industry_chairs: 
-    # - firstname: Josef 
-    #   lastname: Spillner
-    #   institution: ZHAW, Switzerland
-    # - firstname: Mandana 
-    #   lastname: Vaziri
-    #   institution: IBM Research
+    - firstname: Sabri 
+      lastname: Skhri
+      institution: EuraNova
+    - firstname: Danh 
+      lastname: le Phouc
+      institution: TU Berlin, Germany
 
 grand_challenge_chairs: 
     - firstname: Alessandro
       lastname: Margara
       institution: Politecnico di Milano, Italy
-  #  - firstname: Sebastian 
-  #    lastname: Frischbier
-  #    institution: Infront Financial Technology GmbH (part of Infront group)
-  #  - firstname: Arne
-  #    lastname: Hormann
-  #    institution: Infront Quant AG (part of Infront group)
-  #  - firstname: Ruben 
-  #    lastname: Mayer
-  #    institution: TU Munich
-  #  - firstname: Jawad 
-  #    lastname: Tahir
-  #    institution: TU Munich
-  #  - firstname: Christoph 
-  #    lastname: Doblander
-  #    institution: TU Munich
+    - firstname: Sebastian 
+      lastname: Frischbier
+      institution: Infront Financial Technology GmbH (part of Infront group)
+    - firstname: Jawad 
+      lastname: Tahir
+      institution: TU Munich
+    - firstname: Christoph 
+      lastname: Doblander
+      institution: TU Munich
+    - firstname: Luca
+      lastname: De Martini
+      institution: Politecnico di Milano, Italy
+
 
 
 tutorials_workshop_chairs: 
     - firstname: Pieter
       lastname: Bonte
-      institution: Universiteit Gent, Belgium
-#    - firstname: Paris 
-#      lastname: Carbone
-#      institution: KTH
-#    - firstname: Danh 
-#      lastname: Le Phuoc
-#      institution: TU Berlin
+      institution: KU Leuven, Belgium
+    - firstname: Andra
+      lastname:  Ionescu 
+      institution: TU Delft, The Netherlands
 
 
 doctoral_symposium_chairs: 
-    # - firstname: Riccardo 
-    #   lastname: Tommasini
-    #   institution: INSA Lyon, France
-    # - firstname: Senjuti 
-    #   lastname: Basu Roy 
-    #   institution: New Jersey Institute of Technology, USA
+    - firstname: Stefania 
+      lastname: Dumbrava
+      institution: ENSIIE, France
+    - firstname: Jean Paul 
+      lastname: Calbimonte
+      institution: HES-SO, Switzerland
 
 
 pc_members_poster_demo: 
  
 
 poster_demo_chairs: 
-    # - firstname: Baptiste
-    #   lastname: Lepers
-    #   institution: University of Neuchâtel, Switzerland
+    - firstname: Daniele
+      lastname: Dell’Aglio
+      institution: Aalborg University, Denmark
 
 
 #diversity_chairs: 
@@ -241,14 +236,19 @@ publicity_chairs:
     #   institution: Kyoto Sangyo University
 
 proceeding_chairs: 
-  #  - firstname: Marcelo 
-  #    lastname: Pasin
-  #    institution: HES-SO University, Switzerland
+   - firstname: Diana 
+     lastname: Nurbakova
+     institution: INSA Lyon, France
   
 web_chairs: 
-    # - firstname: Jämes
-    #   lastname: Ménétrey
-    #   institution: University of Neuchâtel, Switzerland
     - firstname: Samuele
       lastname: Langhi
       institution: Lyon 1 University, France
+    - firstname: Kristo
+      lastname: Raun
+      institution: University of Tartu, Estonia
+
+podcast_chairs:
+    - firstname: Jack
+      lastname: Waudby
+      institution: Neo4J
