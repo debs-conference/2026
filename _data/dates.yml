@@ -30,27 +30,32 @@ camera_ready_fall:
 abstract_submission_spring:
     # old: February 17th, 2024
     # current: February 24th, 2024
-    current: TBD
+    current: February 16th, 2024
 
 research_submission_spring:
     # old: February 24th, 2024
     # current: March 3rdth, 2024
-    current: TBD
+    current: February 22nd, 2024
 
 rebuttal_phase_spring:
     #old: March 11th, 2024
     # current: April 13&ndash;17, 2024
-    current: TBD
+    current: March 22nd, 2024
 
 research_notification_spring:
     #old: March 11th, 2024
     # current: April 27, 2024
-    current: TBD
+    current: April 12th, 2024
+
+research_finaldecision_spring:
+    #old: March 11th, 2024
+    # current: April 27, 2024
+    current: May 13th, 2024
  
 camera_ready_spring:
     #old: March 11th, 2024
     # current: May 26th, 2024 
-    current: TBD
+    current: May 24th, 2024
  
 industry_submission:
     # old: March 25th, 2024
