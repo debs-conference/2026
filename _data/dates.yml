@@ -60,13 +60,17 @@ camera_ready_spring:
 industry_submission:
     # old: March 25th, 2024
     # current: April 7th, 2024
-    current: TBD
+    current:  March 25th, 2024
 
 industry_author_notification:
     # current: April 27th, 2024
-    current: TBD
+    current: April 27th, 2024
 
 camera_ready:
+    # current: May 26th, 2024
+    current: May 24th, 2024
+
+camera_ready_phd_symp:
     # current: May 26th, 2024
     current: TBD
 

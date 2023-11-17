@@ -205,6 +205,9 @@ poster_demo_chairs:
     - firstname: Daniele
       lastname: Dell’Aglio
       institution: Aalborg University, Denmark
+    - firstname: Romana
+      lastname: Pernisch
+      institution: Vrije Universiteit Amsterdam, The Netherlands
 
 
 #diversity_chairs: 
