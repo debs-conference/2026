@@ -26,10 +26,68 @@ finance_chairs:
     #   institution: University of Neuchâtel, Switzerland
 
 
-pc_members_research: 
-    # - firstname:   Alexander
-    #   lastname:    Artikis  
-    #   institution: University of Piraeus, Greece
+pc_members_research:
+    - firstname:   Alessandro
+      lastname:    Margara
+      institution: Politecnico di Milano, Italy 
+    - firstname:   Alexander
+      lastname:    Artikis  
+      institution: Democritos Research Lab, Greece
+    - firstname:   Andras
+      lastname:    Benczur  
+      institution: SZTAKI, Hungary
+    - firstname:   Ashvin
+      lastname:    Agrawal
+      institution: Microsoft, USA
+    - firstname:   Chen
+      lastname:    Xu
+      institution: East China Normal University, China
+    - firstname:   Dhruba
+      lastname:    Bortakur
+      institution: Rockset, USA
+    - firstname:   Fabian
+      lastname:    Hüske
+      institution: Snowflake, USA
+    - firstname:   Iman
+      lastname:    Elghandour
+      institution: SAP, USA
+    - firstname:   Kaiwen
+      lastname:    Zhang
+      institution: ETS Montreal, Canada
+    - firstname:   Kaustubh
+      lastname:    Beedkar
+      institution: IIT Delhi, India
+    - firstname:   Lawrence
+      lastname:    Benson
+      institution: HPI, Germany
+    - firstname:   Manisha
+      lastname:    Luthra
+      institution: TU Darmstadt, Germany
+    - firstname:   Michael
+      lastname:    Grossniklaus
+      institution: U Konstanz, Germany
+    - firstname:   Mohammad
+      lastname:    Sadoghi
+      institution: UC Davis, USA
+    - firstname:   Philipp
+      lastname:    Grulich
+      institution: TU Berlin, Germany
+    - firstname:   Ruben
+      lastname:    Mayer
+      institution: Uni Bayreuth, Germany
+    - firstname:   Sukanya
+      lastname:    Bhowmik
+      institution: U Potsdam, Germany
+    - firstname:   Vasiliki
+      lastname:    Kalavri
+      institution: Boston U, USA
+    - firstname:   Venkatesh
+      lastname:    Emani
+      institution: Microsoft, USA
+    - firstname:   Ventura
+      lastname:    Del Monte
+      institution: Observe, USA
+    
     # - firstname:   Ivona
     #   lastname:    Brandić 
     #   institution: Vienna University of Technology, Austria	  
