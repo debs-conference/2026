@@ -5,6 +5,16 @@ p, li {
     text-align: justify;
 }
 
+.nested-list {
+    list-style: disc;
+    padding-left: 40px;
+}
+
+.nested-list2 {
+    list-style: circle;
+    padding-left: 40px;
+}
+
 .text-center p {
     text-align: center;
 }

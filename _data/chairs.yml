@@ -183,6 +183,15 @@ pc_members_research:
     #   institution: University of Copenhagen, Denmark	   	  
 
 pc_members_industry: 
+    - firstname: Patrik
+      lastname: Schneider
+      institution: Vienna University of Technology, Austria
+    - firstname: Trung-Kien
+      lastname: Tran
+      institution: Bosch Center for Artificial Intelligence, Germany
+    - firstname: Josiane
+      lastname: Xavier Parreira
+      institution: Siemens AG Österreich, Austria
     # - firstname: Alexandre
     #   lastname:  Da Silva Veith
     #   institution: Nokia Bell Labs, Belgium
@@ -218,6 +227,15 @@ industry_chairs:
     - firstname: Danh 
       lastname: le Phouc
       institution: TU Berlin, Germany
+    - firstname: Boris 
+      lastname: Koldehofe
+      institution: TU Ilmenau, Germany
+    - firstname: Riccardo
+      lastname: Tommasini
+      institution: INSA Lyon, France
+    - firstname: Angela
+      lastname: Bonifati
+      institution: Lyon 1 University, France
 
 grand_challenge_chairs: 
     - firstname: Alessandro
