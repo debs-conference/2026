@@ -117,7 +117,7 @@
                                 </li>
                                 <li>For a given day i, NF_v^i is the count of failures in the window that starts at i-31 (included) and ends at i-1 (included)</li>
                                 <li>The first window closes at day 0: you can assume 0 failures for every day i &lt= 0</li>
-                                <li>Each batch of input data will contain the identifiers of 5 vaults (field vault_ids): you are to return the current value of NF_v for those vaults</li>
+                                <li>Each batch of input data will contain the identifiers of 5 vaults (field vault_ids): you are to return the current value of NF_v for those vaults as the query 1 response for the corresponding batch (Note: as NF_v^i uses the readings up to day i-1, the result can be sent for each batch without waiting for the end of the current day)</li>
                                 </ul>
                             </p>
 
@@ -170,7 +170,7 @@
                                 The full data set will be used for benchmarking the submitted solutions. The smaller test data set will be provided upfront via our eval platform for testing purposes. The test data set contains event notifications representing six months of data about drives only from a single manufacturer. Consequently, participants must not pay attention to filtering out event notifications that do not contain attributes relevant to the Grand Challenge.
                             </p>
                             <p>
-                                The events are provided through a GRPC based API:
+                                The events are provided through a GRPC based API (see the protobuf definition below). The input data is provided in numbered Batches of DriveState. Each DriveState is a reading identified by a timestamp and the serial number of the drive. The reading contains the model of the drive, the id of the vault where it is located and a boolean marking whether it has failed. The DriveState contains a list of readings for the smart attributes of the drive at that specific timestamp. It is provided as a list of int64 raw readings, the values map to the smart attributes in the following order: s1,s2,s3,s4,s5,s7,s8,s9,s10,s12,s173,s174,s183,s187,s188,s189,s190,s191,s192,s193,s194,s195,s196,s197,s198,s199,s200,s220,s222,s223,s226,s240,s241,s242
                             </p>
                             <pre>
                                 <code>
@@ -190,6 +190,13 @@
         string model = 3;
         bool failure = 4;
         int32 vault_id = 5;
+        // SMART raw readings in the following order:
+        // s1,s2,s3,s4,s5,s7,s8,s9,s10,
+        // s12,s173,s174,s183,s187,s188,
+        // s189,s190,s191,s192,s193,s194,
+        // s195,s196,s197,s198,s199,s200,
+        // s220,s222,s223,s226,s240,s241,
+        // s242      
         repeated int64 readings = 6;
     }
     
