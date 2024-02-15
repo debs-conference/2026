@@ -324,9 +324,9 @@ publicity_chairs:
     #   institution: Kyoto Sangyo University
 
 proceeding_chairs: 
-   - firstname: Diana 
-     lastname: Nurbakova
-     institution: INSA Lyon, France
+   - firstname: Sandra 
+     lastname: Geisler
+     institution: RWTH Aachen University, Germany
   
 web_chairs: 
     - firstname: Samuele
