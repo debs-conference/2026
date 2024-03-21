@@ -201,6 +201,12 @@ pc_members_industry:
     - firstname: Josiane
       lastname: Xavier Parreira
       institution: Siemens AG Österreich, Austria
+    - firstname: Riccardo
+      lastname: Tommasini
+      institution: INSA Lyon, France
+    - firstname: Angela
+      lastname: Bonifati
+      institution: Lyon 1 University, France
     # - firstname: Alexandre
     #   lastname:  Da Silva Veith
     #   institution: Nokia Bell Labs, Belgium
@@ -239,12 +245,7 @@ industry_chairs:
     - firstname: Boris 
       lastname: Koldehofe
       institution: TU Ilmenau, Germany
-    - firstname: Riccardo
-      lastname: Tommasini
-      institution: INSA Lyon, France
-    - firstname: Angela
-      lastname: Bonifati
-      institution: Lyon 1 University, France
+    
 
 grand_challenge_chairs: 
     - firstname: Alessandro
