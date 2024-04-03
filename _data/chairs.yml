@@ -242,9 +242,9 @@ industry_chairs:
     - firstname: Danh 
       lastname: le Phouc
       institution: TU Berlin, Germany
-    - firstname: Boris 
-      lastname: Koldehofe
-      institution: TU Ilmenau, Germany
+    # - firstname: Boris 
+    #   lastname: Koldehofe
+    #   institution: TU Ilmenau, Germany
     
 
 grand_challenge_chairs: 
