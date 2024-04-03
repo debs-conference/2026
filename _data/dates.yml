@@ -59,12 +59,13 @@ camera_ready_spring:
  
 industry_submission:
     # old: March 25th, 2024
-    # current: April 7th, 2024
-    current:  March 25th, 2024
+    old:  March 25th, 2024
+    current:  April 5th, 2024
 
 industry_author_notification:
     # current: April 27th, 2024
-    current: April 27th, 2024
+    old: April 27th, 2024
+    old: May 5th, 2024
 
 camera_ready:
     # current: May 26th, 2024
