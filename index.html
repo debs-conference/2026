@@ -159,12 +159,16 @@
   <section id="clients-logo-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6"><a href="https://www.acm.org" target="_blank"><img src="img/clients/acm_logo.svg"
+        <!-- <div class="col-md-4 col-sm-6"><a href="https://www.acm.org" target="_blank"><img src="img/clients/acm_logo.svg"
               alt="ACM"></a></div>
-        <!-- <div class="col-md-3 col-sm-6"><a href="https://www.sigsoft.org" target="_blank"><img
-              src="img/clients/sigsoft_logo.png" alt="Sigsoft"></a></div> -->
-        <div class="col-md-3 col-sm-6"><a href="https://sigmod.org" target="_blank"><img
+        <div class="col-md-4 col-sm-6"><a href="https://sigmod.org" target="_blank"><img
               src="img/clients/sigmod_logo.png" alt="Sigmod"></a></div>
+        <div class="col-md-4 col-sm-6"><a href="https://www.snowflake.com" target="_blank"><img
+              src="img/clients/snowflake.png" alt="Snowflake"></a></div>
+        <div class="col-md-4 col-sm-6"><a href="https://www.insa-lyon.fr" target="_blank"><img
+              src="img/clients/insa.png" alt="Insa"></a></div>    
+        <div class="col-md-4 col-sm-6"><a href="https://www.cnrs.fr" target="_blank"><img
+              src="img/clients/cnrs.svg" alt="CNRS"></a></div> -->
         <!-- <div class="col-md-3 col-sm-6"><a href="https://www.cuso.ch/" target="_blank"><img
               src="img/clients/cuso_logo.png" alt="CUSO"></a></div> -->
         <!-- <div class="col-md-3 col-sm-6 col-md-offset-3"><a href="https://www.unine.ch/iiun" target="_blank"><img
@@ -173,15 +177,15 @@
               src="img/clients/hasler_stiftung_logo.svg" alt="Hasler Stiftung"></a></div> -->
 
         {% for sponsor in site.data.sponsors.gold_sponsors %}
-        <div class="col-md-4 col-sm-6"><a href="{{sponsor.url}}" target="_blank"><img src="{{sponsor.logo}}"
+        <div class="col-md-4 col-sm-6"><a href="{{sponsor.link}}" target="_blank"><img src="{{sponsor.logo}}"
               alt="{{sponsor.name}}"></a></div>
         {% endfor %}
         {% for sponsor in site.data.sponsors.silver_sponsors %}
-        <div class="col-md-4 col-sm-6"><a href="{{sponsor.url}}" target="_blank"><img src="{{sponsor.logo}}"
+        <div class="col-md-4 col-sm-6"><a href="{{sponsor.link}}" target="_blank"><img src="{{sponsor.logo}}"
               alt="{{sponsor.name}}"></a></div>
         {% endfor %}
         {% for sponsor in site.data.sponsors.bronze_sponsors %}
-        <div class="col-md-4 col-sm-6"><a href="{{sponsor.url}}" target="_blank"><img src="{{sponsor.logo}}"
+        <div class="col-md-4 col-sm-6"><a href="{{sponsor.link}}" target="_blank"><img src="{{sponsor.logo}}"
               alt="{{sponsor.name}}"></a></div>
         {% endfor %}
       </div>
