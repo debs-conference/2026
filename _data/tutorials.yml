@@ -1,9 +1,23 @@
-- firstname: Ugo
-  lastname: Landini
-  title: Apache Kafka, a distributed persistent transactional log
-  affiliation: Confluent
-  image: /img/keynotes/ugo.webp
+- firstname: Giselle
+  lastname: van Dongen
+  title: Durable Execution with Restate
+  affiliation: Restate
+  image: /img/keynotes/giselle.jpeg
   anchor: tutorial1
-  download: /tutorial-speakers/2023_DEBS_tutorial_Ugo_Landini.pdf
-  abstract: A 101 introduction to Apache Kafka, the de facto standard platform for event streaming. In this talk we will introduce Kafka looking a bit at its internals, how it works and why it works. We'll also introduce a tool to generate random consistent data and have a quick look at several frameworks for real time streaming applications (kstream, ksqlDB, Apache Flink).  
-  biography: I have more than 25 years experience in software development and IT industry. I have matured a significant competency in distributed applications, starting in the other century when it wasn't even a buzzword - JINI, anyone? I have worked as a designer, lead architect or coach in many different projects for many different companies. I had the chance to work with a lot of methods, processes and tools and had the opportunity to teach and talk about what I have learned in ILT (Instructor's Led Training) courses, in seminars in front of hundreds of people, at the University as well as on national TV, greatly enhancing my communication skills.
+  abstract:  Developing applications in a microservice architecture is hard. For all the benefits that it brings over monolithic application architectures, they expose developers to all sorts of tough distributed systems problems, making it non-trivial to build applications that are consistent, scalable, and resilient. In this session, we explain what Durable Execution is and how it solves these issues. We share ideas from Restate, a Durable Execution Engine that manages crucial aspects like reliable messaging, durable timers, fail-over and consistent state. Restate implements low-latency durable execution with a partitioned command log. The runtime pushes invocations to services and functions, journals the execution, and handles retries and fail-over. In this tutorial, we'll implement an event-driven application with Restate to give you a practical understanding of Durable Execution and how it works.
+
+- firstname: Ulrich
+  lastname: Norbisrath
+  title: Putting the S back into IoT - Tutorial on Sensor and Actor Systems in Small Portable Ad-Hoc Networks
+  affiliation: University of Tartu
+  image: /img/keynotes/ulrich.jpg
+  anchor: tutorial2
+  abstract:  This tutorial introduces participants to the fundamentals and advanced concepts of integrating sensor and actor systems within the Internet of Things (IoT) through hands-on experience with small, portable ad-hoc networks. We will learn to create and manage our own IoT networks by utilizing several ESP32 and ESP8266-based devices connected to various actors and sensors alongside easily configurable IoT edge network set-ups. Using Node-RED for data flow and event-based integration, we will orchestrate the systems. Simple dashboard and database connectivity options in Node-RED will help us build IoT applications and workflows without the complexity of traditional programming environments.
+
+- firstname: Steffen
+  lastname: Zeuch
+  title: "NebulaStream: Data Management for the Internet of Things"
+  affiliation: TU Berlin
+  image: /img/keynotes/steffen.JPG
+  anchor: tutorial3
+  abstract:  Soon, there will be more data produced outside the cloud than inside. This requires new systems that can holistically optimize the processing for so-called sensor-fog-cloud environments. In this tutorial, we present NebulaStream, the first system designed for this environment. We will highlight research challenges, outline system internals, and provide hands-on experiences to the attendees to enable future researches to use NebulaStream as a framework to  try out their own ideas and benefit from its unique features.
