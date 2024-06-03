@@ -285,6 +285,44 @@ doctoral_symposium_chairs:
 
 
 pc_members_poster_demo: 
+    - firstname: Alexander
+      lastname: Artikis
+      institution: TU Delft, The Netherlands
+    - firstname: Kaustubh
+      lastname: Beedkar
+      institution: Indian Institute of Technology, India
+    - firstname: Dhruba
+      lastname: Borthakur
+      institution: Rockset, US
+    - firstname: George
+      lastname: Christodoulou
+      institution: TU Delft, The Netherlands
+    - firstname: Panos
+      lastname: Chrysanthis
+      institution: University of Pittsburgh, US
+    - firstname: Bonaventura
+      lastname: Del Monte
+      institution:  Observe Inc., US
+    - firstname: Philipp
+      lastname: Grulich
+      institution: TU Berlin, Germany
+    - firstname: Alessandro
+      lastname: Margara
+      institution: Politecnico di Milano, Italy
+    - firstname: Romana
+      lastname: Pernisch
+      institution: Vrije Universiteit Amsterdam, The Netherlands
+    - firstname: Sumedh
+      lastname: Sakdeo
+      institution: LinkedIn, US
+    - firstname: Chen
+      lastname: Xu
+      institution: Georgia Institute of Technology
+    - firstname: Kaiwen
+      lastname: Zhang
+      institution: École de Technologie Supérieure Montreal, Canada
+ 
+
  
 
 poster_demo_chairs: 
