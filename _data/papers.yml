@@ -30,14 +30,14 @@
 
 - title: "Safe Shared State in Dataflow Systems"
   type: regular
-  session: 2
+  session: 3
   session_order: 1
   authors:
     - name: Luca De Martini
     - name: Alessandro Margara
 - title: "TREAT - Two wRongs makE A righT: efficient distributed storage and queries of IoT datasets with erasure coding and compression"
   type: industry
-  session: 2
+  session: 3
   session_order: 2
   authors:
     - name: Francesco Taurone
@@ -47,7 +47,7 @@
 
 - title: "FEO: Playing Serverless Hot Potato at the Edge"
   type: regular
-  session: 2
+  session: 3
   session_order: 3
   authors:
     - name: Anirudh Sarma
@@ -58,7 +58,7 @@
 
 - title: "µWheel: Aggregate Management for Streams and Queries"
   type: regular
-  session: 2
+  session: 3
   session_order: 4
   authors:
     - name: Max Meldrum 
@@ -66,14 +66,14 @@
 
 - title: "An Evaluation of Software Sketches"
   type: regular
-  session: 3
+  session: 2
   session_order: 1
   authors:
     - name: Roy Friedman
 
 - title: "Evaluating Stream Processing Autoscalers"
   type: regular
-  session: 3
+  session: 2
   session_order: 2
   authors:
     - name: George Siachamis
@@ -85,7 +85,7 @@
 
 - title: "Job Scheduling for HPC Clusters: Constraint Programming vs. Backfilling Approaches"
   type: industry
-  session: 3
+  session: 2
   session_order: 3
   authors:
     - name: Alexander Goponenko
@@ -96,7 +96,7 @@
 
 - title: "A Comprehensive Benchmarking Analysis of Fault Recovery in Stream Processing Frameworks"
   type: industry
-  session: 3
+  session: 2
   session_order: 4
   authors:
     - name: Adriano Vogel
