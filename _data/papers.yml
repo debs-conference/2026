@@ -14,7 +14,9 @@
     - name: Guillaume Rosinosky
     - institution: IMT Atlantique
     - name: Donatien Schmitz
+    - institution: UCLouvain
     - name: Etienne Rivière
+    - institution: UCLouvain
       # institution: Newcastle University, UK
   # cancelled_reason: Due to unforeseeable events, we will post a video recording of this presentation after the conference.
 - title: "Color-based Lightweight Utility-aware Load Shedding for Real-Time Video Analytics at the Edge"
