@@ -6,12 +6,13 @@
     - name: Klas Segeljakt
     - name: Seif Haridi
     - name: Paris Carbone
-- title: "CPS: capacity planning for stream processing"
+- title: "StreamBed: Capacity Planning for Stream Processing"
   type: regular
   session: 1
   session_order: 2
   authors:
     - name: Guillaume Rosinosky
+    - institution: IMT Atlantique
     - name: Donatien Schmitz
     - name: Etienne Rivière
       # institution: Newcastle University, UK
