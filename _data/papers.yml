@@ -48,7 +48,7 @@
     - name: Márton Sipos
     - name: Daniel Enrique Lucani Rötter
 
-- title: "FEO: Playing Serverless Hot Potato at the Edge"
+- title: "FEO: Efficient Resource Allocation for FaaS at the Edge"
   type: regular
   session: 3
   session_order: 3
