@@ -1,27 +1,35 @@
-- title: "SLASH: Serverless Apache Spark Hub"
+- title: "GALOISim - Simulating on-the-edge processing of distributed stream queries"
   session_order: 0
   authors:
-    - name: Josef Spillner
-      institution: Zurich University of Applied Sciences
-    - name: Panagiotis Gkikopoulos
-      institution: Zurich University of Applied Sciences, Université de Neuchâtel
-- title: "ComDeX Unveiled Demonstrating the Future of IoT-Enhanced Communities"
-  session_order: 1
+    - name: Felix Wöhner  
+      # institution: Automotive Electronics, Robert Bosch Elektronik GmbH
+    - name: Liam Tirpitz
+    - name: Friedrich May
+    - name: Sandra Geisler
+      # institution: Institute of Information Systems, University of Lübeck
+- title: "Continuous Data Ingestion and Transformation in Snowflake"
+  session_order: 0
   authors:
-    - name: Nikolaos Papadakis
-      institution: FORTH-ICS, Télécom SudParis / IP Paris
-    - name: Georgios Bouloukakis
-      institution: Télécom SudParis / IP Paris
-    - name: Kostas Magoutis
-      institution: University of Crete, FORTH-ICS
-- title: "Interactive Performance Exploration of Stream Processing Applications Using Colored Petri Nets"
-  session_order: 2
+    - name: Tyler Akidau 
+      institution: Snowflake Inc.
+    - name: Fabian Hueske
+      institution: Snowflake Inc.
+    - name: Konstantinos Kloudas
+      institution: Snowflake Inc.
+    - name: Leon Papke
+      institution: Snowflake Inc.
+    - name: Niklas Semmler
+      institution: Snowflake Inc.
+    - name: Jan Sommerfeld
+      institution: Snowflake Inc.
+- title: "Towards Dynamic Self-Organizing Wearables for Head and Neck Digital Rehabilitation"
+  authors: 
+    - name: Berk Buzcu
+    - name: Davide Calvaresi
+    - name: Banani Anuraj 
+    - name: Jean-Paul Calbimonte
+
+- title: "µWheel: Aggregate Management for Streams and Queries"
   authors:
-    - name: Timo Räth
-      institution: Technical University of Ilmenau
-    - name: Francesco Bedini
-      institution: Technical University of Ilmenau
-    - name: Kai-Uwe Sattler
-      institution: Technical University of Ilmenau
-    - name: Armin Zimmermann
-      institution: Technical University of Ilmenau
+    - name: Max Meldrum 
+    - name: Paris Carbone

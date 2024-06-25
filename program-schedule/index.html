@@ -37,7 +37,7 @@
                 <tr class="sch">
                     <td class="sch quarter"><strong>8:00</strong></td>
                     <td class="sch" rowspan="4"></td>
-                    <td class="sch reg" rowspan="4">Registration</td>
+                    <td class="sch reg" rowspan="3">Registration</td>
                     <td class="sch reg" rowspan="3">Registration</td>
                     <td class="sch reg" rowspan="4">Registration</td>
                 </tr>
@@ -49,13 +49,13 @@
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>8:45</strong></td>
+                    <td class="sch session" rowspan="2">Opening</a></td>
                     <td class="sch session" rowspan="1">Opening</a></td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>9:00</strong></td>
                     <td class="sch reg" rowspan="6">Registration</td>
                     <!-- <td class="sch session" rowspan="3"><a href="#madness">Minute Madness</a></td> -->
-                    <td class="sch session" rowspan="2">Opening</a></td>
                     <!-- <td class="sch keynote" rowspan="6"><a href="#keynote3">Keynote 2: Accelerating the performance of distributed stream processing systems with in-network computing</a></td> -->
                     <td class="sch keynote" rowspan="4"><a href="#keynote2">Keynote 2: Tyler Akidau</a></td>
                     <td class="sch keynote" rowspan="4"><a href="#keynote3">Keynote 3: Evangelia Kalyvianaki</a></td>
@@ -67,10 +67,10 @@
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>9:15</strong></td>
+                    <td class="sch keynote" rowspan="4"><a href="#keynote1">Keynote 1: Volker Markl</a></td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>9:30</strong></td>
-                    <td class="sch keynote" rowspan="4"><a href="#keynote1">Keynote 1: Volker Markl</a></td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>9:45</strong></td>
@@ -82,20 +82,20 @@
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>10:15</strong></td>
+                    <td class="sch reg" rowspan="2">Coffee Break</td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>10:30</strong></td>
                     <td class="sch session" rowspan="6"><a href="#tutorial1">Tutorial 1: IoT Part 1 (Room 201)</a></td>
-                    <td class="sch reg" rowspan="2">Coffee Break</td>
                     <td class="sch session" rowspan="6"><a href="#paper3">Session - Systems II</a></td>
                     <td class="sch session" rowspan="6"><a href="#tutorial2">Tutorials (Restate + NebulaStream Part 1)</a></td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>10:45</strong></td>
+                    <td class="sch session" rowspan="5"><a href="#paper1">Session - Systems I (+ PhD Symp)</a></td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>11:00</strong></td>
-                    <td class="sch session" rowspan="4"><a href="#paper1">Session - Systems I (+ PhD Symp)</a></td>
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>11:15</strong></td>
@@ -161,7 +161,7 @@
                 </tr>
                 <tr class="sch">
                     <td class="sch quarter"><strong>15:30</strong></td>
-                    <td class="sch special" rowspan="2"><a href="#sponsor">Sponsor Talk (Snowflake) (Amphi Émilie du Châtelet)</a></td>
+                    <td class="sch special" rowspan="2"><a href="#sponsor">Sponsor Talk (Snowflake) (Amphi Émilie du Châtelet de)</a></td>
                     <td class="sch special" rowspan="4"><a href="#grandchallenge">Grand Challenge</a></td>
                     <td class="sch special" rowspan="4"><a href="#testoftime">Test of Time Award</a></td>
                 </tr>
@@ -316,11 +316,11 @@
                     <td class="sch special">
                         <a class="anchor" id="poster1"></a>
                         <strong>Posters & Demos 1</strong><br />
-                        <ul class="sch">
+                        <!-- <ul class="sch">
                             <li>
                                 <a href="/call-for-posters-and-demos/" target="_blank">Call information</a>
                             </li>
-                        </ul>
+                        </ul> -->
                         <!-- <strong>Demos</strong> -->
                         <!-- <strong>(Session chair: Baptiste Lepers)</strong> -->
                         <!-- <ul class="sch">
@@ -345,12 +345,12 @@
                                 {% endunless %}
                             {% endfor %}
                         </ul>
-                        <strong>Poster Session</strong><br />
+                        <strong>Poster Session</strong><br /> -->
                         <ul class="sch">
                             <li>
-                                <a href="/accepted-posters/" target="_blank">accepted posters</a>
+                                <a href="/accepted-posters/" target="_blank">accepted posters and demos</a>
                             </li>
-                        </ul> -->
+                        </ul>
                     </td>
                 </tr>
                 <tr class="sch">
@@ -452,10 +452,27 @@
                     <strong>Grand Challenge</strong><br />
                     <strong>(Session chair: Alessandro Margara)</strong>
                     <!-- <strong>(Session chair: Genoveva Vargas-Solar)</strong> -->
-                    <ul class="sch">
+                    <!-- <ul class="sch">
                         <li>
                             <a href="/call-for-grand-challenge-solutions/" target="_blank">Call information</a>
                         </li>
+                    </ul> -->
+                    <ul class="sch">
+                            <li>
+                                Blazing through Hard Drive Telemetry Data Streams with Parallel Processing
+                                <br />
+                                <em><small>
+                                    Emanuel Onica, Iulia Iustina Sarbu and Ciprian Amariei
+                                </small></em>
+                            </li>
+                                <span class="paper-space"></span>
+                            <li>
+                                The DEBS 2024 Grand Challenge: Telemetry Data for Hard Drive Failure Prediction
+                                <br />
+                                <em><small>
+                                    Luca De Martini, Jawad Tahir, Christoph Doblander, Sebastian Frischbier and Alessandro Margara 
+                                </small></em>
+                            </li>
                     </ul>
                 </td>
               </tr>
@@ -464,14 +481,14 @@
                 <td class="sch special">
                     <a class="anchor" id="poster2"></a>
                     <strong>Posters & Demos 2</strong><br />
-                    <ul class="sch">
+                    <!-- <ul class="sch">
                         <li>
                             <a href="/call-for-posters-and-demos/" target="_blank">Call information</a>
                         </li>
-                    </ul>
-                    <!-- <strong>Demos</strong> -->
+                    </ul> -->
                     <!-- <strong>(Session chair: Baptiste Lepers)</strong> -->
-                    <!-- <ul class="sch">
+                    <!-- <strong>Accepted Demos</strong><br />
+                    <ul class="sch">
                         {% assign sessionDemo = site.data.demo | sort: "session_order" %}
                         {% for demo in sessionDemo %}
                             <li>
@@ -493,12 +510,34 @@
                             {% endunless %}
                         {% endfor %}
                     </ul>
-                    <strong>Poster Session</strong><br />
+                    <strong>Accepted Posters</strong><br />
+                    <ul class="sch">
+                        {% assign sessionPoster = site.data.posters | sort: "title" %}
+                        {% for poster in sessionPoster %}
+                            <li>
+                                {{ poster.title }}
+                                <br />
+                                <em><small>
+                                    {% for author in poster.authors %}
+                                        {{- author.name -}} 
+                                        {%- assign next = poster.authors[forloop.index] -%}
+                                        {% unless author.institution == next.institution %}
+                                        ({{ author.institution -}})
+                                        {%- endunless -%}
+                                        {%- unless forloop.last %},{% endunless %}
+                                    {% endfor %}
+                                </small></em>
+                            </li>
+                            {%- unless forloop.last %}
+                                <span class="paper-space"></span>
+                            {% endunless %}
+                        {% endfor %}
+                    </ul> -->
                     <ul class="sch">
                         <li>
-                            <a href="/accepted-posters/" target="_blank">accepted posters</a>
+                            <a href="/accepted-posters/" target="_blank">accepted posters and demos</a>
                         </li>
-                    </ul> -->
+                    </ul>
                 </td>
             </tr>
           </tbody></table>

@@ -10,7 +10,7 @@
 <body>
 
 {% include header.html %}
-{% include slider-regular-page.html title="ACCEPTED POSTERS" %}
+{% include slider-regular-page.html title="ACCEPTED POSTERS & DEMOS" %}
 
 <section id = "program-committee">
   <div class="container">
@@ -19,7 +19,7 @@
         <div class="block">
           <div style="margin-bottom: 100px;">
             <h1>List of accepted posters</h1>
-            <!-- {% assign sortedPosters = site.data.posters | sort: 'title' %}
+            {% assign sortedPosters = site.data.posters | sort: 'title' %}
             {% for poster in sortedPosters %}
                 <p>
                     <b>{{ poster.title }}</b>
@@ -42,7 +42,35 @@
                         {% endfor %}
                     </i>
                 </p>
-            {% endfor %} -->
+            {% endfor %}
+          </div>
+
+          <div style="margin-bottom: 100px;">
+            <h1>List of accepted demos</h1>
+            {% assign sortedDemos = site.data.demo | sort: 'title' %}
+            {% for demo in sortedDemos %}
+                <p>
+                    <b>{{ demo.title }}</b>
+                    {% if demo.type == "regular" %}
+                    (research demo)
+                    {% elsif demo.type == "vision" %}
+                    (vision demo)
+                    {% elsif demo.type == "industry" %}
+                    (industry demo)
+                    {% endif %}
+                    <br />
+                    <i>
+                        {% for author in demo.authors %}
+                            {{- author.name -}} 
+                            {%- assign next = demo.authors[forloop.index] -%}
+                            {% unless author.institution == next.institution %}
+                            ({{ author.institution -}})
+                            {%- endunless -%}
+                            {%- unless forloop.last %},{% endunless %}
+                        {% endfor %}
+                    </i>
+                </p>
+            {% endfor %}
           </div>
         </div>
       </div>
