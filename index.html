@@ -1,207 +1,63 @@
----
-# this is an empty front matter
----
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>DEBS 2024</title>
-  {% include head-tags.html %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Overlaid Text</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Make the container take up the full viewport height */
+            overflow: hidden; /* Ensure the image doesn't overflow */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensure the image covers the container without stretching */
+            position: absolute; /* Keep the image at the back */
+            top: 0;
+            left: 0;
+        }
+
+        .overlay-text {
+            position: relative;
+            color: white;
+            font-size: 24px; /* Adjust font size as needed */
+            font-weight: bold; /* Optionally adjust font weight */
+            line-height: 1.2; /* Adjust line height for better spacing */
+            text-align: center; /* Center the text */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional shadow effect */
+            background-color: rgba(0, 0, 0, 0.5); /* Optional background color */
+            padding: 10px; /* Adjust padding as needed */
+        }
+
+    </style>
 </head>
-
 <body>
-
-  {% include header.html %}
-  {% include slider-home-page.html %}
-
-  <section id="intro">
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-12">
-          <div class="block">
-            <div class="section-title">
-              <!-- <h1>Unveiling the Recipients of our Paper Awards 🏆</h1>
-              <p>
-                Congratulations to Kristo Raun, Riccardo Tommasini, and Ahmed Awad who have earned the Best Paper in the research track for their work <a href="https://dl.acm.org/doi/10.1145/3583678.3596887">I Will Survive:
-                  An Event-driven Conformance Checking Approach Over Process Streams</a>.<br />
-                In the Industry and Application Track, our congratulations go to João Esteves, Rosa Costa, Yongluan Zhou, and Ana
-                Almeida as recipients of the Best Paper Award in the industry & application track for their work <a href="https://dl.acm.org/doi/10.1145/3583678.3596898">An exploratory analysis of methods for real-time data deduplication in streaming processes</a>.
-              </p> -->
+        <img src="img/goteborg/goteborg.jpg" alt="Descriptive Alt Text">
+        <div class="overlay-text">
+          DEBS 2025 <br>
+          19TH ACM INTERNATIONAL CONFERENCE ON DISTRIBUTED AND EVENT-BASED SYSTEMS <br><br>
 
-              <!-- <h1>The proceedings are online! 📖</h1>
-              <p>
-                We are pleased to announce that the proceedings from the conference are now accessible.
-                Explore the full papers and more on the <a href="/proceedings/">proceedings</a> page.
-              </p>
+          Chalmers University of Technology <br>
+          June 2025 <br>
+          Gothenburg, Sweden <br><br>
 
-              <h1>Conference Program Now Available! 📽️</h1>
-              <p>
-                We are thrilled to announce the release of our conference program, featuring a detailed breakdown of all
-                the paper presentations accepted for this event.
-                Visit our <a href="/program-schedule/">program schedule</a> page to delve into it!
-              </p> -->
-
-              <h1>Venue Information</h1>
-              
-              <p>
-                The 2024 DEBS Conference will be held in the facilities of INSA Lyon situated on the LyonTech-la Doua campus.
-                Check out details about the venue in the <a href="/venue-information/">venue
-                information</a> page. 
-              </p>
-
-              <h2>IMPORTANT INFORMATION</h2>
-
-              <p>
-                Unfortunately, the tram T1 is currently out of service, but a substitution bus, BRT1 or C17, are available from Charpenne (30 min walk) or C26 from Gratte Ciel metro station (25 min walk).
-                More information can be found at this <a href="https://www.tcl.fr/travaux-tramways/travaux-circulation-partielle-sur-les-lignes-t1-et-t4">page</a>.
-              </p>
-
-
-
-              <h1>Objective</h1>
-              <p>
-                The ACM International Conference on Distributed and Event‐Based Systems (DEBS) is a premier venue 
-                for academia and industry to discuss cutting-edge research of distributed and event-based computing 
-                and data processing. DEBS 2024 will be a forum dedicated to the dissemination of original research, 
-                the discussion of practical insights, and the reporting of experiences relevant to distributed and 
-                event‐based systems.
-              </p>
-
-              <p>
-                We solicit high-quality submissions, with different submission options for authors depending on 
-                the nature of their contribution. All submissions will undergo an extensive peer review process.
-              </p>
-
-              <h1>Scope</h1>
-
-              <p>
-                The DEBS conference covers topics in distributed and event-based computing for a wide range of application 
-                domains and computing environments. The conference aims to present novel solutions for collecting, detecting, 
-                processing, analyzing, and responding to events through distributed middleware, systems, and platforms.
-              </p>
-
-              <p>
-                Topics covered by the conference include, but are not limited to:
-              </p>
-
-              <p>
-                <b>Models, architectures and paradigms</b>: Complex event processing, event-driven
-                architectures, trustworthy event-based systems, real-time analytics, intelligent event
-                processing, event processing in big and fast data, data stream processing, security and
-                encryption in stream processing, complex event forecasting, in-network processing,
-                logic-based complex event recognition, online relational learning, distributed event
-                pattern learning, event correlation, and pattern languages.
-              </p>
-
-              <p>
-                <b>Systems and software</b>: Distributed data processing, distributed programming,
-                federated event-based systems, AI/ML for event processing, information-centric
-                networking, software-defined networking, security, reliability and resilience,
-                distributed ledger and blockchains, programmable hardware, energy management, and green
-                computing as well as cloud, fog, ubiquitous and mobile computing.
-              </p>
-
-              <p>
-                <b>Applications</b>: Use cases, requirements, and applications of distributed and
-                event-based systems in various domains including Internet-of-Things, life sciences,
-                moving object applications, smart cities, cyber-physical systems, sensor networks,
-                social networking, multimedia analytics, finance, healthcare and logistics, computer and
-                network security, smart contracts, and blockchains. Also, relevant topics span
-                enterprise-level computing, including enterprise application integration, real-time
-                enterprises, event-based business process management, and support for enterprises to
-                respond in a timely fashion to changing situations.
-              </p>
-
-              <h1 id="diversity">Diversity and Inclusion</h1>
-              <p>The DEBS community joins an integrated effort to promote diversity and inclusion in all
-                aspects of our professional activities. DEBS 2024 participates in this effort alongside EDBT/ICDT, MDM,
-                SIGMOD, VLDB, SoCC, and ICDE, to celebrate the diversity in our community and welcome everyone
-                regardless of age, sex, gender identity, race, ethnicity, socioeconomic background, country of origin,
-                religion, sexual orientation, physical ability, education, work experience, etc. It also welcomes people
-                and opinions of all political persuasions, as long as they abide by the ACM policy against hate speech
-                and harassment. </p>
-
-              <p>For more information visit the dedicated website: <a
-                  href="https://dbdni.github.io">https://dbdni.github.io</a>.</p>
-
-              <p>All submissions are encouraged to be prepared with D&I in mind following the
-                suggestions in submission guidelines. If you have any comments, questions, suggestions, or complaints,
-                please email the DEBS Diversity and Inclusion Chairs (TBA)</p>
-
-              <h1 id="chair">General Co-Chairs</h1>
-              <p>
-                {% for chair in site.data.chairs.general_chairs %}
-                <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
-                {% endfor %}
-              </p>
-            </div>
-          </div>
+          Page under construction
         </div>
-
-        {% include side.html %}
-
-      </div>
-
     </div>
-    </div>
-  </section>
-
-  <section id="feature">
-    <div class="container">
-      <div class="row">
-        <div id="feature-text" class="col-md-6 col-md-offset-0">
-          <h2 class="text-uppercase">INSA Lyon & Université Claude-Bernard Lyon 1</h2>
-          <p>
-            The conference will be hosted by LIRIS (Laboratoire d'InfoRmatique en Image et Systèmes d'information) 
-            through the joint effort of INSA Lyon and Université Claude-Bernard Lyon 1. INSA Lyon, also known 
-            as the Institut National des Sciences Appliquées de Lyon, is a prestigious French grande école and engineering school.  
-            Established in 1957, INSA Lyon's primary objectives are to provide advanced engineering education, 
-            support lifelong learning, and engage in research activities. The Université Claude-Bernard Lyon 1 (UCBL), 
-            is one of the three public universities in Lyon. Established in 1971 through the merger of the 
-            'faculté des sciences de Lyon' and the 'faculté de médecine', the university specializes in science 
-            and technology, medicine, and sports science.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="clients-logo-section">
-    <div class="container">
-      <div class="row">
-        <!-- <div class="col-md-4 col-sm-6"><a href="https://www.acm.org" target="_blank"><img src="img/clients/acm_logo.svg"
-              alt="ACM"></a></div>
-        <div class="col-md-4 col-sm-6"><a href="https://sigmod.org" target="_blank"><img
-              src="img/clients/sigmod_logo.png" alt="Sigmod"></a></div>
-        <div class="col-md-4 col-sm-6"><a href="https://www.snowflake.com" target="_blank"><img
-              src="img/clients/snowflake.png" alt="Snowflake"></a></div>
-        <div class="col-md-4 col-sm-6"><a href="https://www.insa-lyon.fr" target="_blank"><img
-              src="img/clients/insa.png" alt="Insa"></a></div>    
-        <div class="col-md-4 col-sm-6"><a href="https://www.cnrs.fr" target="_blank"><img
-              src="img/clients/cnrs.svg" alt="CNRS"></a></div> -->
-        <!-- <div class="col-md-3 col-sm-6"><a href="https://www.cuso.ch/" target="_blank"><img
-              src="img/clients/cuso_logo.png" alt="CUSO"></a></div> -->
-        <!-- <div class="col-md-3 col-sm-6 col-md-offset-3"><a href="https://www.unine.ch/iiun" target="_blank"><img
-              src="img/clients/unine_cs_logo.png" alt="University of Neuchâtel, Computer Science Institute"></a></div> -->
-        <!-- <div class="col-md-3 col-sm-6"><a href="https://haslerstiftung.ch/en/" target="_blank"><img
-              src="img/clients/hasler_stiftung_logo.svg" alt="Hasler Stiftung"></a></div> -->
-
-        {% for sponsor in site.data.sponsors.gold_sponsors %}
-        <div class="col-md-4 col-sm-6"><a href="{{sponsor.link}}" target="_blank"><img src="{{sponsor.logo}}"
-              alt="{{sponsor.name}}"></a></div>
-        {% endfor %}
-        {% for sponsor in site.data.sponsors.silver_sponsors %}
-        <div class="col-md-4 col-sm-6"><a href="{{sponsor.link}}" target="_blank"><img src="{{sponsor.logo}}"
-              alt="{{sponsor.name}}"></a></div>
-        {% endfor %}
-        {% for sponsor in site.data.sponsors.bronze_sponsors %}
-        <div class="col-md-4 col-sm-6"><a href="{{sponsor.link}}" target="_blank"><img src="{{sponsor.logo}}"
-              alt="{{sponsor.name}}"></a></div>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  {% include footer.html %}
 </body>
 </html>
