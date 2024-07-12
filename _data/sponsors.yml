@@ -7,15 +7,15 @@ gold_sponsors:
     link: https://sigmod.org
     logo: img/clients/sigmod_logo.png
     sidebar: false
-  - name: Insa Lyon
-    link: https://www.insa-lyon.fr
-    logo: img/clients/insa.png
-    sidebar: false
-  - name: CNRS
-    link: https://www.cnrs.fr
-    logo: img/clients/cnrs.svg
-    sidebar: false
-  - name: Snowflake
-    link: https://www.snowflake.com
-    logo: img/clients/snowflake.png
-    sidebar: false
+  # - name: Insa Lyon
+  #   link: https://www.insa-lyon.fr
+  #   logo: img/clients/insa.png
+  #   sidebar: false
+  # - name: CNRS
+  #   link: https://www.cnrs.fr
+  #   logo: img/clients/cnrs.svg
+  #   sidebar: false
+  # - name: Snowflake
+  #   link: https://www.snowflake.com
+  #   logo: img/clients/snowflake.png
+  #   sidebar: false

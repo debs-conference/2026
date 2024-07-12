@@ -2,12 +2,12 @@ general_chairs:
     # - firstname: Valerio
     #   lastname: Schiavoni
     #   institution: University of Neuchâtel, Switzerland
-    - firstname: Riccardo
-      lastname: Tommasini
-      institution: INSA Lyon, France
-    - firstname: Angela
-      lastname: Bonifati
-      institution: Lyon 1 University, France
+    - firstname: Vincenzo
+      lastname: Gulisano
+      institution: Chalmers University of Technology, Gothenburg, Sweden
+    - firstname: Marina
+      lastname: Papatriantafilou
+      institution: Chalmers University of Technology, Gothenburg, Sweden
 
 pc_chairs:
     - firstname: Tilmann 

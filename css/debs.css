@@ -52,10 +52,10 @@ p, li {
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ), url('/img/lyon/campus3.jpg');
+      ), url('/img/goteborg/chalmers.jpg');
     /* background-attachment: fixed; */
-    /* background-position: 50%; */
-    background-size: auto;
+    background-position: 50%; 
+    background-size: 100%;
     padding-bottom: 0;
     padding-top: 0;
 }
@@ -112,7 +112,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 #slider {
-    background-image: url('/img/lyon/panoramic.jpg');
+    background-image: url('/img/goteborg/goteborg.jpg');
     padding-bottom: 100px;
     padding-top: 100px;
 }
@@ -134,7 +134,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 #global-header {
-    background-image: url('/img/lyon/panoramic.jpg');
+    background-image: url('/img/goteborg/goteborg.jpg');
     /* background-position: 50% -550px; */
     /* background-size: auto; */
 }

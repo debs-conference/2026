@@ -1,6 +1,6 @@
-conference_year: 2024
-conference_dates: June 25th&ndash;28th 2024
-conference_dates_calls: June 25th&ndash;28th, 2024
+conference_year: 2025
+conference_dates: June 10th&ndash;13th 2025
+conference_dates_calls: June 10th&ndash;13th, 2025
 
 abstract_submission_fall:
     # old: November 11st, 2023
@@ -28,52 +28,62 @@ camera_ready_fall:
     current: TBD
 
 abstract_submission_spring:
-    old: February 16th, 2024
+    # old: February 16th, 2024
     # current: February 24th, 2024
-    current: February 23rd, 2024
+    # current: February 23rd, 2024
+    current: TBD
 
 research_submission_spring:
-    old: February 22nd, 2024
+    # old: February 22nd, 2024
     # current: March 3rdth, 2024
-    current: March 4th, 2024
+    # current: March 4th, 2024
+    current: TBD
 
 rebuttal_phase_spring:
     #old: March 11th, 2024
     # current: April 13&ndash;17, 2024
-    current: March 22nd, 2024
+    # current: March 22nd, 2024
+    current: TBD
 
 research_notification_spring:
     #old: March 11th, 2024
     # current: April 27, 2024
-    current: April 12th, 2024
+    # current: April 12th, 2024
+    current: TBD
 
 research_finaldecision_spring:
     #old: March 11th, 2024
     # current: April 27, 2024
-    current: May 13th, 2024
+    # current: May 13th, 2024
+    current: TBD
  
 camera_ready_spring:
     #old: March 11th, 2024
     # current: May 26th, 2024 
-    current: May 24th, 2024
+    # current: May 24th, 2024
+    current: TBD
  
 industry_submission:
     # old: March 25th, 2024
-    old:  March 25th, 2024
-    current:  April 5th, 2024
+    # old:  March 25th, 2024
+    # current:  April 5th, 2024
+    current: TBD
 
 industry_author_notification:
     # current: April 27th, 2024
-    old: April 27th, 2024
-    current: May 5th, 2024
+    # old: April 27th, 2024
+    # current: May 5th, 2024
+    current: TBD
 
 camera_ready:
     # current: May 26th, 2024
-    current: May 24th, 2024
+    # current: May 24th, 2024
+    current: TBD
 
 camera_ready_phd_symp:
     # current: May 26th, 2024
-    current:  June 10th, 2024
+    # current:  June 10th, 2024
+    current: TBD
 
 #tutorial_proposal_submission:
 #    current: April 15th, 2024
@@ -102,24 +112,29 @@ camera_ready_phd_symp:
 doctoral_symposium_submission:
     # old: May 10th, 2024
     # current: May 20th, 2024
-    current: May 27th, 2024
+    # current: May 27th, 2024
+    current: TBD
 
 doctoral_symposium_author_notification:
     # old: May 20th, 2024
     # current: May 27th, 2024
-    current: June 3rd, 2024
+    # current: June 3rd, 2024
+    current: TBD
 
 poster_demo_submission:
     # old: May 12th, 2024
-    old: May 8th, 2024
-    current: May 21st, 2024
+    # old: May 8th, 2024
+    # current: May 21st, 2024
+    current: TBD
 #
 poster_demo_author_notification:
-    old: May 22nd, 2024
-    current: June 3rd, 2024
+    # old: May 22nd, 2024
+    # current: June 3rd, 2024
+    current: TBD
 #
     # current: TBD
 
 poster_demo_camera_ready:
-    old: May 29th, 2024
-    current: June 10th, 2024
+    # old: May 29th, 2024
+    # current: June 10th, 2024
+    current: TBD
