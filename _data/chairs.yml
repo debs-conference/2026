@@ -237,7 +237,7 @@ finance_chairs:
 industry_chairs: 
     - firstname: Paul 
       lastname: Townend 
-      institution: Umeå University
+      institution: Umeå University, Sweden
     - firstname: Abel 
       lastname: Souza
       institution: University of California Santa Cruz , US
@@ -255,10 +255,10 @@ grand_challenge_chairs:
       institution: Allianz Global Investors
     - firstname: Jawad 
       lastname: Tahir
-      institution: Technical University of Munich
+      institution: Technical University of Munich, Germany
     - firstname: Christoph 
       lastname: Doblander
-      institution: TU Munich
+      institution: TU Munich, Germany
     - firstname: Luca
       lastname: De Martini
       institution: Politecnico di Milano, Italy
