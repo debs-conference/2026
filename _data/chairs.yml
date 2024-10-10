@@ -11,7 +11,7 @@ general_chairs:
 
 pc_chairs:
     - firstname: Paris
-      lastname: Carbone, 
+      lastname: Carbone
       institution: KTH Royal Institute of Technology, Sweden
     - firstname: Valeria 
       lastname: Cardellini
@@ -240,7 +240,7 @@ industry_chairs:
       institution: Umeå University, Sweden
     - firstname: Abel 
       lastname: Souza
-      institution: University of California Santa Cruz , US
+      institution: University of California Santa Cruz, US
     # - firstname: Boris 
     #   lastname: Koldehofe
     #   institution: TU Ilmenau, Germany
