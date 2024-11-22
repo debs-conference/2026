@@ -121,6 +121,28 @@
                             </li> -->
 
                             <li>
+                                Rebuttal (start):
+                                <b>
+                                    {% if site.data.dates.rebuttal_phase_spring_start.current %}
+                                    {{site.data.dates.rebuttal_phase_spring_start.current}}
+                                    {% else %}
+                                    TBA
+                                    {% endif %}
+                                </b>
+                            </li>
+
+                            <li>
+                                Rebuttal (end):
+                                <b>
+                                    {% if site.data.dates.rebuttal_phase_spring_end.current %}
+                                    {{site.data.dates.rebuttal_phase_spring_end.current}}
+                                    {% else %}
+                                    TBA
+                                    {% endif %}
+                                </b>
+                            </li>
+
+                            <li>
                                 Notification:
                                 <b>
                                     {% if site.data.dates.research_notification_spring.old!="" %}
@@ -134,7 +156,7 @@
                                 </b>
                             </li>
 
-                            <li>
+                            <!--li>
                                 Final decision:
                                 <b>
                                     {% if site.data.dates.research_finaldecision_spring.old!="" %}
@@ -146,7 +168,7 @@
                                     TBA
                                     {% endif %}
                                 </b>
-                            </li>
+                            </li-->
 
                             <li>
                                 Camera ready deadline:
