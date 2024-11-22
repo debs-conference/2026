@@ -37,14 +37,19 @@ research_submission_spring:
     current: February 7th, 2025
     # current: TBD
 
-rebuttal_phase_spring:
+rebuttal_phase_spring_start:
     #old: March 11th, 2024
     current: March 21st, 2025
     # current: TBD
 
-research_notification_spring:
+rebuttal_phase_spring_end:
     #old: March 11th, 2024
     current: March 28th, 2025
+    # current: TBD
+
+research_notification_spring:
+    #old: March 11th, 2024
+    current: April 4th, 2025
     # current: TBD
 
 research_finaldecision_spring:

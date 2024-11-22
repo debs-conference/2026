@@ -61,6 +61,16 @@
 		</tr> -->
 		
 		<tr>
+			<td>Rebuttal (start)</td>
+			<td>{% if site.data.dates.rebuttal_phase_spring_start.current!="" %}<del>{{site.data.dates.rebuttal_phase_spring_start.current}}</del> {% endif %}{% if site.data.dates.rebuttal_phase_spring_start.current %}{{site.data.dates.rebuttal_phase_spring_start.current}}{% else %}tba{% endif %}</td>
+		</tr>
+
+		<tr>
+			<td>Rebuttal (end)</td>
+			<td>{% if site.data.dates.rebuttal_phase_spring_end.current!="" %}<del>{{site.data.dates.rebuttal_phase_spring_end.current}}</del> {% endif %}{% if site.data.dates.rebuttal_phase_spring_end.current %}{{site.data.dates.rebuttal_phase_spring_end.current}}{% else %}tba{% endif %}</td>
+		</tr>
+
+		<tr>
 			<td>Notification</td>
 			<td>{% if site.data.dates.research_notification_spring.old!="" %}<del>{{site.data.dates.research_notification_spring.old}}</del> {% endif %}{% if site.data.dates.research_notification_spring.current %}{{site.data.dates.research_notification_spring.current}}{% else %}tba{% endif %}</td>
 		</tr>
