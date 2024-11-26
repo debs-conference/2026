@@ -26,10 +26,10 @@ finance_chairs:
     #   institution: University of Neuchâtel, Switzerland
 
 
-# pc_members_research:
-#     - firstname:   Alessandro
-#       lastname:    Margara
-#       institution: Politecnico di Milano, Italy 
+pc_members_research:
+    - firstname:   Alessandro
+      lastname:    Margara
+      institution: Politecnico di Milano, Italy 
 #     - firstname:   Alexander
 #       lastname:    Artikis  
 #       institution: Democritos Research Lab, Greece
@@ -75,9 +75,12 @@ finance_chairs:
 #     - firstname:   Ruben
 #       lastname:    Mayer
 #       institution: Uni Bayreuth, Germany
-#     - firstname:   Sukanya
-#       lastname:    Bhowmik
-#       institution: U Potsdam, Germany
+    - firstname:   Sukanya
+      lastname:    Bhowmik
+      institution: University of Potsdam, Germany
+    - firstname:   Shadi
+      lastname:    Ibrahim
+      institution: Inria Rennes, France
 #     - firstname:   Vasiliki
 #       lastname:    Kalavri
 #       institution: Boston U, USA
@@ -93,9 +96,21 @@ finance_chairs:
 #     - firstname: Boris 
 #       lastname: Koldehofe
 #       institution: TU Ilmenau, Germany
-#     - firstname: Georgios 
-#       lastname: Christodoulou
-#       institution: TU Delft, Netherlands
+    - firstname: Georgios 
+      lastname: Christodoulou
+      institution: Delft University of Technology, Netherlands
+    - firstname: Gianpaolo 
+      lastname: Cugola
+      institution: Politecnico di Milano, Italy
+    - firstname: Marios 
+      lastname: Fragkoulis
+      institution: -
+    - firstname: Phuong H. 
+      lastname: Ha
+      institution: UiT The Arctic University of Norway, Norway
+    - firstname: Pınar 
+      lastname: Karagöz
+      institution: Middle East Technical University, Turkey
 #     # - firstname:   Ivona
 #     #   lastname:    Brandić 
 #     #   institution: Vienna University of Technology, Austria	  
@@ -147,9 +162,12 @@ finance_chairs:
 #     # - firstname:   Michał 
 #     #   lastname:    Krol     
 #     #   institution: City, University of London, UK 	  	  	  
-#     # - firstname:   Danh
-#     #   lastname:    Le Phuoc 
-#     #   institution: TU Berlin, Germany
+    - firstname:   Danh
+      lastname:    Le Phuoc 
+      institution: TU Berlin, Germany  
+    - firstname:   Kostas
+      lastname:    Magoutis 
+      institution: University of Crete, Greece
 #     # - firstname:   Manisha
 #     #   lastname:    Luthra   
 #     #   institution: TU Darmstadt, Germany 	  
@@ -215,9 +233,9 @@ finance_chairs:
 #     # - firstname: Florian
 #     #   lastname:  Forster
 #     #   institution: Zitadel, Switzerland
-#     # - firstname: Martin
-#     #   lastname: Hirzel
-#     #   institution: IBM Research, USA
+    - firstname: Martin
+      lastname: Hirzel
+      institution: IBM T.J. Watson Research Center, USA
 #     # - firstname: Tania
 #     #   lastname:  Lorido Botran
 #     #   institution: Roblox, USA
