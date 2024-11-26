@@ -27,9 +27,85 @@ finance_chairs:
 
 
 pc_members_research:
+
+    - firstname:   Sukanya
+      lastname:    Bhowmik
+      institution: University of Potsdam, Germany
+    - firstname: Georgios 
+      lastname: Christodoulou
+      institution: Delft University of Technology, Netherlands
+    - firstname: Gianpaolo 
+      lastname: Cugola
+      institution: Politecnico di Milano, Italy
+    - firstname: Marios 
+      lastname: Fragkoulis
+      institution: -
+    - firstname: Phuong H. 
+      lastname: Ha
+      institution: UiT The Arctic University of Norway, Norway
+    - firstname: Martin
+      lastname: Hirzel
+      institution: IBM T.J. Watson Research Center, USA
+    - firstname:   Shadi
+      lastname:    Ibrahim
+      institution: Inria Rennes, France
+    - firstname: Pınar 
+      lastname: Karagöz
+      institution: Middle East Technical University, Turkey	  
+    - firstname:   Danh
+      lastname:    Le Phuoc 
+      institution: TU Berlin, Germany  
+    - firstname:   Kostas
+      lastname:    Magoutis 
+      institution: University of Crete, Greece
     - firstname:   Alessandro
       lastname:    Margara
       institution: Politecnico di Milano, Italy 
+    - firstname:   Ruben
+      lastname:    Mayer
+      institution: University of Bayreuth, Germany
+    - firstname:   Stefan
+      lastname:    Nastic
+      institution: TU Wien, Austria
+    - firstname: Guillaume 
+      lastname: Pierre
+      institution: University of Rennes, France
+    - firstname: Russo Russo 
+      lastname: Gabriele
+      institution: University of Rome Tor Vergata, Italy
+    - firstname: Guido 
+      lastname: Salvaneschi
+      institution: University of St. Gallen, Switzerland
+    - firstname: Stefan 
+      lastname: Schulte
+      institution: Hamburg University of Technology
+    - firstname: George 
+      lastname: Siachamis
+      institution: INRIA Rennes, France
+    - firstname: Evgenia 
+      lastname: Smirni
+      institution: William & Mary, USA
+    - firstname: Georgios 
+      lastname: Theodorakis
+      institution: Neo4j, London, UK
+    - firstname:   Nalini 
+      lastname:    Venkatasubramanian
+      institution: UC Irvine, USA	 
+    - firstname:   Roman 
+      lastname:    Vitenberg
+      institution: University of Oslo, Norway
+    - firstname:   Matthias 
+      lastname:    Weidlich
+      institution: Humboldt-Universität zu Berlin, Germany 	  
+    - firstname:   Maria 
+      lastname:    Xekalaki
+      institution: University of Manchester, UK 	  
+    - firstname:   Eiko 
+      lastname:    Yoneki
+      institution: University of Cambridge, UK
+    - firstname:   Yongluan
+      lastname:    Zhou
+      institution: University of Copenhagen, Denmark	   	
 #     - firstname:   Alexander
 #       lastname:    Artikis  
 #       institution: Democritos Research Lab, Greece
@@ -72,15 +148,6 @@ pc_members_research:
 #     - firstname:   Philipp
 #       lastname:    Grulich
 #       institution: TU Berlin, Germany
-#     - firstname:   Ruben
-#       lastname:    Mayer
-#       institution: Uni Bayreuth, Germany
-    - firstname:   Sukanya
-      lastname:    Bhowmik
-      institution: University of Potsdam, Germany
-    - firstname:   Shadi
-      lastname:    Ibrahim
-      institution: Inria Rennes, France
 #     - firstname:   Vasiliki
 #       lastname:    Kalavri
 #       institution: Boston U, USA
@@ -96,21 +163,6 @@ pc_members_research:
 #     - firstname: Boris 
 #       lastname: Koldehofe
 #       institution: TU Ilmenau, Germany
-    - firstname: Georgios 
-      lastname: Christodoulou
-      institution: Delft University of Technology, Netherlands
-    - firstname: Gianpaolo 
-      lastname: Cugola
-      institution: Politecnico di Milano, Italy
-    - firstname: Marios 
-      lastname: Fragkoulis
-      institution: -
-    - firstname: Phuong H. 
-      lastname: Ha
-      institution: UiT The Arctic University of Norway, Norway
-    - firstname: Pınar 
-      lastname: Karagöz
-      institution: Middle East Technical University, Turkey
 #     # - firstname:   Ivona
 #     #   lastname:    Brandić 
 #     #   institution: Vienna University of Technology, Austria	  
@@ -161,13 +213,7 @@ pc_members_research:
 #     #   institution: University of Groningen, The Netherlands
 #     # - firstname:   Michał 
 #     #   lastname:    Krol     
-#     #   institution: City, University of London, UK 	  	  	  
-    - firstname:   Danh
-      lastname:    Le Phuoc 
-      institution: TU Berlin, Germany  
-    - firstname:   Kostas
-      lastname:    Magoutis 
-      institution: University of Crete, Greece
+#     #   institution: City, University of London, UK 	  	  
 #     # - firstname:   Manisha
 #     #   lastname:    Luthra   
 #     #   institution: TU Darmstadt, Germany 	  
@@ -188,25 +234,13 @@ pc_members_research:
 #     #   institution: Nokia Bell-Labs, Belgium 
 #     # - firstname: Kia
 #     #   lastname: Teymourian
-#     #   institution: UT Austin, USA
-#     # - firstname:   Nalini 
-#     #   lastname:    Venkatasubramanian
-#     #   institution: UC Irvine, USA	  	  
-#     # - firstname:   Roman 
-#     #   lastname:    Vitenberg
-#     #   institution: University of Oslo, Norway
+#     #   institution: UT Austin, USA 	  
 #     # - firstname:   Spyros 
 #     #   lastname:    Voulgaris
 #     #   institution: Athens University of Economics and Business, Greece	  
-#     # - firstname:   Matthias 
-#     #   lastname:    Weidlich
-#     #   institution: Humboldt-Universität zu Berlin, Germany 	  
 #     # - firstname:   Kaiwen 
 #     #   lastname:    Zhang    
 #     #   institution: École de technologie supérieure de Montréal, Canada
-#     # - firstname:   Yongluan
-#     #   lastname:    Zhou
-#     #   institution: University of Copenhagen, Denmark	   	  
 
 # pc_members_industry: 
 #     - firstname: Patrik
@@ -233,9 +267,6 @@ pc_members_research:
 #     # - firstname: Florian
 #     #   lastname:  Forster
 #     #   institution: Zitadel, Switzerland
-    - firstname: Martin
-      lastname: Hirzel
-      institution: IBM T.J. Watson Research Center, USA
 #     # - firstname: Tania
 #     #   lastname:  Lorido Botran
 #     #   institution: Roblox, USA
