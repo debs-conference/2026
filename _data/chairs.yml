@@ -377,10 +377,10 @@ tutorials_workshop_chairs:
 
  
 
-# poster_demo_chairs: 
-#     - firstname: Daniele
-#       lastname: Dell’Aglio
-#       institution: Aalborg University, Denmark
+poster_demo_chairs: 
+    - firstname: Miquel
+      lastname: Pericàs
+      institution: Chalmers University of Technology, Gothenb
 #     - firstname: Romana
 #       lastname: Pernisch
 #       institution: Vrije Universiteit Amsterdam, The Netherlands
