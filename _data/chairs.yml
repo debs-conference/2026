@@ -17,10 +17,10 @@ pc_chairs:
       lastname: Cardellini
       institution: Università di Roma Tor Vergata, Italy
 
-finance_chairs:
-    - firstname: Filip
-      lastname: Stefanovski
-      institution: Chalmers University of Technology, Gothenburg, Sweden
+# finance_chairs:
+#     - firstname: Filip
+#       lastname: Stefanovski
+#       institution: Chalmers University of Technology, Gothenburg, Sweden
     # - firstname: Alain
     #   lastname: Sandoz
     #   institution: University of Neuchâtel, Switzerland
@@ -380,7 +380,7 @@ tutorials_workshop_chairs:
 poster_demo_chairs: 
     - firstname: Miquel
       lastname: Pericàs
-      institution: Chalmers University of Technology, Gothenb
+      institution: Chalmers University of Technology, Gothenburg
 #     - firstname: Romana
 #       lastname: Pernisch
 #       institution: Vrije Universiteit Amsterdam, The Netherlands
