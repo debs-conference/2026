@@ -31,12 +31,18 @@ pc_members_research:
     - firstname:   Sukanya
       lastname:    Bhowmik
       institution: University of Potsdam, Germany
+    - firstname:   Cao
+      lastname:    Lei
+      institution: University of Arizona, USA
     - firstname: Georgios 
       lastname: Christodoulou
       institution: Delft University of Technology, Netherlands
     - firstname: Gianpaolo 
       lastname: Cugola
       institution: Politecnico di Milano, Italy
+    - firstname:   Bonaventura
+      lastname:    Del Monte
+      institution: Observe Inc., USA
     - firstname: Marios 
       lastname: Fragkoulis
       institution: Delivery Hero Research, Berlin, Germany
@@ -49,12 +55,21 @@ pc_members_research:
     - firstname:   Shadi
       lastname:    Ibrahim
       institution: Inria Rennes, France
+    - firstname: Vana 
+      lastname: Kalogeraki
+      institution: Athens University of Economics and Business
     - firstname: Pınar 
       lastname: Karagöz
-      institution: Middle East Technical University, Turkey	  
+      institution: Middle East Technical University, Turkey
+    - firstname: Boris 
+      lastname: Koldehofe
+      institution: TU Ilmenau, Germany 
     - firstname:   Danh
       lastname:    Le Phuoc 
       institution: TU Berlin, Germany  
+    - firstname:   Manisha
+      lastname:    Luthra
+      institution: TU Darmstadt, Germany
     - firstname:   Kostas
       lastname:    Magoutis 
       institution: University of Crete, Greece
@@ -64,6 +79,9 @@ pc_members_research:
     - firstname:   Ruben
       lastname:    Mayer
       institution: University of Bayreuth, Germany
+    - firstname: Matteo
+      lastname: Nardelli
+      institution: Bank of Italy, Italy
     - firstname:   Stefan
       lastname:    Nastic
       institution: TU Wien, Austria
@@ -88,6 +106,9 @@ pc_members_research:
     - firstname: Georgios 
       lastname: Theodorakis
       institution: Neo4j, London, UK
+    - firstname: Riccardo
+      lastname: Tommasini
+      institution: INSA Lyon, France
     - firstname:   Nalini 
       lastname:    Venkatasubramanian
       institution: UC Irvine, USA	 
@@ -154,9 +175,6 @@ pc_members_research:
 #     - firstname:   Venkatesh
 #       lastname:    Emani
 #       institution: Microsoft, USA
-#     - firstname:   Ventura
-#       lastname:    Del Monte
-#       institution: Observe, USA
 #     - firstname: Kia
 #       lastname: Teymourian
 #       institution: UT-Austin, USA
