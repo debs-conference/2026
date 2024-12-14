@@ -260,16 +260,16 @@ pc_members_research:
 #     #   lastname:    Zhang    
 #     #   institution: École de technologie supérieure de Montréal, Canada
 
-# pc_members_industry: 
-#     - firstname: Patrik
-#       lastname: Schneider
-#       institution: Vienna University of Technology, Austria
-#     - firstname: Trung-Kien
-#       lastname: Tran
-#       institution: Bosch Center for Artificial Intelligence, Germany
-#     - firstname: Josiane
-#       lastname: Xavier Parreira
-#       institution: Siemens AG Österreich, Austria
+pc_members_industry: 
+    - firstname: Qianlin
+      lastname: Liang
+      institution: AWS
+    - firstname: Marco
+      lastname: Serafini
+      institution: UMass Amherst
+    - firstname: Gonzalo
+      lastname: Rodrigo Alvarez
+      institution: Apple
 #     - firstname: Riccardo
 #       lastname: Tommasini
 #       institution: INSA Lyon, France
