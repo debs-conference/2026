@@ -7,6 +7,10 @@ gold_sponsors:
     link: https://sigmod.org
     logo: img/clients/sigmod_logo.png
     sidebar: false
+  - name: Sigsoft
+    link: https://sigsoft.org
+    logo: img/clients/sigsoft_logo.png
+    sidebar: false
   # - name: Insa Lyon
   #   link: https://www.insa-lyon.fr
   #   logo: img/clients/insa.png
