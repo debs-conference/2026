@@ -341,13 +341,13 @@ tutorials_workshop_chairs:
       institution: Boston University, US
 
 
-# doctoral_symposium_chairs: 
-#     - firstname: Stefania 
-#       lastname: Dumbrava
-#       institution: ENSIIE, France
-#     - firstname: Jean Paul 
-#       lastname: Calbimonte
-#       institution: HES-SO, Switzerland
+doctoral_symposium_chairs: 
+    - firstname: Ruben 
+      lastname: Mayer
+      institution: University of Bayreuth, Germany
+    - firstname: Roman 
+      lastname: Vitenbrg
+      institution: University of Oslo, Norway
 
 
 # pc_members_poster_demo: 
