@@ -156,11 +156,70 @@
                         </div>
                         <div>
 
-                            <h1>Data Set and Requirements</h1>
+                            <h1>Evaluation Workflow and API</h1>
                             
                             <p>
-                                Available in the coming weeks.
+                                To evaluate their solutions, participants interact with a server denoted as the Challenger through REST API. The final performance evaluation will be conducted in a controlled environment, but after the registration, participants will be provided with a dockerized version of the Challenger that they can use to experiment their solutions. Participants will also receive a naive solution of the challenge written in Python: this solution is not performant but provides a simple reference to verify the correct understanding of the challenge requirements.
+                            </p>
 
+                            <p>
+                                The Challenger defines the following API endpoints that enable the creation, execution, and processing of benchmarking sessions.
+                            </p>
+
+                            <p>
+                                The workflow proceeds as follows:
+                                <ul class="nested-list">
+                                    <li>Clients <i>create</i> and <i>start</i> benchmarks (bench for short);</li>
+                                    <li>Within each benchmark, they request <i>batches</i> of data;</li>
+                                    <li>For each batch, they provide a <i>result</i> for the queries;</li>
+                                    <li>After submitting results for all the batches of data, they <i>end</i> a benchmark.</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                In the local challenger, clients can visualize the statistics of their benchmarks (throughput and latency percentiles) through a Web interface through the <i>history</i> endpoint.
+                            </p>
+
+                            <p>
+                                Here is a detailed description of the available endpoints:
+                            </p>
+
+                            <hr>
+
+                            <ol start="1">
+                                <li><b>POST</b> <span style="color: green;">/api/create</span></li>
+                            </ol>
+
+                            <p>
+                                <b>Description</b>: Creates a new "bench" or task with a set of parameters.
+                            </p>
+
+                            <p>
+                                <b>Input JSON</b>:
+                                <code>
+                                    {
+                                        "user_id": "id_of_user",
+                                        "name": "name_of_bench",
+                                        "test": true,
+                                        "queries": [0],
+                                        "max_batches": <limit>
+                                    }                                
+                                </code>
+                            </p>
+
+                            <p>
+                                Where
+                                <ul class="nested-list">
+                                    <li><span style="color: green;">user_id</span>: Identifier for the user.</li>
+                                    <li><span style="color: green;">name</span>: The name of the bench.</li>
+                                    <li><span style="color: green;">test</span>: A boolean to specify if this is a test (test runs will not be considered in the online platform)</li>
+                                    <li><span style="color: green;">queries</span>: A list of queries to be executed (always [0] for this year's challenge)</li>
+                                    <li><span style="color: green;">max_batches</span>: The maximum number of batches to process (optional).</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                <b>Response</b>: Returns the <span style="color: green;">bench_id</span> of the created task.
                             </p>
 
                         </div>
