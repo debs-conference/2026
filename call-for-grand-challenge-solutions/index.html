@@ -267,6 +267,103 @@
                                 </ul>
                             </p>
 
+                            <hr>
+
+                            <ol start="4">
+                                <li><b>POST</b> <span style="color: green;">/api/result/0/{bench_id}/{batch_number}</span></li>
+                            </ol>
+
+                            <p>
+                                <b>Description</b>: Submits the result of processing a batch.
+                            </p>
+
+                            <p>
+                                <b>URL Parameters</b>:
+                                <ul class="nested-list">
+                                    <li><span style="color: green;">bench_id</span>: The identifier of the bench.</li>
+                                    <li><span style="color: green;">bench_number</span>: The number of the batch being submitted.</li>
+                                </ul>
+                            </p>
+
+                            
+                            <p>
+                                <b>Data</b>: The processed result serialized in MessagePack (<a href="https://msgpack.org/">https://msgpack.org/</a>).
+                            </p>
+
+                            <p>
+                                <b>Response</b>: Returns status code <span style="color: green;">200</span> on successful start.
+                            </p>
+
+                            <hr>
+
+                            <ol start="5">
+                                <li><b>POST</b> <span style="color: green;">/api/end/{bench_id}</span></li>
+                            </ol>
+
+                            <p>
+                                <b>Description</b>: Marks the bench as completed.
+                            </p>
+
+                            <p>
+                                <b>URL Parameter</b>:
+                                <ul class="nested-list">
+                                    <li><span style="color: green;">bench_id</span>: The identifier of the bench.</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                <b>Response</b>: Returns the final result as a string upon successful completion.
+                            </p>
+
+                            <hr>
+
+                            <p>
+                                <b>Batch Input</b>. Each batch contains data such as:
+
+                                <pre style="margin: 0; padding: 0;"><code style="margin: 0; padding: 0;">    {
+        "sequence": &lt;int&gt;,
+        "print_id": &lt;int&gt;,
+        "tile_id": &lt;int&gt;,
+        "layer": &lt;int&gt;,
+        "tif": &lt;binary data&gt;                                        
+    }</code></pre>
+                            </p>
+
+                            <p>
+                                Where:
+                                <ul class="nested-list">
+                                    <li>sequence: sequence number that uniquely identifies a batch;</li>
+                                    <li>print_id: identifier of the object being printed;</li>
+                                    <li>tile_id: identifier of the tile (see the figure above for reference);</li>
+                                    <li>layer: identifier of the layer (z position) of the tile (see the figure above for reference);</li>
+                                    <li>tif: the image in tif format.</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                <b>Response</b>. Each response contains data such as:
+
+                                <pre style="margin: 0; padding: 0;"><code style="margin: 0; padding: 0;">    {
+        "sequence": &lt;int&gt;,
+        “query”: 0
+        "print_id": &lt;int&gt;,
+        "tile_id": &lt;int&gt;,
+        "saturated": &lt;int&gt;,
+        "centroids": [C0, C1, …]                                   
+    }</code></pre>
+                            </p>
+
+                            <p>
+                                Where:
+                                <ul class="nested-list">
+                                    <li>sequence: sequence number that uniquely identifies a batch;</li>
+                                    <li>print_id: identifier of the object being printed;</li>
+                                    <li>tile_id: identifier of the tile;</li>
+                                    <li>saturated: number of saturated points;</li>
+                                    <li>centroids: list of centroids, where each centroid is defined by its <i>coordinates</i> (x, y) and its <i>size</i> (the number of points belonging to its cluster)</li>
+                                </ul>
+                            </p>
+
                         </div>
                         <div>
 
