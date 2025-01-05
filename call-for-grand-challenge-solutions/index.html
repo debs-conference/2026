@@ -197,7 +197,7 @@
                             <p>
                                 <b>Input JSON</b>:
 
-                                <pre style="margin: 0; padding: 0;"><code style="margin: 0; padding: 0;">{
+                                <pre style="margin: 0; padding: 0;"><code style="margin: 0; padding: 0;">    {
         "user_id": "id_of_user",
         "name": "name_of_bench",
         "test": true,
@@ -219,6 +219,52 @@
 
                             <p>
                                 <b>Response</b>: Returns the <span style="color: green;">bench_id</span> of the created task.
+                            </p>
+
+                            <hr>
+
+                            <ol start="2">
+                                <li><b>POST</b> <span style="color: green;">/api/start/{bench_id}</span></li>
+                            </ol>
+
+                            <p>
+                                <b>Description</b>: Starts the execution of the bench identified by <span style="color: green;">bench_id</span>.
+                            </p>
+
+                            <p>
+                                <b>URL Parameter:</b>
+                                <ul class="nested-list">
+                                    <li><span style="color: green;">bench_id</span>: The identifier of the bench to be started.</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                <b>Response</b>: Returns status code <span style="color: green;">200</span> on successful start.
+                            </p>
+
+                            <hr>
+
+                            <ol start="3">
+                                <li><b>GET</b> <span style="color: green;">/api/next_batch/{bench_id}</span></li>
+                            </ol>
+
+                            <p>
+                                <b>Description</b>: Retrieves the next batch of data for the specified bench.
+                            </p>
+
+                            <p>
+                                <b>URL Parameter</b>:
+                                <ul class="nested-list">
+                                    <li><span style="color: green;">bench_id</span>: The identifier of the bench.</li>
+                                </ul>
+                            </p>
+
+                            <p>
+                                <b>Response</b>:
+                                <ul class="nested-list">
+                                    <li>On success: Returns a batch of data encoded in MessagePack (<a href="https://msgpack.org/">https://msgpack.org/</a>).</li>
+                                    <li>On completion: Returns status code <span style="color: green;">404</span> when there are no more batches available.</li>
+                                </ul>
                             </p>
 
                         </div>
