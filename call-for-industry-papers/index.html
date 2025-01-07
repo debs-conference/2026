@@ -115,6 +115,13 @@
                         </div>
 
                         <div>
+                            <h2>Industry and Application chairs</h2>
+                            {% for chair in site.data.chairs.industry_chairs %}
+                            <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+                            {% endfor %}
+                        </div>
+
+                        <div>
                             <h1>Submissions</h1>
                             <p>
                                 Industry and Applications Track papers should cover some novel use or development of event-based applications or distributed systems, with an industry theme, and must be no longer than 12 pages. We also welcome short papers no longer than 6 pages. Each submission must be original, unpublished and cannot be under review for another publishing forum during the time it is under submission to DEBS 2025.
