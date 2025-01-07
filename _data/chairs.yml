@@ -333,12 +333,12 @@ grand_challenge_chairs:
 
 
 tutorials_workshop_chairs: 
-    - firstname: Alessandro V.
-      lastname: Papadopoulos
-      institution: Mälardalen University (Sweden) and University of Málaga (Spain)
     - firstname: Vasiliki
       lastname:  Kalavri 
       institution: Boston University, US
+    - firstname: Alessandro V.
+      lastname: Papadopoulos
+      institution: Mälardalen University (Sweden) and University of Málaga (Spain)
 
 
 doctoral_symposium_chairs: 
