@@ -314,21 +314,21 @@ industry_chairs:
     
 
 grand_challenge_chairs: 
-    - firstname: Alessandro
-      lastname: Margara
-      institution: Politecnico di Milano, Italy
-    - firstname: Sebastian 
-      lastname: Frischbier
-      institution: Allianz Global Investors
-    - firstname: Jawad 
-      lastname: Tahir
-      institution: Technical University of Munich, Germany
-    - firstname: Christoph 
-      lastname: Doblander
-      institution: TU Munich, Germany
     - firstname: Luca
       lastname: De Martini
       institution: Politecnico di Milano, Italy
+    - firstname: Jawad 
+      lastname: Tahir
+      institution: Technical University of Munich, Germany
+    - firstname: Alessandro
+      lastname: Margara
+      institution: Politecnico di Milano, Italy
+    - firstname: Christoph 
+      lastname: Doblander
+      institution: TU Munich, Germany
+    - firstname: Sebastian 
+      lastname: Frischbier
+      institution: Allianz Global Investors
 
 
 
