@@ -113,6 +113,18 @@ grand_challenge_camera_ready:
 #    old: May 3rd, 2024
    current: May 9th, 2025
 
+grand_challenge_registration:
+#    old: May 3rd, 2024
+   current: December, 2025
+
+grand_challenge_platform_opens:
+#    old: May 3rd, 2024
+   current: February, 2025
+
+grand_challenge_platform_closes:
+#    old: May 3rd, 2024
+   current: February, 2025
+
 #
 doctoral_symposium_submission:
     # old: May 10th, 2024
