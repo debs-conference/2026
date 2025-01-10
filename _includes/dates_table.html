@@ -189,17 +189,17 @@
 
 		<tr>
 			<td>Registration</td>
-			<td>{{site.data.dates.grand_challenge_registration}}</td>
+			<td>{% if site.data.dates.grand_challenge_registration.current %}{{site.data.dates.grand_challenge_registration.current}}{% else %}tba{% endif %}</td>
 		</tr>
 
 		<tr>
 			<td>Platform Opens</td>
-			<td>{{site.data.dates.grand_challenge_platform_opens}}</td>
+			<td>{% if site.data.dates.grand_challenge_platform_opens.current %}{{site.data.dates.grand_challenge_platform_opens.current}}{% else %}tba{% endif %}</td>
 		</tr>
 
 		<tr>
 			<td>Platform Closes</td>
-			<td>{{site.data.dates.grand_challenge_platform_closes}}</td>
+			<td>{% if site.data.dates.grand_challenge_platform_closes.current %}{{site.data.dates.grand_challenge_platform_closes.current}}{% else %}tba{% endif %}</td>
 		</tr>
 
 		<tr>
