@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
- 
+
 if ! [ -x "$(command -v docker)" ]; then
     echo "Docker is required to serve locally this website."
     exit 1
