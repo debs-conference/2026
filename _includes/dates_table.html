@@ -105,6 +105,11 @@
 		</tr>
 
 		<tr>
+			<td>Posters and Demos</td>
+			<td>{% if site.data.dates.poster_demo_submission.old!="" %}<del>{{site.data.dates.poster_demo_submission.old}}</del> {% endif %}{% if site.data.dates.poster_demo_submission.current %}{{site.data.dates.poster_demo_submission.current}}{% else %}tba{% endif %}</td>
+		</tr>
+		
+		<tr>
 			<td>Grand Challenge Short Paper</td>
 			<td>{% if site.data.dates.grand_challenge_submission.old!="" %}<del>{{site.data.dates.grand_challenge_submission.old}}</del> {% endif %}{% if site.data.dates.grand_challenge_submission.current %}{{site.data.dates.grand_challenge_submission.current}}{% else %}tba{% endif %}</td>
 		</tr>
@@ -115,11 +120,6 @@
 		</tr>
 
 		<tr>
-			<td>Posters and Demos</td>
-			<td>{% if site.data.dates.poster_demo_submission.old!="" %}<del>{{site.data.dates.poster_demo_submission.old}}</del> {% endif %}{% if site.data.dates.poster_demo_submission.current %}{{site.data.dates.poster_demo_submission.current}}{% else %}tba{% endif %}</td>
-		</tr>
-		
-		<tr>
 			<td colspan="2" class="bg-gray"><b>Notification Dates</b></td>
 		</tr>
 
@@ -129,15 +129,15 @@
 		</tr-->
 		
 		<tr>
-			<td>Industry and Application Papers</td>
-			<td>{% if site.data.dates.industry_author_notification.old!="" %}<del>{{site.data.dates.industry_author_notification.old}}</del> {% endif %}{% if site.data.dates.industry_author_notification.current %}{{site.data.dates.industry_author_notification.current}}{% else %}tba{% endif %}</td>
-		</tr>
-
-		<tr>
 			<td>Tutorials and Workshops</td>
 			<td>{% if site.data.dates.tutorial_proposal_author_notification.old!="" %}<del>{{site.data.dates.tutorial_proposal_author_notification.old}}</del> {% endif %}{% if site.data.dates.tutorial_proposal_author_notification.current %}{{site.data.dates.tutorial_proposal_author_notification.current}}{% else %}tba{% endif %}</td>
 		</tr>
         
+		<tr>
+			<td>Industry and Application Papers</td>
+			<td>{% if site.data.dates.industry_author_notification.old!="" %}<del>{{site.data.dates.industry_author_notification.old}}</del> {% endif %}{% if site.data.dates.industry_author_notification.current %}{{site.data.dates.industry_author_notification.current}}{% else %}tba{% endif %}</td>
+		</tr>
+
 		{% comment %}
 		<tr>
 			<td>Author Notification Grand Challenge</td>
@@ -167,14 +167,15 @@
 			<td>Camera Ready for Doctoral Symposium</td>
 			<td>{% if site.data.dates.camera_ready_phd_symp.old!="" %}<del>{{site.data.dates.camera_ready_phd_symp.old}}</del> {% endif %}{% if site.data.dates.camera_ready_phd_symp.current %}{{site.data.dates.camera_ready_phd_symp.current}}{% else %}tba{% endif %}</td>
 		</tr-->
-		<tr>
-			<td>Grand Challenge</td>
-			<td>{% if site.data.dates.grand_challenge_camera_ready.old!="" %}<del>{{site.data.dates.grand_challenge_camera_ready.old}}</del> {% endif %}{% if site.data.dates.grand_challenge_camera_ready.current %}{{site.data.dates.grand_challenge_camera_ready.current}}{% else %}tba{% endif %}</td>
-		</tr>
 
 		<tr>
 			<td>Posters and Demos</td>
 			<td>{% if site.data.dates.poster_demo_camera_ready.old!="" %}<del>{{site.data.dates.poster_demo_camera_ready.old}}</del> {% endif %}{% if site.data.dates.poster_demo_camera_ready.current %}{{site.data.dates.poster_demo_camera_ready.current}}{% else %}tba{% endif %}</td>
+		</tr>
+
+		<tr>
+			<td>Grand Challenge</td>
+			<td>{% if site.data.dates.grand_challenge_camera_ready.old!="" %}<del>{{site.data.dates.grand_challenge_camera_ready.old}}</del> {% endif %}{% if site.data.dates.grand_challenge_camera_ready.current %}{{site.data.dates.grand_challenge_camera_ready.current}}{% else %}tba{% endif %}</td>
 		</tr>
 
 		<tr>
