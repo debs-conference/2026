@@ -261,15 +261,21 @@ pc_members_research:
 #     #   institution: École de technologie supérieure de Montréal, Canada
 
 pc_members_industry: 
+    - firstname: Nivedita
+      lastname: Gaur
+      institution: Meta
+    - firstname: Cristian
+      lastname: Klein
+      institution: Umeå University
     - firstname: Qianlin
       lastname: Liang
       institution: AWS
-    - firstname: Marco
-      lastname: Serafini
-      institution: UMass Amherst
     - firstname: Gonzalo
       lastname: Rodrigo Alvarez
       institution: Apple
+    - firstname: Marco
+      lastname: Serafini
+      institution: UMass Amherst
 #     - firstname: Riccardo
 #       lastname: Tommasini
 #       institution: INSA Lyon, France
