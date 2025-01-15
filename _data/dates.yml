@@ -65,29 +65,32 @@ camera_ready_spring:
 industry_submission:
     # old: March 25th, 2024
     # old:  March 25th, 2024
-    current:  March 23, 2025
+    current:  March 23rd, 2025
 
 industry_author_notification:
     # current: April 27th, 2024
     # old: April 27th, 2024
-    current: April 21, 2025
+    current: April 21st, 2025
 
 camera_ready:
     # current: May 26th, 2024
     # current: May 24th, 2024
-    current: May 2, 2025
+    current: May 2nd, 2025
 
 camera_ready_phd_symp:
     # current: May 26th, 2024
     # current:  June 10th, 2024
     current: TBD
 
-#tutorial_proposal_submission:
-#    current: April 15th, 2024
-#    
-#tutorial_proposal_author_notification:
-#    current: April 29th, 2024 
+tutorial_proposal_submission:
+   current: February 28th, 2025
+   
+tutorial_proposal_author_notification:
+   current: March 14th, 2025
     
+tutorial_camera_ready:
+   current: May 2nd, 2025 
+
 #research_author_notification:
 #    current: May 6th, 2024
 #
@@ -99,12 +102,29 @@ camera_ready_phd_symp:
 #    old: April 5th, 2024
 #    current: April 15th, 2024
 #
-#grand_challenge_submission:
-#    current: April 22th, 2024
+grand_challenge_submission:
+   current: May 2nd, 2025
 #    
 #grand_challenge_author_notification:
 #    old: May 3rd, 2024
 #    current: May 9th, 2024
+
+grand_challenge_camera_ready:
+#    old: May 3rd, 2024
+   current: May 9th, 2025
+
+grand_challenge_registration:
+#    old: May 3rd, 2024
+   current: December, 2024
+
+grand_challenge_platform_opens:
+#    old: May 3rd, 2024
+   current: February, 2025
+
+grand_challenge_platform_closes:
+#    old: May 3rd, 2024
+   current: May 9th, 2025
+
 #
 doctoral_symposium_submission:
     # old: May 10th, 2024
