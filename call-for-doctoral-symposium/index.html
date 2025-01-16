@@ -21,37 +21,88 @@
                     <div class="block">
                         <div>
                             <h1>Call for Doctoral Symposium Contributions</h1>
+                            
                             <p>
-                                The ACM International Conference on Distributed and Event‐Based Systems (DEBS) is a premier venue for academia and industry to discuss cutting-edge research of distributed and event-based computing and data processing. DEBS 202 will be a forum dedicated to the dissemination of original research, the discussion of practical insights, and the reporting of experiences relevant to distributed and event‐based systems.
+                                The Doctoral Symposium provides PhD students a forum to present research results, and to receive constructive feedback and mentoring. Students at different stages will be able to present and discuss their problem statement, goals, methods, and results. The forum aims to provide students with useful guidance on various aspects of their research from established researchers and other PhD students working in research areas related to distributed event-based systems. Additionally, the forum aims to enable PhD students to interact with the other participants to stimulate an exchange of ideas and experiences. 
                             </p>
 
                             <p>
-                                We solicit high-quality submissions, with different submission options for authors depending on the nature of their contribution. All submissions will undergo an extensive peer review process.
-                            </p>
-
-<!-- 
-                            <p>The DEBS {{site.data.dates.conference_year}} Doctoral Symposium welcomes submissions from doctoral
-                                students who are undertaking research relevant to the DEBS {{site.data.dates.conference_year}} conference. Topics
-                                covered include, but are not limited to:</p>
-
-                            <div>
-                                <li>Distributed and event-based computing within, e.g., software systems, distributed
-                                    systems, distributed data processing, data management, dependability, knowledge
-                                    management, networking, programming languages, security and software engineering;
-                                </li>
-                                <li>Domain-specific topics within event-based computing: e.g., real-time analytics, mobile computing, social networking, pervasive, green computing and ubiquitous computing, sensor networks, user interfaces, big data processing, spatio-temporal processing, cloud computing, edge computing, peer-to-peer computing, embedded systems, stream reasoning, and RDF stream processing;
-</li>
-                                <li>Enterprise-related topics: e.g., complex event detection, enterprise application integration, real-time enterprises and web services</li>
-                                <li>Relevant research topics within the Internet of Things.</li>
-                            </div> -->
-
-                        </div>
-                        <h2>Doctoral Symposium</h2>
-                            <p>
-                                As for the previous years, the Doctoral Symposium for the 2025 edition of DEBS will provide PhD students a forum to present research results, and to receive constructive feedback and mentoring. More information on this year's edition will be posted here in the coming days! 
+                                The Symposium welcomes submissions by PhD candidates working in distributed and event-based computing and data analysis. We are interested in all the topics of DEBS 2025, including, but not limited to:
+                                <ul class="nested-list">
+                                    <li>Models, architectures, and paradigms</li>
+                                    <li>Systems and software</li>
+                                    <li>Applications and use cases</li>
+                                </ul>
                             </p>
                             
+                            <p>
+                                Accepted submissions will need to be presented during the Doctoral Symposium.  Additionally, the students will be provided an opportunity to present a poster at the main conference. Accepted submissions will be posted on the website of the DEBS conference, but they will not be part of the proceedings published in the ACM Digital Library. Hence, a DS <b>submission  does not affect future publication of the work in conferences/journals</b>.  
+                            </p>
+
+                            <p>
+                                Submissions must be <b>no longer than 4 pages</b> (total, including all appendices and references) and must adhere to the <b>two-column "sigconf" ACM conference proceeding style</b>. Templates and examples in LaTeX and various versions of Microsoft Word are available for download from the ACM Master Article Template web pages at www.acm.org/publications/proceedings-template. Submissions must be in PDF (Adobe’s Portable Document Format) format.  
+                            </p>
+
+                            <p>
+                                Submissions must be <b>single-author</b>, on the topic of the doctoral work. <b>The PhD supervisor’s name must be clearly marked (“supervised by ...”) on the paper, under the author's name</b>.  
+                            </p>
+
+                            <p>
+                                Please submit proposals via Microsoft CMT  at <a href="https://cmt3.research.microsoft.com/DEBS2025/Track/6/Submission/Create">https://cmt3.research.microsoft.com/DEBS2025/Track/6/Submission/Create</a>.
+                            </p>
+
+                            <p>
+                                Inquiries can be sent to <a href="mailto:romanvi@ifi.uio.no">romanvi@ifi.uio.no</a> and <a href="mailto:ruben.mayer@uni-bayreuth.de">ruben.mayer@uni-bayreuth.de</a>.
+                            </p>
                         </div> 
+
+                        <div>
+                            <h1>Submission Structure</h1>
+                            
+                            <p>
+                                Submissions should be written based on the following structure, which focuses on the key methodological components required for a sound research synthesis:
+                                <ul class="nested-list">
+                                    <li><i>Problem Statement</i>: What is the core problem your PhD investigates? Why is it relevant? How valuable are the results to the problem (external validity)?</li>
+                                    <li><i>Research approach/Methodology</i>: What methodology (Data Science, Macro-Meso-Micro Research Question, Action Research, etc.) are you following? How suitable is the method (internal validity)?</li>
+                                    <li><i>Research setting</i>: What are your research questions? Which hypotheses are you going to investigate? (Note that hypotheses must be falsifiable!) What are the assumptions?</li>
+                                    <li><i>State of the art / Related work</i>: Who has worked on your problem (or a similar one)? What are the main differences between existing research and yours? How and why is your research novel with respect to the state of the art? Authors can include a state of the art section before the approach or a related work section after their approach.</li>
+                                    <li><i>Research approach</i>: What is the proposed solution to the problem statement? How does it answer the research questions?</li>
+                                    <li><i>Evaluation plan</i>: How are you going to evaluate your research? Which datasets will you use? Are you using any established benchmarks? Have you reached any result so far?</li>
+                                    <li><i>Conclusions and reflections</i>: What is the current status of your research? What are the main challenges you are facing? Why do you think your research will be successful?</li>
+                                </ul>
+                            </p>
+                            
+                            <p>
+                                The forum is open to all PhD students. PhD students at the beginning of their research journey are particularly welcome when they have a well-defined problem statement and some ideas about the solution that they want to discuss. PhD students at a more advanced stage of their research should still have sufficient time remaining before completing their dissertation to be able to benefit from feedback provided from participation in the DEBS Doctoral Symposium.
+                            </p>
+
+                        </div> 
+
+                        <div div style="margin-bottom: 50px;">
+                            <h1>Important Dates</h1>
+                            <p>All deadlines are AoE (Anywhere on Earth) timezone</p>
+
+                            <li>Doctoral symposium paper submission: <b>{% if
+                                    site.data.dates.doctoral_symposium_submission.old!=""
+                                    %}<del>{{site.data.dates.doctoral_symposium_submission.old}}</del> {% endif %}{% if
+                                    site.data.dates.doctoral_symposium_submission.current
+                                    %}{{site.data.dates.doctoral_symposium_submission.current}}{% else %}tba{% endif %}</b>
+                            </li>
+
+                            <li>Notification of acceptance: <b>{% if site.data.dates.doctoral_symposium_author_notification.old!=""
+                                    %}<del>{{site.data.dates.doctoral_symposium_author_notification.old}}</del> {% endif %}{%
+                                    if site.data.dates.doctoral_symposium_author_notification.current
+                                    %}{{site.data.dates.doctoral_symposium_author_notification.current}}{% else %}tba{% endif
+                                    %}</b></li>
+
+                            <li>Camera ready deadline (for publication on website): <b>{% if site.data.dates.doctoral_symposium_camera_ready.old!=""
+                                    %}<del>{{site.data.dates.doctoral_symposium_camera_ready.old}}</del> {% endif %}{% if
+                                    site.data.dates.doctoral_symposium_camera_ready.current %}{{site.data.dates.doctoral_symposium_camera_ready.current}}{%
+                                    else %}tba{% endif %}</b></li>
+
+                            <li>Conference: <b>{{site.data.dates.conference_dates_calls}}</b></li>
+
+                        </div>
 
                 </div>
                 {% include side.html %}

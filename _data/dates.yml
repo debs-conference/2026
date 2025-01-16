@@ -130,13 +130,19 @@ doctoral_symposium_submission:
     # old: May 10th, 2024
     # current: May 20th, 2024
     # current: May 27th, 2024
-    current: TBD
+    current: May 16th, 2025
 
 doctoral_symposium_author_notification:
     # old: May 20th, 2024
     # current: May 27th, 2024
     # current: June 3rd, 2024
-    current: TBD
+    current: May 23rd, 2025
+
+doctoral_symposium_camera_ready:
+    # old: May 10th, 2024
+    # current: May 20th, 2024
+    # current: May 27th, 2024
+    current: May 30th, 2025
 
 poster_demo_submission:
     # old: May 12th, 2024
