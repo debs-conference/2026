@@ -28,6 +28,9 @@ pc_chairs:
 
 pc_members_research:
 
+    - firstname:   Anceaume
+      lastname:    Emmanuelle
+      institution: IRISA Rennes, France
     - firstname:   Sukanya
       lastname:    Bhowmik
       institution: University of Potsdam, Germany
@@ -46,6 +49,9 @@ pc_members_research:
     - firstname: Marios 
       lastname: Fragkoulis
       institution: Delivery Hero Research, Berlin, Germany
+    - firstname: Antonio 
+      lastname: Fernandez Anta
+      institution: IMDEA Networks Institute, Spain
     - firstname: Phuong H. 
       lastname: Ha
       institution: UiT The Arctic University of Norway, Norway
@@ -88,6 +94,9 @@ pc_members_research:
     - firstname: Guillaume 
       lastname: Pierre
       institution: University of Rennes, France
+    - firstname: Pathan 
+      lastname: Risat
+      institution: Univesity of Gothenburg and Chalmers University of Technology, Sweden
     - firstname: Russo Russo 
       lastname: Gabriele
       institution: University of Rome Tor Vergata, Italy
@@ -352,7 +361,7 @@ doctoral_symposium_chairs:
       lastname: Mayer
       institution: University of Bayreuth, Germany
     - firstname: Roman 
-      lastname: Vitenberg
+      lastname: Vitenbrg
       institution: University of Oslo, Norway
 
 
