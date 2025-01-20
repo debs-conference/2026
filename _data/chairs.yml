@@ -273,6 +273,9 @@ pc_members_industry:
     - firstname: Nivedita
       lastname: Gaur
       institution: Meta
+    - firstname: Sen
+      lastname: He
+      institution: University of Arizona
     - firstname: Cristian
       lastname: Klein
       institution: Umeå University
