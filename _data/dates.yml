@@ -28,13 +28,13 @@ camera_ready_fall:
     current: TBD
 
 abstract_submission_spring:
-    # old: February 16th, 2024
-    current: January 31st, 2025
+    old: January 31st, 2025
+    current: February 10th, 2025
     # current: TBD
 
 research_submission_spring:
-    # old: February 22nd, 2024
-    current: February 7th, 2025
+    old: February 7th, 2025
+    current: February 17th, 2025
     # current: TBD
 
 rebuttal_phase_spring_start:
