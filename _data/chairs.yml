@@ -28,14 +28,14 @@ pc_chairs:
 
 pc_members_research:
 
-    - firstname:   Anceaume
-      lastname:    Emmanuelle
+    - firstname:   Emmanuelle
+      lastname:    Anceaume
       institution: IRISA Rennes, France
     - firstname:   Sukanya
       lastname:    Bhowmik
       institution: University of Potsdam, Germany
-    - firstname:   Cao
-      lastname:    Lei
+    - firstname:   Lei
+      lastname:    Cao
       institution: University of Arizona, USA
     - firstname: Georgios 
       lastname: Christodoulou
@@ -97,8 +97,8 @@ pc_members_research:
     - firstname: Pathan 
       lastname: Risat
       institution: Univesity of Gothenburg and Chalmers University of Technology, Sweden
-    - firstname: Russo Russo 
-      lastname: Gabriele
+    - firstname: Gabriele 
+      lastname: Russo Russo
       institution: University of Rome Tor Vergata, Italy
     - firstname: Guido 
       lastname: Salvaneschi
@@ -124,6 +124,9 @@ pc_members_research:
     - firstname:   Roman 
       lastname:    Vitenberg
       institution: University of Oslo, Norway
+    - firstname:   Spyros 
+      lastname:    Voulgaris
+      institution: Athens University of Economics and Business, Greece	
     - firstname:   Matthias 
       lastname:    Weidlich
       institution: Humboldt-Universität zu Berlin, Germany 	  
@@ -133,6 +136,9 @@ pc_members_research:
     - firstname:   Eiko 
       lastname:    Yoneki
       institution: University of Cambridge, UK
+    - firstname:   Shuhao
+      lastname:    Zhang
+      institution: Huazhong University of Science and Technology, China	   	
     - firstname:   Yongluan
       lastname:    Zhou
       institution: University of Copenhagen, Denmark	   	
