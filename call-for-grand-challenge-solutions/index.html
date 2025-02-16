@@ -25,6 +25,7 @@
                             <h1>News and Highlights</h1>
 
                             <p>
+                                <li>The online evaluation platform is now open!</li>
                                 <li>The online evaluation platform will open on the 15th of February 2025</li>
                                 <li>Information on ACM Artifacts Badges is available <a class="text-left"
                                         href="/acm-artifacts/">here</a>.</li>
@@ -169,13 +170,21 @@
                         </div>
                         <div>
 
-                            <h1>Evaluation Workflow and API</h1>
+                            <h1>Challenger 2.0 and Suggested Workflow</h1>
                             
                             <p>
-                                To evaluate their solutions, participants interact with a server denoted as the Challenger through REST API. The final performance evaluation will be conducted in a controlled environment, but after the registration, participants will be provided with a dockerized version of the Challenger that they can use to experiment their solutions. Participants will also receive a naive solution of the challenge written in Python: this solution is not performant but provides a simple reference to verify the correct understanding of the challenge requirements.
+                                We have been using Challenger to disseminate the dataset and benchmark solutions [1, 2, 3]. This year, we introduce <a href="https://challenge2025.debs.org/">Challenger 2.0</a>, which switches to REST API instead of RPC calls. Furthermore, it uses a containerized evaluation infrastructure [4]. Challenger provides a REST API, which can accessed at <a href="http://challenge2025.debs.org:52923/api">http://challenge2025.debs.org:52923/api</a>. The OpenAPI specification of the REST API is explained below. The API provides 5 endpoints to benchmark your solutions.
+                                <ol start="1">
+                                    <li>/create (Creates a new benchmark)</li>
+                                    <li>/start (Starts the benchmark)</li>
+                                    <li>/next_batch (Get the next batch of data)</li>
+                                    <li>/result (Submit results, go to Step 2, repeat until there is no more data)</li>
+                                    <li>/end (End the benchmark)</li>                               
+                                </ol>
+                                Please use Challenger to develop your solutions. We provide a local evaluator platform and a <a href="https://github.com/chrido/bandency/blob/challenger2/query/2025/short_client.py">starter code to</a> help start your development. In addition, we provide a naive <a href="https://polimi365-my.sharepoint.com/:f:/g/personal/10565376_polimi_it/EvwDVD1Etp1LijxzcmVt4fEBzF90wUk3KxEgQAAn46DOmA?e=gfw3TP">reference implementation</a> of the problem, which we use as a baseline for all submissions. This solution is not performant but provides a simple reference to verify the correct understanding of the challenge requirements.
                             </p>
 
-                            <p>
+                            <!--p>
                                 The Challenger defines the following API endpoints that enable the creation, execution, and processing of benchmarking sessions.
                             </p>
 
@@ -191,7 +200,27 @@
 
                             <p>
                                 In the local challenger, clients can visualize the statistics of their benchmarks (throughput and latency percentiles) through a Web interface through the <i>history</i> endpoint.
+                            </p-->
+
+                            <h2>Containerized evaluation infrastructure</h2>
+
+                            <p>
+                                To foster the culture of cloud-native solutions in the community and ensure the reproducibility of the solutions, we provide a Kubernetes-cluster-based evaluation infrastructure. Please containerize your solution and develop a Kubernetes <a href="https://kubernetes.io/docs/concepts/workloads/controllers/job/">job workload</a> for solution deployment. Please upload the job YAML file to Challenger so that your solutions can be deployed on the cluster. Please run your final evaluations on Challenger infrastructure. Challenger utilizes <a href="https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/">namespaces</a> to sandbox solutions. Furthermore, it uses <a href="https://kubernetes.io/docs/concepts/policy/resource-quotas/">ResourceQuotas</a> and <a href="https://kubernetes.io/docs/concepts/policy/limit-range/">LimitRanges</a> to provide uniform resources to each namespace to ensure a fair evaluation. Each namespace is assigned 4 CPU cores and 8 GBs of memory. You can distribute these resources among pods. By default, each container is given 1 CPU core and 2 GBs of memory.
                             </p>
+
+                            <h2>Fault-tolerance evaluations</h2>
+
+                            <p>
+                                Faults are a common occurrence in any infrastructure, and faults may drastically reduce the performance of a solution [5]. A practical solution should not only be performant but also fault-tolerant. Challenger provides fault-tolerance evaluations to measure the solutions' performance under failure. Challenger can simulate processes (pods) and network failures. Pods failures make a process unavailable, and network failures can introduce network delays in the network of the solution. Please read Section 3.3 of [5] on the discussion to choose these failures. Please run your solutions against both faults with varying frequencies and report your results.
+                            </p>
+
+                            <h2>Micro Challenger</h2>
+
+                            <p>
+                                To accelerate the speed of local development and remove network bandwidth constraints, we additionally provide Micro Challenger to run on your own systems. <a href="https://polimi365-my.sharepoint.com/:f:/g/personal/10565376_polimi_it/EvwDVD1Etp1LijxzcmVt4fEBzF90wUk3KxEgQAAn46DOmA?e=gfw3TP">Micro Challenger</a> uses the same endpoints as Challenger and is cross-compatible. In Micro Challenger, participants can visualize the statistics of their benchmarks (throughput and latency percentiles) through a Web interface through the history endpoint.
+                            </p>
+                            
+                            <h2>REST Endpoints</h2>
 
                             <p>
                                 Here is a detailed description of the available endpoints:
@@ -383,13 +412,25 @@
                             <h1>Awards and Selection Process</h1>
 
                             <p>
-                                Participants of the challenge compete for the performance award. The winner is determined through the automated evaluation platform Challenger (see above), according to criteria of speed (throughput and latency). In the case of submissions with similar performance characteristics, the committees will evaluate qualities of the solutions that are not tied to performance. Specifically, participants are encouraged to consider the practicability of the solution.
+                                Participants of the challenge compete for the performance award. The winner is determined through the automated evaluation platform Challenger (see above), according to criteria of performance (throughput and latency) and fault tolerance. In the case of submissions with similar performance characteristics, the committees will evaluate qualities of the solutions that are not tied to performance. Specifically, participants are encouraged to consider the practicability of the solution.
                             </p>
                             <p>
                                 Regarding the practicability of a solution, we encourage participants to push beyond solving a problem correctly only in the functional sense. Instead, the aim is to provide a reusable and extensible solution that is of value beyond this year’s Grand Challenge alone, using available software systems or home-made but general-purpose processing engines.
                             </p>
                             <p>
                                 In particular, we will reward those solutions that adhere to a list of non-functional criteria, such as configurability, scalability (horizontal scalability is preferred), operational reliability/resilience, accessibility of the solution's source code, integration with standard (tools/protocols), documentation, security mechanisms, deployment support, portability/maintainability, and support of special hardware (e.g., FPGAs, GPUs, SDNs, ...). These criteria are driven by industry use cases and scenarios so that we make sure solutions are applicable in practical settings.
+                            </p>
+
+                            <p>
+                                References:
+                                <ol start="1">
+                                    <li>The DEBS 2021 grand challenge: analyzing environmental impact of worldwide lockdowns. Tahir et al. DEBS ‘21. <a href="https://doi.org/10.1145/3465480.3467836">https://doi.org/10.1145/3465480.3467836</a></li>
+                                    <li>Detecting trading trends in financial tick data: the DEBS 2022 grand challenge. Frischbier et al. DEBS ‘22. <a href="https://doi.org/10.1145/3524860.3539645">https://doi.org/10.1145/3524860.3539645</a></li>
+                                    <li>The DEBS 2024 Grand Challenge: Telemetry Data for Hard Drive Failure Prediction. De Martini et al. DEBS ‘24. <a href="https://doi.org/10.1145/3629104.3672538">https://doi.org/10.1145/3629104.3672538</a></li>
+                                    <li>Challenger 2.0: A Step Towards Automated Deployments and Resilient Solutions for the DEBS Grand Challenge. Tahir et al. DEBS ‘24. <a href="https://doi.org/10.1145/3629104.3666027">https://doi.org/10.1145/3629104.3666027</a></li>
+                                    <li>How Reliable Are Streams? End-to-End Processing-Guarantee Validation and Performance Benchmarking of Stream Processing Systems. Tahir et al. PVLDB ‘24. https://doi.org/10.14778/3712221.3712227</li>
+                                </ol>
+                                
                             </p>
                             
                         </div>
