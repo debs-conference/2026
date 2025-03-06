@@ -11,6 +11,10 @@ gold_sponsors:
     link: https://sigsoft.org
     logo: img/clients/sigsoft_logo.png
     sidebar: false
+  - name: AoATransport
+    link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/transport-area-of-advance/
+    logo: img/clients/Styrke_Trans_RGB_EN.png
+    sidebar: false
   # - name: Insa Lyon
   #   link: https://www.insa-lyon.fr
   #   logo: img/clients/insa.png
