@@ -1,13 +1,13 @@
 
 - firstname: Minos
   lastname: Garofalakis
-  # title: ""
-  affiliation: ATHENA Research Center & Technical University of Crete (TUC)
+  title: ""
+  affiliation: ATHENA Research Center, Technical University of Crete (TUC)
   image: /img/keynotes/minos.jpg
   anchor: keynote1
-  # abstract: ""
+  abstract: ""
   biography: "Minos Garofalakis is the Director of the Information Management Systems Institute (IMSI) at the ATHENA Research Center and a Professor at the School of ECE at the Technical University of Crete (TUC). He also works as a (part-time) senior research consultant for Huawei ISR/ERC and is the Co-founder and Director of Research at Agora Labs, a startup company bringing state-of-the-art data privacy technologies to the healthcare domain. Minos received the MSc and PhD degrees from the University of Wisconsin-Madison, and previously held senior/principal researcher positions at Bell Labs (1998-2005), Intel Research Berkeley (2005-2007), and Yahoo! Research (2007-2008); in parallel, he held an Adjunct Professor position at the EECS Department of UC Berkeley (2006-2008). Between 2/2022-2/2023, he also worked as a consulting Senior Principal Scientist for Amazon Web Services (AWS). Minos’s research interests lie in the broad area of Big Data Analytics. He has published over 170 papers that have received more than 17,000 citations (h-index=70) according to Google Scholar. Minos is an ACM and IEEE Fellow, a Member of Academia Europaea, and a recipient of several awards, including the TUC “Excellence in Research” Award (2015), the Bell Labs President’s Gold Award (2004), two Best Research Paper Awards (VLDB’2024, ICDE’2009), and ten "best of" conference paper selections."
-  # date: June 26th
+  date: ""
 
 # - firstname: Alessandro
 #   lastname: Margara
