@@ -9,7 +9,7 @@
 
 .DLauthors li {
     display: inline;
-    list-style-type: none;
+    list-style-type: circle;
     padding-right: 5px;
 }
 
