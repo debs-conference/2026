@@ -282,18 +282,27 @@ pc_members_industry:
     - firstname: Sen
       lastname: He
       institution: University of Arizona
+    - firstname: Samuel
+      lastname: Hsia
+      institution: Meta
+    - firstname: Uday Kiran
+      lastname: Jonnala
+      institution: Dell Technologies
     - firstname: Cristian
       lastname: Klein
       institution: Umeå University
+    - firstname: Bogdan
+      lastname: Ghit
+      institution: Databricks
     - firstname: Qianlin
       lastname: Liang
       institution: AWS
     - firstname: Gonzalo
       lastname: Rodrigo Alvarez
       institution: Apple
-    - firstname: Marco
-      lastname: Serafini
-      institution: UMass Amherst
+    # - firstname: Marco
+    #   lastname: Serafini
+    #   institution: UMass Amherst
 #     - firstname: Riccardo
 #       lastname: Tommasini
 #       institution: INSA Lyon, France
