@@ -71,7 +71,8 @@ industry_submission:
 industry_author_notification:
     # current: April 27th, 2024
     # old: April 27th, 2024
-    current: April 21st, 2025
+    old: April 21st, 2025
+    current: April 27th, 2025
 
 camera_ready:
     # current: May 26th, 2024
