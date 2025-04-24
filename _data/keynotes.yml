@@ -1,3 +1,14 @@
+
+- firstname: Georgia
+  lastname: Koutrika
+  affiliation: Athena Research Center
+  image: /img/keynotes/georgia.jpg
+  anchor: keynote4
+  biography: >
+    Georgia Koutrika is Research Director at Athena Research Center in Greece, where she leads the DARELab. She has more than 15 years of experience in multiple roles at HP Labs, IBM Almaden, and Stanford. She has received a PhD and a diploma in Computer Science from the Department of Informatics and Telecommunications, University of Athens in Greece. Her work focuses on natural language data interfaces, data exploration, recommendations, and data analytics, and has been incorporated in commercial products, described in 14 granted patents and 26 patent applications in the US and worldwide, and published in more than 100 papers in top-tier conferences and journals.
+    
+    She is member of the VLDB Endowment Board of Trustees, co-EiC for VLDB Journal, PC co-chair for VLDB 2023, co-EiC of Proceedings of the VLDB (PVLDB). In the past, she has served or serves as associate editor for top conferences (such as ACM SIGMOD and VLDB) and journals (TKDE, VLDB Journal), as well as in various organization roles, including EDBT 2023 and ICDE 2021 sponsorship chair, and general chair for ACM SIGMOD 2016. Georgia is chair of the ACM working Group on Seasonal Schools, and member of the ACM-RAISE Working Group. She is ACM Senior Member, IEEE Senior Member, and ACM Distinguished Speaker.
+
 - firstname: Minos
   lastname: Garofalakis
   affiliation: ATHENA Research Center, Technical University of Crete (TUC)
@@ -40,16 +51,6 @@
     In this talk, I will discuss recent developments in decarbonizing cloud platforms and workloads. I will discuss how AI workloads have contributed to the rising demand for cloud computing and the promise that AI holds for enhancing the sustainability of cloud platforms. I will discuss how recently proposed approaches for designing carbon-efficient systems introduce new tradeoffs in performance, cost, and energy-efficiency when reducing the carbon footprint of modern cloud applications. I will present approaches for navigating these tradeoffs and end with open research challenges in the emerging field of computational decarbonization.
   biography: >
     Prashant Shenoy is currently a Distinguished Professor and Associate Dean in the College of Information and Computer Sciences at the University of Massachusetts Amherst. He received the B.Tech degree in Computer Science and Engineering from the Indian Institute of Technology, Bombay and the M.S and Ph.D degrees in Computer Science from the University of Texas, Austin. His research interests lie in distributed systems and networking, with a recent emphasis on cloud and sustainable computing. He has been the recipient of several best paper awards at leading conferences, including two ACM Test of Time Awards. He is a fellow of the ACM, IEEE, AAAS, and AAIA.
-
-- firstname: Georgia
-  lastname: Koutrika
-  affiliation: Athena Research Center
-  image: /img/keynotes/georgia.jpg
-  anchor: keynote4
-  biography: >
-    Georgia Koutrika is Research Director at Athena Research Center in Greece, where she leads the DARELab. She has more than 15 years of experience in multiple roles at HP Labs, IBM Almaden, and Stanford. She has received a PhD and a diploma in Computer Science from the Department of Informatics and Telecommunications, University of Athens in Greece. Her work focuses on natural language data interfaces, data exploration, recommendations, and data analytics, and has been incorporated in commercial products, described in 14 granted patents and 26 patent applications in the US and worldwide, and published in more than 100 papers in top-tier conferences and journals.
-    
-    She is member of the VLDB Endowment Board of Trustees, co-EiC for VLDB Journal, PC co-chair for VLDB 2023, co-EiC of Proceedings of the VLDB (PVLDB). In the past, she has served or serves as associate editor for top conferences (such as ACM SIGMOD and VLDB) and journals (TKDE, VLDB Journal), as well as in various organization roles, including EDBT 2023 and ICDE 2021 sponsorship chair, and general chair for ACM SIGMOD 2016. Georgia is chair of the ACM working Group on Seasonal Schools, and member of the ACM-RAISE Working Group. She is ACM Senior Member, IEEE Senior Member, and ACM Distinguished Speaker.
 
 # - firstname: Alessandro
 #   lastname: Margara
