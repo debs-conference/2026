@@ -30,6 +30,8 @@
 - firstname: Prashant
   lastname: Shenoy
   affiliation: University of Massachusetts Amherst
+  title: >
+    Decarbonizing Cloud Computing: Opportunities and Tradeoffs
   image: /img/keynotes/shenoy.jpg
   anchor: keynote3
   abstract: >
