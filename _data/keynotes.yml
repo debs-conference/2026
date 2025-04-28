@@ -33,6 +33,10 @@
 - firstname: Vana
   lastname: Kalogeraki
   affiliation: Athens University of Economics and Business
+  title: >
+    Supporting AI pipelines in the computing continuum
+  abstract: >
+    The technology ecosystem has experienced a profound and disruptive transformation in recent years. Groundbreaking technological innovations such as cloud computing, the Internet of Things (IoT) and Artificial Intelligence (AI) have paved the way for applications that were once deemed inconceivable, significantly enhancing quality of life and empowering businesses to make more informed decisions. The long-term potential of these technologies presents immense opportunities. The question we face now is how to automate the machine learning workflows and build systems that can meet the demands of scalability and efficiency, bridging the gap between AI innovations and end users to make AI widely accessible to diverse audiences. In this talk, we explore recent developments and highlight exciting prospects for supporting AI pipelines across the evolving computing continuum. In particular, we will discuss a series of research challenges and introduce novel techniques focused on resource management, energy efficiency, reliability, and privacy. Our discussion is motivated by critical application areas within the SmartCity domain, specifically: (a) transportation systems and (b) urban disaster and emergency response.
   image: /img/keynotes/vana.jpg
   anchor: keynote2
   biography: >
