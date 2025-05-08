@@ -163,29 +163,34 @@
                                     <tr class="sch">
                                         <td class="sch quarter"><strong>15:30</strong></td>
                                         <td class="sch reg" rowspan="2">Coffee Break</td>
-                                        <td class="sch session" rowspan="2" style="padding: 0; border: none;">
-                                            <table style="
-                                                    width: 100%;
-                                                    border-collapse: collapse;
-                                                    border-spacing: 0;
-                                                    margin: 0;
-                                                  ">
+                                        <td class="sch session" rowspan="4" style="padding: 0; border: none;">
+                                            <table
+                                                style="width: 100%; height: 100%; border-collapse: collapse; border-spacing: 0; margin: 0; table-layout: fixed;">
                                                 <tr>
-                                                    <td style="
-                                                        border: none;
-                                                        border-right: 1px solid #000;
-                                                        padding: 4px;
-                                                        text-align: center;
-                                                      ">
+                                                    <!-- Coffee Break spans 2 rows in the left column -->
+                                                    <td rowspan="2"
+                                                        style="background-color: #f0e68c; /* light khaki */ border: none; border-right: 1px solid #000; padding: 4px; text-align: center; vertical-align: middle;">
                                                         Coffee Break
                                                     </td>
-                                                    <td style="
-                                                        border: none;
-                                                        padding: 4px;
-                                                        text-align: center;
-                                                      ">
-                                                        Poster & Demo Session
+                                                    <!-- Empty top-right cell -->
+                                                    <td style="border: none;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Empty bottom-right cell of the top part -->
+                                                    <td style="border: none;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Empty left cell below Coffee Break -->
+                                                    <td style="border: none;"></td>
+                                                    <!-- Poster session text spans two rows in the right column -->
+                                                    <td rowspan="2"
+                                                        style="border: none; text-align: center; vertical-align: middle;">
+                                                        Poster &amp; Demo Session
                                                     </td>
+                                                </tr>
+                                                <tr>
+                                                    <!-- Empty left-bottom cell -->
+                                                    <td style="border: none;"></td>
                                                 </tr>
                                             </table>
                                         </td>
