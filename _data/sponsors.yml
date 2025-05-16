@@ -23,6 +23,10 @@ gold_sponsors:
     link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/information-and-communication-technology-area-of-advance/
     logo: img/clients/aoa-ict_logo_600px.jpg
     sidebar: false
+  - name: ChalmersGU
+    link: https://www.chalmers.se/en/
+    logo: img/clients/chalmers_gu_black.png
+    sidebar: false
   # - name: Insa Lyon
   #   link: https://www.insa-lyon.fr
   #   logo: img/clients/insa.png
