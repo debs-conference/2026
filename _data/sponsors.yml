@@ -3,30 +3,30 @@ gold_sponsors:
     link: https://www.acm.org
     logo: img/clients/acm_logo.svg
     sidebar: false
-  - name: Sigmod
-    link: https://sigmod.org
-    logo: img/clients/sigmod_logo.png
-    sidebar: false
-  - name: Sigsoft
-    link: https://sigsoft.org
-    logo: img/clients/sigsoft_logo.png
-    sidebar: false
-  - name: AoAEnergy
-    link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/energy-area-of-advance/
-    logo: img/clients/aoa-energy_logo_600px.jpg
-    sidebar: false
-  - name: AoATransport
-    link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/transport-area-of-advance/
-    logo: img/clients/Styrke_Trans_RGB_EN.png
-    sidebar: false
-  - name: AoAICT
-    link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/information-and-communication-technology-area-of-advance/
-    logo: img/clients/aoa-ict_logo_600px.jpg
-    sidebar: false
-  - name: ChalmersGU
-    link: https://www.chalmers.se/en/
-    logo: img/clients/chalmers_gu_black.png
-    sidebar: false
+  # - name: Sigmod
+  #   link: https://sigmod.org
+  #   logo: img/clients/sigmod_logo.png
+  #   sidebar: false
+  # - name: Sigsoft
+  #   link: https://sigsoft.org
+  #   logo: img/clients/sigsoft_logo.png
+  #   sidebar: false
+  # - name: AoAEnergy
+  #   link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/energy-area-of-advance/
+  #   logo: img/clients/aoa-energy_logo_600px.jpg
+  #   sidebar: false
+  # - name: AoATransport
+  #   link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/transport-area-of-advance/
+  #   logo: img/clients/Styrke_Trans_RGB_EN.png
+  #   sidebar: false
+  # - name: AoAICT
+  #   link: https://www.chalmers.se/en/collaborate-with-us/collaborate-in-research-and-innovation/research-related-contacts/information-and-communication-technology-area-of-advance/
+  #   logo: img/clients/aoa-ict_logo_600px.jpg
+  #   sidebar: false
+  # - name: ChalmersGU
+  #   link: https://www.chalmers.se/en/
+  #   logo: img/clients/chalmers_gu_black.png
+  #   sidebar: false
   # - name: Insa Lyon
   #   link: https://www.insa-lyon.fr
   #   logo: img/clients/insa.png

@@ -35,7 +35,7 @@
                             <h1>Objective</h1>
 
                             <p>
-                                The ACM International Conference on Distributed and Event‐Based Systems (DEBS) is a premier venue for academia and industry to discuss cutting-edge research in distributed and event-based computing and data processing. DEBS 2025 will be a forum dedicated to disseminating original research, discussing practical insights, and reporting experiences relevant to distributed and event‐based systems.
+                                The ACM International Conference on Distributed and Event‐Based Systems (DEBS) is a premier venue for academia and industry to discuss cutting-edge research in distributed and event-based computing and data processing. DEBS 2026 will be a forum dedicated to disseminating original research, discussing practical insights, and reporting experiences relevant to distributed and event‐based systems.
                             </p>
 
                         </div>
@@ -44,7 +44,7 @@
                             <h1>Tutorials</h1>
 
                             <p>
-                                DEBS 2025 will host a one-day, multi-track tutorial program to provide independent instruction on topics related to distributed and event-based computing, both fitting for the research audience and an industrial audience. We solicit both <b>long (2 sessions)</b> and <b>short (1 session)</b> tutorials. The topic should relate to event-based systems and methods. Submissions can target a particular distributed system technology or a more general problem area of interest to the DEBS community, i.e., middleware, architectures, and design approaches to collecting, detecting, processing, and responding to events. Tutorials on emerging enterprise-level infrastructures and/or popular (open source) software platforms are also highly welcome. Yet, please note that no marketing or product-specific tutorials will be accepted. Tutorial levels may be introductory, intermediate, or advanced.
+                                DEBS 2026 will host a one-day, multi-track tutorial program to provide independent instruction on topics related to distributed and event-based computing, both fitting for the research audience and an industrial audience. We solicit both <b>long (2 sessions)</b> and <b>short (1 session)</b> tutorials. The topic should relate to event-based systems and methods. Submissions can target a particular distributed system technology or a more general problem area of interest to the DEBS community, i.e., middleware, architectures, and design approaches to collecting, detecting, processing, and responding to events. Tutorials on emerging enterprise-level infrastructures and/or popular (open source) software platforms are also highly welcome. Yet, please note that no marketing or product-specific tutorials will be accepted. Tutorial levels may be introductory, intermediate, or advanced.
                             </p>
 
                         </div>
@@ -96,37 +96,29 @@
                         
                         <div>
                             <h1>Important Dates</h1>
-                            <li>
-                                Tutorial Proposal Submission: <b>February 28th, 2025</b>
-                            </li>
-                            <li>
-                                Author Notification for Tutorials: <b>March 14th, 2025</b>
-                            </li>
-                            <li>
-                                Camera Ready Deadline: <b>May 2nd, 2025</b>
-                            </li>
-                            <li>
-                                Conference: <b>June 10th – 13th, 2025</b>
-                            </li>
+                            <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
+                            <li>Tutorial Proposal Submission: <b>{{site.data.dates.tutorial_proposal_submission.current}}</b></li>                            
+                            <li>Author Notification for Tutorials: <b>{{site.data.dates.tutorial_proposal_author_notification.current}}</b></li>
+                            <li>Camera Ready Deadline: <b>{{site.data.dates.tutorial_camera_ready.current}}</b></li>
+                            <li>Conference: <b>{{site.data.dates.conference_dates}}</b></li>                            
                         </div>
 
                         <div>
                             <h1>Submissions</h1>
                             <p>
-                                Submissions should be formatted in the ACM proceedings style (two-column “sigconf” from <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a>, font size set to 10 pt) and submitted as PDF file via <a href="https://cmt3.research.microsoft.com/DEBS2025/Track/4/Submission/Create">Microsoft CMT</a>.
+                              Submissions should be formatted in the ACM proceedings style (two-column “sigconf” from <a href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a>, font size set to 10 pt).
+                              <!-- and submitted as PDF file via <a href="https://cmt3.research.microsoft.com/DEBS2025/Track/4/Submission/Create">Microsoft CMT</a>. -->
+                              Further instructions regarding the submission process will be provided soon.
                             </p>
                         </div>
 
-                        <div>
+                        <div>                       
+                            {% if site.data.chairs.grand_challenge_chairs %}
                             <h1>Tutorial and Workshops Chairs</h1>
-                            <p>
-                                <li>
-                                    Vasiliki Kalavri (Boston University, USA)
-                                </li>
-                                <li>
-                                    Alessandro V. Papadopoulos (Mälardalen University, Sweden & University of Málaga, Spain) 
-                                </li>
-                            </p>
+                            {% for chair in site.data.chairs.tutorials_workshop_chairs %}
+                            <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+                            {% endfor %}
+                            {% endif %}                               
                         </div>
                         <div>
                             <h1>ACM Policies and Procedures</h1>

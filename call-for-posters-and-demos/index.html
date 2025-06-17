@@ -20,18 +20,18 @@
                 <div class="col-md-8 col-sm-12">
                     <div class="block">
 
-                        <div>
+                        <!-- <div> -->
 
-                            <h1>News and Highlights</h1>
+                        <!--     <h1>News and Highlights</h1> -->
 
-                            <p>
-                                <li>Clarification on ACM Auxiliary Materials is available <a class="text-left"
-                                    href="/acm-auxiliary-materials/">here</a>.</li>
-                                <li>Information on ACM Artifacts Badges is available <a class="text-left"
-                                        href="/acm-artifacts/">here</a>.</li>
-                            </p>
+                        <!--     <p> -->
+                        <!--         <li>Clarification on ACM Auxiliary Materials is available <a class="text-left" -->
+                        <!--             href="/acm-auxiliary-materials/">here</a>.</li> -->
+                        <!--         <li>Information on ACM Artifacts Badges is available <a class="text-left" -->
+                        <!--                 href="/acm-artifacts/">here</a>.</li> -->
+                        <!--     </p> -->
 
-                        </div>
+                        <!-- </div> -->
 
                         <div>
                             <h1>Demos and Posters - Call for Papers</h1>
@@ -39,7 +39,7 @@
                             <h1>Demos</h1>
                             <p>Demonstrations present first-hand experience with research prototypes or operational systems. Demonstrations also provide opportunities to exchange ideas gained from implementing event-based systems and obtain expert user feedback.</p>
 
-                            <p>Demonstration submissions are welcomed in any of the areas identified in the conference's scope (see <a href="https://2025.debs.org">2025.debs.org</a> for the detailed scope).</p>
+                            <p>Demonstration submissions are welcomed in any of the areas identified in the conference's scope (see <a href="https://2026.debs.org">2026.debs.org</a> for the detailed scope).</p>
 
                             <p>Demonstration submissions describe the objectives and findings the demonstration addresses, in 2-4 pages, following the ACM format for the conference proceedings. All demo submissions should have the prefix “Demo:” in their title.</p>
 
@@ -60,8 +60,8 @@
                         </div>
 
                         <div div style="margin-bottom: 50px;">
-                            <h1>Important Dates</h1>
-                            <p>All deadlines are AoE (Anywhere on Earth) timezone</p>
+                            <h1>Important Dates</h1>                            
+                            <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
 
                             <li>Poster and Demo paper submissions <b>{% if
                                     site.data.dates.poster_demo_submission.old!=""
@@ -102,13 +102,20 @@
                                     Please visit the subsection "D&I materials" at 
                                     <a href="https://dbdni.github.io/">https://dbdni.github.io/</a> for details.
                                 </p>    
-                                <p>Papers may be submitted via <a
-                                        href="https://cmt3.research.microsoft.com/DEBS2025/Track/5/Submission/Create">Microsoft CMT</a>.</p>
-                                   
-                                <p>
-                                    If you have any questions, please contact the Poster and Demo Chair Miquel Pericàs 
-                                    (<a href="mailto:miquelp@chalmers.se">miquelp@chalmers.se</a>).
+                                <!-- <p>Papers may be submitted via <a -->
+                                <!--         href="https://cmt3.research.microsoft.com/DEBS2025/Track/5/Submission/Create">Microsoft CMT</a>.</p> -->
+                                <p>Further details regarding the submission process will be provided soon.</p>                                
+                                {% if site.data.chairs.pc_members_poster_demo.size > 0 %}
+                                <p>If you have any questions, please contact the Poster and Demo Chairs:
+                                  {% for chair in site.data.chairs.pc_members_poster_demo %}
+                                   {% if chair.email != null %}
+                                     <li> <a href="mailto:{{ chair.email }}">{{ chair.firstname }} {{chair.lastname}}</a></li>
+                                     {% else %}
+                                      <li> {{ chair.firstname }} {{chair.lastname}}</li>
+                                     {% endif %}
+                                  {% endfor %}
                                 </p>
+                                {% endif %}                                
                             </div>
 
                             <div>

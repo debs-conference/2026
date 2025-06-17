@@ -1,97 +1,67 @@
-conference_year: 2025
-conference_dates: June 10th&ndash;13th 2025
-conference_dates_calls: June 10th&ndash;13th, 2025
+conference_year: 2026
+conference_dates: June 23rd&ndash;26th 2026
+conference_dates_calls: June 23rd&ndash;26th, 2026
 
 abstract_submission_fall:
     # old: November 11st, 2023
     # current: November 18st, 2023
-    current: TBD
+    current: TBA
 
 research_submission_fall:
     # old: November 18h, 2023
     # current: November 25th, 2023
-    current: TBD
+    current: TBA
 
 rebuttal_phase_fall:
-    #old: March 11th, 2024
-    # current: January 9&ndash;13, 2024
-    current: TBD
+    current: TBA
 
 research_notification_fall:
-    #old: March 11th, 2024
-    # current: January 20, 2024
-    current: TBD
+    current: TBA
  
 camera_ready_fall:
-    #old: March 11th, 2024
-    # current: March 3rd, 2024
-    current: TBD
+    current: TBA
 
 abstract_submission_spring:
-    old: January 31st, 2025
-    current: February 10th, 2025
-    # current: TBD
+    current: TBA
 
 research_submission_spring:
-    old: February 7th, 2025
-    current: February 17th, 2025
-    # current: TBD
+    current: TBA
 
 rebuttal_phase_spring_start:
-    #old: March 11th, 2024
-    current: March 21st, 2025
-    # current: TBD
-
+    current: TBA
+    
 rebuttal_phase_spring_end:
-    #old: March 11th, 2024
-    current: March 28th, 2025
-    # current: TBD
-
+    current: TBA
+    
 research_notification_spring:
-    #old: March 11th, 2024
-    current: April 4th, 2025
-    # current: TBD
+    current: TBA
 
 research_finaldecision_spring:
-    #old: March 11th, 2024
-    current: April 4th, 2025
-    # current: TBD
+    current: TBA
  
 camera_ready_spring:
-    #old: March 11th, 2024
-    current: May 2nd, 2025
-    # current: TBD
+    current: TBA
  
 industry_submission:
-    # old: March 25th, 2024
-    # old:  March 25th, 2024
-    old:  March 23rd, 2025
-    current:  April 6th, 2025
+    current: TBA
 
 industry_author_notification:
-    # current: April 27th, 2024
-    # old: April 27th, 2024
-    old: April 21st, 2025
-    current: April 27th, 2025
+    current: TBA
 
 camera_ready:
-    # current: May 26th, 2024
-    # current: May 24th, 2024
-    current: May 2nd, 2025
+    current: TBA
 
 camera_ready_phd_symp:
-    # current: May 26th, 2024
-    # current:  June 10th, 2024
-    current: TBD
+    current: TBA
 
 tutorial_proposal_submission:
-   current: February 28th, 2025
+    current: TBA
    
 tutorial_proposal_author_notification:
-   current: March 14th, 2025
+    current: TBA
     
 tutorial_camera_ready:
-   current: May 2nd, 2025 
+    current: TBA
 
 #research_author_notification:
 #    current: May 6th, 2024
@@ -105,65 +75,39 @@ tutorial_camera_ready:
 #    current: April 15th, 2024
 #
 grand_challenge_submission:
-   current: May 2nd, 2025
+    current: TBA
 #    
 #grand_challenge_author_notification:
 #    old: May 3rd, 2024
 #    current: May 9th, 2024
 
 grand_challenge_camera_ready:
-#    old: May 3rd, 2024
-   current: May 9th, 2025
+    current: TBA
 
 grand_challenge_registration:
-#    old: May 3rd, 2024
-   current: December, 2024
+    current: TBA
 
 grand_challenge_platform_opens:
-#    old: May 3rd, 2024
-   current: February 15th, 2025
+    current: TBA
 
 grand_challenge_platform_closes:
-#    old: May 3rd, 2024
-   current: May 9th, 2025
+    current: TBA
 
 #
 doctoral_symposium_submission:
-    # old: May 10th, 2024
-    # current: May 20th, 2024
-    # current: May 27th, 2024
-    old: May 16th, 2025
-    current: May 23rd, 2025
+    current: TBA
 
 doctoral_symposium_author_notification:
-    # old: May 20th, 2024
-    # current: May 27th, 2024
-    # current: June 3rd, 2024
-    old: May 23rd, 2025
-    current: May 30th, 2025
+    current: TBA
 
 doctoral_symposium_camera_ready:
-    # old: May 10th, 2024
-    # current: May 20th, 2024
-    # current: May 27th, 2024
-    old: May 30th, 2025
-    current: June 6th, 2025
+    current: TBA
 
 poster_demo_submission:
-    # old: May 12th, 2024
-    # old: May 8th, 2024
-    # current: May 21st, 2024
-    old: April 11th, 2025
-    current: April 18th, 2025
+    current: TBA
 #
 poster_demo_author_notification:
-    # old: May 22nd, 2024
-    # current: June 3rd, 2024
-    current: April 25th, 2025
-#
-    # current: TBD
+    current: TBA
 
 poster_demo_camera_ready:
-    # old: May 29th, 2024
-    # current: June 10th, 2024
-    current: May 2nd, 2025
+    current: TBA

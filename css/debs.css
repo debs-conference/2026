@@ -52,7 +52,7 @@ p, li {
     background: linear-gradient(
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
-      ), url('/img/goteborg/chalmers.jpg');
+      ), url('/img/lisbon/lisbon.jpg');
     /* background-attachment: fixed; */
     background-position: 50%; 
     background-size: 100%;
@@ -112,7 +112,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 #slider {
-    background-image: url('/img/goteborg/goteborg.jpg');
+    background-image: url('/img/lisbon/lisbon.jpg');
     padding-bottom: 100px;
     padding-top: 100px;
 }
@@ -134,7 +134,7 @@ header .navbar-default .navbar-nav li a {
 }
 
 #global-header {
-    background-image: url('/img/goteborg/goteborg.jpg');
+    background-image: url('/img/lisbon/lisbon.jpg');
     /* background-position: 50% -550px; */
     /* background-size: auto; */
 }

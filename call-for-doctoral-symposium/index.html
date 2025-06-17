@@ -19,20 +19,15 @@
             <div class="row">
                 <div class="col-md-8 col-sm-12">
                     <div class="block">
-
-                        <div>
-
-                            <h1>News and Highlights</h1>
-
-                            <p>
-                                <li><b>Note:</b>The PhD Symposium contributions are now available! Check <a
-                                        class="text-left" href="/accepted-contributions/">here</a></li>
-                                <li><b>Note:</b>The submission and notification deadlines for the Doctoral Symposium
-                                    have been extended by one week!</li>
-                            </p>
-
-                        </div>
-
+                        <!-- <div> -->
+                        <!--     <h1>News and Highlights</h1> -->
+                        <!--     <p> -->
+                        <!--         <li><b>Note:</b>The PhD Symposium contributions are now available! Check <a -->
+                        <!--                 class="text-left" href="/accepted-contributions/">here</a></li> -->
+                        <!--         <li><b>Note:</b>The submission and notification deadlines for the Doctoral Symposium -->
+                        <!--             have been extended by one week!</li> -->
+                        <!--     </p> -->
+                        <!-- </div> -->
                         <div>
                             <h1>Call for Doctoral Symposium Contributions</h1>
 
@@ -49,7 +44,7 @@
                             <p>
                                 The Symposium welcomes submissions by PhD candidates working in distributed and
                                 event-based computing and data analysis. We are interested in all the topics of DEBS
-                                2025, including, but not limited to:
+                                2026, including, but not limited to:
                             <ul class="nested-list">
                                 <li>Models, architectures, and paradigms</li>
                                 <li>Systems and software</li>
@@ -77,20 +72,28 @@
 
                             <p>
                                 Submissions must be <b>single-author</b>, on the topic of the doctoral work. <b>The PhD
-                                    supervisor’s name must be clearly marked (“supervised by ...”) on the paper, under
+                                    supervisor's name must be clearly marked ("supervised by ...") on the paper, under
                                     the author's name</b>.
                             </p>
 
                             <p>
-                                Please submit proposals via <a
-                                    href="https://cmt3.research.microsoft.com/DEBS2025/Track/6/Submission/Create">Microsoft
-                                    CMT</a>.
+                                <!-- Please submit proposals via <a -->
+                                <!--     href="https://cmt3.research.microsoft.com/DEBS2025/Track/6/Submission/Create">Microsoft -->
+                                <!-- CMT</a>. -->
+                                Further details regarding the submission process will be provided soon.
                             </p>
-
-                            <p>
-                                Inquiries can be sent to <a href="mailto:romanvi@ifi.uio.no">romanvi@ifi.uio.no</a> and
-                                <a href="mailto:ruben.mayer@uni-bayreuth.de">ruben.mayer@uni-bayreuth.de</a>.
-                            </p>
+                             
+                            {% if site.data.chairs.doctoral_symposium_chairs.size > 0 %}
+                                <p>Inquiries can be sent to:
+                                  {% for chair in site.data.chairs.doctoral_symposium_chairs %}
+                                   {% if chair.email != null %}
+                                     <li> <a href="mailto:{{ chair.email }}">{{ chair.firstname }} {{chair.lastname}}</a></li>
+                                     {% else %}
+                                      <li> {{ chair.firstname }} {{chair.lastname}}</li>
+                                     {% endif %}
+                                  {% endfor %}
+                                </p>
+                                {% endif %}  
                         </div>
 
                         <div>
@@ -136,9 +139,8 @@
                         </div>
 
                         <div div style="margin-bottom: 50px;">
-                            <h1>Important Dates</h1>
-                            <p>All deadlines are AoE (Anywhere on Earth) timezone</p>
-
+                          <h1>Important Dates</h1>                        
+                            <p style="font-size: 12px">Deadlines expire at 11:59pm AoE.</p>
                             <li>Doctoral symposium paper submission: <b>{% if
                                     site.data.dates.doctoral_symposium_submission.old!=""
                                     %}<del>{{site.data.dates.doctoral_symposium_submission.old}}</del> {% endif %}{% if
