@@ -10,9 +10,9 @@ pc_chairs:
     - firstname:   Ruben
       lastname:    Mayer
       institution: University of Bayreuth, Germany
-    - firstname:   Vasiliki
-      lastname:    Kalavri
-      institution: Boston U, USA
+    - firstname:   Sukanya
+      lastname:    Bhowmik
+      institution: University of Potsdam, Germany
 
 # finance_chairs:
 #     - firstname: Filip
@@ -346,10 +346,10 @@ pc_members_research:
 #     #   lastname: Zhang
 #     #   institution: Doordash, USA
 
-industry_chairs:
-  - firstname: Nuno
-    lastname: Cruz
-    institution: ISEL, Portugal
+# industry_chairs:
+#   - firstname: Nuno
+#     lastname: Cruz
+#     institution: ISEL, Portugal
     # - firstname: Boris 
     #   lastname: Koldehofe
     #   institution: TU Ilmenau, Germany
@@ -458,16 +458,21 @@ diversity_chairs:
 #      lastname: Zhang
 #      institution: University of Pittsburgh
 
-publicity_chairs: 
-    - firstname: Bernardo 
-      lastname: Almeida
-      institution: CIÊNCIAS ULisboa, Portugal
+# publicity_chairs: 
+#     - firstname: Bernardo 
+#       lastname: Almeida
+#       institution: CIÊNCIAS ULisboa, Portugal
 
 proceeding_chairs: 
    - firstname: Diogo 
      lastname: Lima
      institution: ESHTE, Portugal
-  
+
+local_organizer_chairs: 
+   - firstname: Diogo 
+     lastname: Lima
+     institution: ESHTE, Portugal
+     
 web_chairs: 
     - firstname: Bernardo 
       lastname: Almeida

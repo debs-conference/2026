@@ -32,7 +32,14 @@
               <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
             {% endfor %}
             {% endif %}
-                
+
+            {% if site.data.chairs.local_organizer_chairs %}
+            <h1>Local Organization Chair</h1>
+            {% for chair in site.data.chairs.local_organizer_chairs %}
+              <li>{{ chair.firstname }} {{ chair.lastname }}, {{ chair.institution }}</li>
+            {% endfor %}
+            {% endif %}  
+              
             {% if site.data.chairs.industry_chairs %}
             <h1>Industry and Application Co-Chairs</h1>
             {% for chair in site.data.chairs.industry_chairs %}
