@@ -1,0 +1,53 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Best Paper Award</title>
+  {% include head-tags.html %}
+</head>
+
+<body>
+
+  {% include header.html %}
+  {% include slider-regular-page.html title="BEST PAPER AWARD" %}
+
+  <section id="acm-artifacts">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-8 col-sm-12">
+          <div class="block">
+            <div style="margin-bottom: 100px;">
+
+              <div>
+                <h2>Best Paper Award</h2>
+                <p> The best paper was awarded to: <br>
+                <strong>KRAKEN: Joint Optimization of Operator Placement and
+                Communication for Distributed Stream Processing</strong> –
+                Ariane Ziehn; Finn Glück; Philipp Emanuel Meran; Steffen Zeuch ;
+                Volker Markl.
+                </p>
+
+                <p><a href="https://doi.org/10.1145/3809481.3812615">Check the paper here</a></p>
+
+                <img src="/img/bestpaper.jpeg" width=100% height="auto">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        {% include side.html %}
+
+      </div>
+    </div>
+  </section>
+
+  {% include footer.html %}
+</body>
+
+</html>

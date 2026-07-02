@@ -127,7 +127,7 @@
 - firstname: Miguel
   lastname: Filipe
   affiliation: Dune Analytics
-  image: /img/keynotes/MiguelFilipe.png
+  image: /img/keynotes/MiguelFilipe.jpeg
   anchor: keynote4
   title: 'DuneCP: An Event-Driven Control Plane for a Blockchain Data Platform'
   abstract: >
